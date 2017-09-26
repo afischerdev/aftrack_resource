@@ -9,7 +9,7 @@ res/values-de/strings.xml is the German translation (finished)
 
 res/values-it/strings.xml is the Italian translation (finished)
 
-res/values-us/strings.xml is the Russian translation (only partly, not part of AFTrack at the moment)
+res/values-ru/strings.xml is the Russian translation (only partly, not part of AFTrack at the moment)
 </pre>
 
 If you like to add your own translation please
@@ -46,6 +46,8 @@ $ git git push origin master
 </pre>
 
 When you are ready with changes please open a pull request in your repository to inform me.
+
+You could also send me a mail with a string.xml file 
 
 Thanks for all
 
