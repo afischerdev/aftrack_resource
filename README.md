@@ -3,7 +3,7 @@
 This is just a try to make it easier to get languages files translated.
 
 <pre>
-res/values/strings.xml is the main files
+res/values/strings.xml is the main file 
 
 res/values-de/strings.xml is the German translation (finished)
 
