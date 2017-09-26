@@ -2,6 +2,7 @@
 
 This is just a try to make it easier to get languages files translated.
 
+<pre>
 res/values/strings.xml is the main files
 
 res/values-de/strings.xml is the German translation (finished)
@@ -9,7 +10,7 @@ res/values-de/strings.xml is the German translation (finished)
 res/values-it/strings.xml is the Italian translation (finished)
 
 res/values-us/strings.xml is the Russian translation (only partly, not part of AFTrack at the moment)
-
+</pre>
 
 If you like to add your own translation please
 create a fork to your account
