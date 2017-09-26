@@ -3,11 +3,16 @@
 This is just a try to make it easier to get languages files translated.
 
 res/values/strings.xml is the main files
-res/values-de/strings.xml is the German translation (finished)
-res/values-it/strings.xml is the Italian translation (finished)
-res/values-us/strings.xml is the German translation (only partly)
 
-Create a fork to your account
+res/values-de/strings.xml is the German translation (finished)
+
+res/values-it/strings.xml is the Italian translation (finished)
+
+res/values-us/strings.xml is the Russian translation (only partly, not part of AFTrack at the moment)
+
+
+If you like to add your own translation please
+create a fork to your account
 
 With git start to clone this files
 
@@ -43,3 +48,4 @@ When you are ready with changes please open a pull request in your repository to
 
 Thanks for all
 
+[Homepage](https://afischer-online.de/and/aftrack)
