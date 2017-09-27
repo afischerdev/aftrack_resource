@@ -47,7 +47,7 @@ $ git push origin master
 
 When you are ready with changes please open a pull request in your repository to inform me.
 
-[Git](https://stackoverflow.com/questions/390381):  Pull new updates from original GitHub repository into forked GitHub repository
+[Git](https://stackoverflow.com/questions/3903817):  Pull new updates from original GitHub repository into forked GitHub repository
 
 
 You could also send me a mail with a string.xml file 
