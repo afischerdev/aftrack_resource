@@ -995,6 +995,7 @@ Start from here?</string>
 	<string name="entry_list_mappointer_3">Bitmap</string>
 	<string name="entry_list_mappointer_4">Compass Ring</string>
 	
+    <!-- big view -->
 	<string name="entry_big_view_0">Speed</string>
 	<string name="entry_big_view_1">Course</string>
 	<string name="entry_big_view_2">Altitude</string>	

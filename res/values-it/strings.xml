@@ -40,7 +40,6 @@
     <string name="menu_sat">Informazioni GPS</string>
 
     <string name="menu_display_settings">Impostazioni schermo </string>
-    <!-- new -->
     <string name="menu_simple_settings">Impostazioni facili</string>
     
     <string name="menu_gps_settings">Impostazioni GPS</string>
@@ -139,7 +138,6 @@
     <string name="mapvisible_summary">Mostra la mappa</string>
     
     
-    <!-- new -->
     <string name="aisvisible_title">AIS visibile</string>
     <string name="aisvisible_summary">Mostra i valori AIS</string>
     
@@ -205,7 +203,6 @@
     <string name="routeproximity_title">Allarme punti percorso</string>
     <string name="routeproximity_summary">Distanza dal prossimo punto sul percorso</string>
 
-    <!-- new -->
     <string name="calculatespeed_title">Velocità calcolata</string>
     <string name="calculatespeed_summary">Velocità per il calcolo del tempo di arrivo</string>
 
@@ -221,7 +218,6 @@
     <string name="routeignoredate_title">Ignora la data</string>
     <string name="routeignoredate_summary">Quando importi un percorso, per evitare problemi di visualizzazione</string>
 
-    <!-- new -->
     <string name="profile_prefs">Impostazioni Dock </string>
     <string name="profileview_list_title">Profilo</string>
     <string name="profileview_list_summary">Scegli un tipo di profilo da visualizzare</string>
@@ -274,7 +270,6 @@
     <string name="load_prefs">Carica preferenze</string>
     <string name="load_prefs_summary">Leggi le impostazioni da una cartella</string>
     
-    <!-- new -->
     <string name="full_screen">Schermo intero</string>
     <string name="full_screen_summary">Mostra uno schermo più grande</string>
     
@@ -313,14 +308,12 @@
     <string name="pointer_title">Puntatore</string>
     <string name="pointer_summary">Dimensioni e tipo di puntatore sullo schermo </string>
 
-    <!-- new -->
-    <string name="display_windindicator">Banderuola</string>
+   <string name="display_windindicator">Banderuola</string>
     <string name="display_windindicator_summary">Mostra la direzione del vento</string>
 
     <string name="distancering_title">Anelli di distanza</string>
     <string name="distancering_summary">Mostra degli anelli centrati sulla posizione</string>
 
-    <!-- new -->
     <string name="display_10MinDistance">Mostra 10 Min.</string>
     <string name="display_10MinDistance_summary">Mostra una linea per un punto distante 10 min</string>
     
@@ -333,7 +326,6 @@
     <string name="windspeed_title">Velocità del vento</string>
     <string name="windspeed_summary">Unità di misura</string>
     
-    <!-- new -->
     <string name="wind_routing">Usa il vento per la rotta</string>
     <string name="wind_routing_summary">Usa il vento per il calcolo della rotta</string>
     
@@ -378,7 +370,6 @@
     <string name="layout_title">Aspetto, dettagli visibili</string>
     <string name="layout_summary">Sceglie tra aspetti e elementi disponibili</string>
     <string name="layout_elements">Elementi dell\'aspetto</string>
-    <!--  new -->
     <string name="layout_languages">Layout Languages</string>
     
     <string name="nvchart_prefs">Impostazioni NV-digital</string>
@@ -399,7 +390,6 @@
     <string name="gps_mode">Tipo di GPS</string>
     <string name="gps_mode_summary">Dispositivo GPS </string>
     
-    <!-- new -->
     <string name="gps_mixedmode">GPS "doppio"</string>
     <string name="gps_mixedmode_summary">Usa i dati di entrambi i GPS</string>
     
@@ -496,7 +486,6 @@
     <string name="gps_varioaudio_lift">Limite di salita</string>
     <string name="gps_varioaudio_sink">Limite di discesa</string>
     
-    <!-- new -->
     <string name="gps_usewind">Vento</string>
     <string name="gps_usewind_on">Usa il vento</string>
     <string name="gps_usewind_dir">Vera direzione del vento</string>
@@ -557,8 +546,7 @@
     <string name="gps_time_setdefaults_title">Cancella le impostazioni</string>
     <string name="gps_time_setdefaults_summary">Cancella le impostazioni inserite e ripristina i valori di default</string>
     
-    <!--  new -->
-    <string name="gps_acc_prefs">Parametri accuratezza GPS</string>
+   <string name="gps_acc_prefs">Parametri accuratezza GPS</string>
     <string name="log_acc">Accuratezza</string>
     <string name="log_acc_summary">Accuratezza per una posizione valida</string>
     
@@ -769,7 +757,6 @@
 	<string name="dock_wpt_xte_label">XTE</string>
 	<string name="dock_wpt_vmc_label">VMC</string>
 
-	<!--  new  -->
 	<string name="wpt_lay1_label">Layline 1 Dist.</string>
 	<string name="wpt_lay1_ttg_label">Layline 1 TTG</string>
 	<string name="wpt_lay2_label">Layline 2 Dist.</string>
@@ -847,7 +834,6 @@
 	<string name="dialog_nvc_send">invia</string>
 	<string name="dialog_nvc_state">stato</string>
 	
-	<!-- new -->
 	<string name="dialog_sailtimer_title">API SailTimer™ </string>
 	<string name="dialog_sailtimer_text">API non trovata. Vuoi installarla per l\'anemometro o per il cloud dei dati del vento?</string>
 	<string name="dialog_sailtimerplugin_title">API SailTimer™ </string>
@@ -883,7 +869,7 @@
 	<string name="wpt_format_DMS">° min.sec.sec</string>
 	<string name="wpt_format_UTM">UTM</string>
 	<string name="wpt_format_UKGRID">OS</string>
-	<!-- new -->
+
 	<string name="set_wind">Imposta il vento</string>
 	<string name="boat_best_angle">Migliore angolazione controvento</string>
 	<string name="boat_max_speed">Vel. max (nodi)</string>
@@ -906,7 +892,6 @@
 	<string name="send_http_fail">Invio posizione non andato a buon fine</string>
 	<string name="wpt_reached">Way point raggiunto</string>
 	<string name="track_running">Traccia in registrazione</string>
-	<!-- new -->
 	<string name="anchor_running">L\'allarme di ancoraggio è attivo</string>
 	<string name="rte_atstart">C\'è un punto più vicino. Partire da quello ?</string>
 	<string name="rte_reached">Percorso completato</string>
@@ -919,7 +904,6 @@
     <string name="usb_connected">USB connesso</string>
 	<string name="not_valid">Valore non valido</string>
 
-	<!-- new -->
 	<string name="no_space">Spazio disco insufficiente</string>
 	<string name="msg_download">Questo scaricamento richiederà tempo e risorse del sistema. Assicuratevi che ci sia memoria sufficiente e connessione Wifi.</string>
 			
@@ -1014,9 +998,9 @@
 	<string name="entry_list_mappointer_1">Grande</string>
 	<string name="entry_list_mappointer_2">Linee</string>
 	<string name="entry_list_mappointer_3">Bitmap</string>
-	<!--  new -->
 	<string name="entry_list_mappointer_4">Anello bussola</string>
 	
+    <!-- big view -->
 	<string name="entry_big_view_0">Velocità</string>
 	<string name="entry_big_view_1">Direzione</string>
 	<string name="entry_big_view_2">Altitudine</string>	
@@ -1042,8 +1026,6 @@
 	<string name="entry_big_view_22">Wpt. Batteria</string>
 	<string name="entry_big_view_23">Profondità</string>
 	<string name="entry_big_view_24">Vario</string>
-	
-	<!-- new -->
 	<string name="entry_big_view_25">Vel. vento </string>
 	<string name="entry_big_view_26">Direz. vento</string>
 	<string name="entry_big_view_27">Vel. app.te vento</string>
@@ -1126,7 +1108,6 @@
 	<string name="list_windtype_2">Stazione fissa</string>
 	<string name="list_windtype_3">Interno</string>
 	
-	<!-- new -->
 	<!-- profile view -->
 	<string name="entries_list_profileview_0">Profilo della traccia</string>
 	<string name="entries_list_profileview_1">Profilo del percorso</string>
