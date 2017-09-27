@@ -54,6 +54,6 @@ You could also send me a mail with a string.xml file
 
 Thanks for all
 
-[Homepage](https://afischer-online.de/and/aftrack)
+[Homepage](https://afischer-online.de/and/aftrack) to get more info about AFTrack
 
-[Sailing Page](https://afischer-online.de/and/aftrack/sailing/)
+[Sailing Page](https://afischer-online.de/and/aftrack/sailing/) to get more info about AFTrack and sailing/
