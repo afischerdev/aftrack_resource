@@ -15,7 +15,7 @@ res/values-ru/strings.xml is the Russian translation (only partly, not part of A
 If you like to add your own translation please
 create a fork to your account
 
-With git start to clone this files
+With git start to clone this files to your local machine
 
 <pre>
 $ git clone https://github.com/your_account/aftrack_resource.git 
@@ -36,7 +36,7 @@ $ git status
 Commit your work
 
 <pre>
-$ git commit -m 'add fr to resources'
+$ git commit -m 'add fr to resource'
 </pre>
 
 And bring it back to the git server
@@ -47,8 +47,13 @@ $ git git push origin master
 
 When you are ready with changes please open a pull request in your repository to inform me.
 
+[Git](https://stackoverflow.com/questions/390381)  Pull new updates from original GitHub repository into forked GitHub repository
+
+
 You could also send me a mail with a string.xml file 
 
 Thanks for all
 
 [Homepage](https://afischer-online.de/and/aftrack)
+
+[Sailing Page](https://afischer-online.de/and/aftrack/sailing/)
