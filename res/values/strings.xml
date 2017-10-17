@@ -863,8 +863,8 @@
 	<string name="wpt_format_DMS">D M S.S</string>
 	<string name="wpt_format_UTM">UTM</string>
 	<string name="wpt_format_UKGRID">OS</string>
-	<!-- new -->
-	<string name="set_wind">Set Wind</string>
+
+    <string name="set_wind">Set Wind</string>
 	<string name="boat_best_angle">Up Wind Best Angle</string>
 	<string name="boat_max_speed">Max. Speed (kts)</string>
 	<string name="boat_use_polar">Use Polar Data</string>
@@ -995,7 +995,6 @@ Start from here?</string>
 	<string name="entry_list_mappointer_3">Bitmap</string>
 	<string name="entry_list_mappointer_4">Compass Ring</string>
 	
-    <!-- big view -->
 	<string name="entry_big_view_0">Speed</string>
 	<string name="entry_big_view_1">Course</string>
 	<string name="entry_big_view_2">Altitude</string>	
