@@ -163,7 +163,6 @@
     <string name="showbearing_title">Show Bearing</string>
     <string name="showbearing_summary">Display the Bearing to a Way Point</string>
 	
-	<!-- new -->
     <string name="showstartbearing_title">Show Start Bearing</string>
     <string name="showstartbearing_summary">Display the Bearing from Start Point</string>
 	
@@ -186,7 +185,6 @@
     <string name="timeformat_title">Time Format short</string>
     <string name="timeformat_summary">Cut seconds on times > 1h</string>
 
-    <!-- new -->
     <string name="wptcollection_title">Use Wpt Collection</string>
     <string name="wptcollection_summary">Allow to add a waypoint collection</string>
     
@@ -216,30 +214,15 @@
     <string name="useroutecorridor_title">Corridor Routing</string>
     <string name="useroutecorridor_summary">Use the Route as a corridor</string>
 
+    <string name="usecorridoralarm_title">Single Corridor Alarm</string>
+    <string name="usecorridoralarm_summary">Get a single alarm on corridor routing</string>
+
     <string name="routeignoredate_title">Ignore Date</string>
     <string name="routeignoredate_summary">Ignore the date on route import</string>
 
     <string name="profile_prefs">Dock Settings</string>
     <string name="profileview_list_title">Profile</string>
     <string name="profileview_list_summary">Select a profile view for the dock</string>
-    
-    <!-- AIS  -->        
-    <string name="ais_prefs">AIS Settings</string>
-    <string name="ais_prefs_summary">Open AIS Settings</string>
-    
-    <string name="easy_prefs">Short Settings</string>
-    
-    <string name="aisdock_title">Use AIS Dock</string>
-    <string name="aisdock_summary">Replace Profile Dock with AIS data</string>
-
-    <string name="aispath_title">Show AIS Path</string>
-    <string name="aispath_summary">Show a track on all ships</string>
-
-    <string name="aisicon_title">Show AIS small Icons</string>
-    <string name="aisicon_summary">Show a small/scaled icon</string>
-
-    <string name="own_ais_title">Own MMSI</string>
-    <string name="own_ais_summary">If filled this is not shown</string>
     
     <string name="display_prefs">Display Settings</string>
     <string name="display_rte_center">Center Tracks/Routes</string>
@@ -273,7 +256,6 @@
     
     <string name="full_screen">Full Screen</string>
     <string name="full_screen_summary">Show a bigger display</string>
-    
     
     <!-- Map Prefs -->
     
@@ -309,7 +291,6 @@
     <string name="pointer_title">Pointer</string>
     <string name="pointer_summary">How to display the GPS Direction</string>
 
-    <!-- new -->
     <string name="display_windindicator">Wind Indicator</string>
     <string name="display_windindicator_summary">Show a wind indicator</string>
 
@@ -328,7 +309,6 @@
     <string name="windspeed_title">Wind Speed</string>
     <string name="windspeed_summary">Wind speed unit</string>
     
-    <!-- new -->
     <string name="wind_routing">Wind Routing</string>
     <string name="wind_routing_summary">Use Wind for Route calculation</string>
     
@@ -489,7 +469,6 @@
     <string name="gps_varioaudio_lift">Lift limit</string>
     <string name="gps_varioaudio_sink">Sink limit</string>
 
-    <!-- new -->
     <string name="gps_usewind">Wind</string>
     <string name="gps_usewind_on">Use Wind</string>
     <string name="gps_usewind_dir">True Wind Direction</string>
@@ -559,6 +538,23 @@
     <string name="save_log">Auto Save Log</string>
     <string name="save_log_summary">Save log on stop trackinig</string>
     
+	<!-- AIS  -->        
+    <string name="ais_prefs">AIS Settings</string>
+    <string name="ais_prefs_summary">Open AIS Settings</string>
+
+    <string name="easy_prefs">Short Settings</string>
+    
+    <string name="aisdock_title">Use AIS Dock</string>
+    <string name="aisdock_summary">Replace Profile Dock with AIS data</string>
+
+    <string name="aispath_title">Show AIS Path</string>
+    <string name="aispath_summary">Show a track on all ships</string>
+
+    <string name="aisicon_title">Show AIS small Icons</string>
+    <string name="aisicon_summary">Show a small/scaled icon</string>
+
+    <string name="own_ais_title">Own MMSI</string>
+    <string name="own_ais_summary">If filled this is not shown</string>
     
     <!-- SMS Prefs -->    
     <string name="sms_prefs">SMS Settings</string>
@@ -742,7 +738,7 @@
 
 	<string name="anchoralarm">Anchor Alarm</string>
 	<string name="wptalarm">Way point Alarm</string>
-	<string name="corridoralarm">Corridor Alarm</string>
+	<string name="corridoralarm">XTE Alarm</string>
 			
 	<string name="depth_unit">- depth in</string>
 	    	
@@ -758,7 +754,6 @@
 	<string name="dock_wpt_xte_label">XTE</string>
 	<string name="dock_wpt_vmc_label">VMC</string>
 
-	<!-- new -->
 	<string name="wpt_lay1_label">Layline 1 Dist.</string>
 	<string name="wpt_lay1_ttg_label">Layline 1 TTG</string>
 	<string name="wpt_lay2_label">Layline 2 Dist.</string>
@@ -845,11 +840,11 @@
 	<string name="dialog_show_allmembers">Show all members</string>
 	<string name="dialog_interval">Interval (seconds)</string>
 
-	<string name="aisserver_prefs">AIS Server Settings</string>
-    <string name="gps_use_aisserver">Use AIS Server</string>
-    <string name="gps_use_aisserver_summary">Use a connction to an AIS Server</string>
-    <string name="gps_aisserver">AIS Settings</string>
-    <string name="gps_aisserver_summary">AIS Server settings</string>
+	<string name="aisserver_prefs">AIS/ADS-B Server Settings</string>
+    <string name="gps_use_aisserver">Use AIS/ADS-B Server</string>
+    <string name="gps_use_aisserver_summary">Use a connction to an AIS/ADS-B Server</string>
+    <string name="gps_aisserver">AIS/ADS-B Settings</string>
+    <string name="gps_aisserver_summary">AIS/ADS-B Server settings</string>
     							
     <string name="big_view_top">View Value</string>
     <string name="big_view_bottom">View Below</string>
@@ -870,7 +865,7 @@
 	<string name="wpt_format_DMS">D M S.S</string>
 	<string name="wpt_format_UTM">UTM</string>
 	<string name="wpt_format_UKGRID">OS</string>
-	<!-- new -->
+
 	<string name="set_wind">Set Wind</string>
 	<string name="boat_best_angle">Up Wind Best Angle</string>
 	<string name="boat_max_speed">Max. Speed (kts)</string>
@@ -894,6 +889,7 @@
 	<string name="wpt_reached">Way point reached</string>
 	<string name="track_running">Track is running</string>
 	<string name="anchor_running">Anchor Alarm is running</string>
+    <string name="goto_running">GoTo Mode is running</string>
 	<string name="rte_atstart">Found nearer point.
 Start from here?</string>
 	<string name="rte_reached">Route finished</string>
@@ -905,7 +901,6 @@ Start from here?</string>
     <string name="usb_connection_lost">USB соединение потеряно</string>
     <string name="usb_connected">USB подключен</string>
 	<string name="not_valid">Not a valid value</string>
-	<!-- new -->
 	<string name="no_space">Not enough disk space</string>
 	<string name="msg_download">This download will take a while and require some resources. Make sure there is enough memory and a data connection over Wifi.</string>
 				
@@ -913,6 +908,8 @@ Start from here?</string>
 	<string name="no">Нет</string>
 	<string name="ok">OK</string>
 	<string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
 	<string name="cancel">Отмена</string>
 	<string name="delete">Удалить</string>
 	<string name="edit">Редактировать</string>
@@ -951,13 +948,12 @@ Start from here?</string>
     <string name="entry_visibility_0">Not Visible</string>
     <string name="entry_visibility_1">Visible</string>
     <string name="entry_visibility_2">With Alarm</string>
-    <!-- new -->
     <string name="entry_visibility_3">As Collection</string>
     
     <!-- log mode -->
     <string name="entries_list_logmode_0">None</string>
     <string name="entries_list_logmode_1">Smart Car</string>
-    <string name="entries_list_logmode_2">Smart Boot/Bike</string>  
+    <string name="entries_list_logmode_2">Smart Boat/Bike</string>  
     <string name="entries_list_logmode_3">Smart Hike</string>  
     <string name="entries_list_logmode_4">Seconds</string>  
     <string name="entries_list_logmode_5">SMS Positions</string>
@@ -1108,11 +1104,12 @@ Start from here?</string>
 	<string name="list_windtype_1">Position centered</string>
 	<string name="list_windtype_2">Fixed station</string>
 	<string name="list_windtype_3">Internal</string>
+    <string name="list_windtype_4">Wind Grib</string>
 
 	<!-- profile view -->
 	<string name="entries_list_profileview_0">Track Profile</string>
 	<string name="entries_list_profileview_1">Route Profile</string>
-	<string name="entries_list_profileview_2">AIS List</string>
+	<string name="entries_list_profileview_2">AIS/ADS-B List</string>
 	<string name="entries_list_profileview_3">Direction Graph</string>
 	<string name="entries_list_profileview_4">Speed Graph</string>
 	<string name="entries_list_profileview_5">TWD Graph</string>

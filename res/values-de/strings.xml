@@ -227,7 +227,10 @@
     <string name="showlineasarrows_summary">Anzeigen der Routenlaufrichtung</string>
 
     <string name="useroutecorridor_title">Korridor Routing</string>
-    <string name="useroutecorridor_summary">Nutze Route ala Korridor</string>
+    <string name="useroutecorridor_summary">Nutze Route als Korridor</string>
+
+    <string name="usecorridoralarm_title">Einzelner Korridor Alarm</string>
+    <string name="usecorridoralarm_summary">Nur einen Alarm bei Korridor Routing</string>
 
     <string name="routeignoredate_title">Datum nicht nutzen</string>
     <string name="routeignoredate_summary">Beim Import von Routen das Datum ignorieren</string>
@@ -731,7 +734,7 @@
 	
 	<string name="anchoralarm">Anker Alarm</string>
 	<string name="wptalarm">Wegepunkt Alarm</string>
-	<string name="corridoralarm">Korridor Alarm</string>
+	<string name="corridoralarm">XTE Alarm</string>
 		
 	<string name="depth_unit">- Tiefen in</string>
 		    
@@ -834,11 +837,11 @@
 	<string name="dialog_show_allmembers">Zeige alle</string>
 	<string name="dialog_interval">Intervall (Sekunden)</string>
 					
-	<string name="aisserver_prefs">AIS Server Einstellungen</string>
-    <string name="gps_use_aisserver">AIS Server benutzen</string>
-    <string name="gps_use_aisserver_summary">AIS Informationen vom Server holen</string>
-	<string name="gps_aisserver">AIS Einstellungen</string>
-    <string name="gps_aisserver_summary">AIS Server Einstellungen</string>
+	<string name="aisserver_prefs">AIS/ADS-B Server Einstellungen</string>
+    <string name="gps_use_aisserver">AIS/ADS-B Server benutzen</string>
+    <string name="gps_use_aisserver_summary">AIS/ADS-B Informationen vom Server holen</string>
+	<string name="gps_aisserver">AIS/ADS-B Einstellungen</string>
+    <string name="gps_aisserver_summary">AIS/ADS-B Server Einstellungen</string>
 							
 			
     <string name="big_view_top">Ansicht Einstellung</string>
@@ -884,7 +887,8 @@
 	<string name="wpt_reached">Wegepunkt erreicht</string>
 	<string name="track_running">Track läuft</string>
 	<string name="anchor_running">Ankeralarm läuft</string>
-	<string name="rte_atstart">Näheren Punkt gefunden. 
+    <string name="goto_running">GoTo Mode läuft</string>
+	<string name="rte_atstart">Näheren Punkt gefunden.
 Von hier starten?</string>
 	<string name="rte_reached">Route beendet</string>
 	<string name="no_position">Keine Position gefunden</string>
@@ -902,6 +906,8 @@ Von hier starten?</string>
 	<string name="no">Nein</string>
 	<string name="ok">Ok</string>
 	<string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
 	<string name="cancel">Abbruch</string>
 	<string name="delete">Löschen</string>
 	<string name="edit">Bearbeiten</string>
@@ -1099,7 +1105,7 @@ Von hier starten?</string>
 	<!-- profile view -->
 	<string name="entries_list_profileview_0">Track Profil</string>
 	<string name="entries_list_profileview_1">Route Profil</string>
-	<string name="entries_list_profileview_2">AIS Liste</string>
+	<string name="entries_list_profileview_2">AIS/ADS-B Liste</string>
 	<string name="entries_list_profileview_3">Richtung Profil</string>
 	<string name="entries_list_profileview_4">Speed Profil</string>
 	<string name="entries_list_profileview_5">TWD Profil</string>

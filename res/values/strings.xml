@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AFTrack</string>
-    
+
     <string name="app_lite_name">AFTrack Lite</string>
     <string name="app_lite">Welcome to the Lite Version of AFTrack</string>
     <string name="app_lite_delete">The full version is already available. Delete this version now?</string>
@@ -214,6 +214,9 @@
 
     <string name="useroutecorridor_title">Corridor Routing</string>
     <string name="useroutecorridor_summary">Use the Route as a corridor</string>
+
+    <string name="usecorridoralarm_title">Single Corridor Alarm</string>
+    <string name="usecorridoralarm_summary">Get a single alarm on corridor routing</string>
 
     <string name="routeignoredate_title">Ignore Date</string>
     <string name="routeignoredate_summary">Ignore the date on route import</string>
@@ -736,7 +739,7 @@
 
 	<string name="anchoralarm">Anchor Alarm</string>
 	<string name="wptalarm">Way point Alarm</string>
-	<string name="corridoralarm">Corridor Alarm</string>
+	<string name="corridoralarm">XTE Alarm</string>
 			
 	<string name="depth_unit">- depth in</string>
 	    	
@@ -838,11 +841,11 @@
 	<string name="dialog_show_allmembers">Show all members</string>
 	<string name="dialog_interval">Interval (seconds)</string>
 
-	<string name="aisserver_prefs">AIS Server Settings</string>
-    <string name="gps_use_aisserver">Use AIS Server</string>
-    <string name="gps_use_aisserver_summary">Use a connction to an AIS Server</string>
-    <string name="gps_aisserver">AIS Settings</string>
-    <string name="gps_aisserver_summary">AIS Server settings</string>
+	<string name="aisserver_prefs">AIS/ADS-B Server Settings</string>
+    <string name="gps_use_aisserver">Use AIS/ADS-B Server</string>
+    <string name="gps_use_aisserver_summary">Use a connction to an AIS/ADS-B Server</string>
+    <string name="gps_aisserver">AIS/ADS-B Settings</string>
+    <string name="gps_aisserver_summary">AIS/ADS-B Server settings</string>
     							
     <string name="big_view_top">View Value</string>
     <string name="big_view_bottom">View Below</string>
@@ -886,7 +889,8 @@
 	<string name="send_http_fail">Position send failed</string>
 	<string name="wpt_reached">Way point reached</string>
 	<string name="track_running">Track is running</string>
-	<string name="anchor_running">Anchor Alarm is running</string>
+    <string name="anchor_running">Anchor Alarm is running</string>
+    <string name="goto_running">GoTo Mode is running</string>
 	<string name="rte_atstart">Found nearer point.
 Start from here?</string>
 	<string name="rte_reached">Route finished</string>
@@ -905,7 +909,9 @@ Start from here?</string>
 	<string name="yes">Yes</string>
 	<string name="no">No</string>
 	<string name="ok">OK</string>
-	<string name="start">Start</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
 	<string name="cancel">Cancel</string>
 	<string name="delete">Delete</string>
 	<string name="edit">Edit</string>
@@ -1100,14 +1106,15 @@ Start from here?</string>
 	<string name="list_windtype_1">Position centered</string>
 	<string name="list_windtype_2">Fixed station</string>
 	<string name="list_windtype_3">Internal</string>
+    <string name="list_windtype_4">Wind Grib</string>
 
 	<!-- profile view -->
 	<string name="entries_list_profileview_0">Track Profile</string>
 	<string name="entries_list_profileview_1">Route Profile</string>
-	<string name="entries_list_profileview_2">AIS List</string>
+	<string name="entries_list_profileview_2">AIS/ADS-B List</string>
 	<string name="entries_list_profileview_3">Direction Graph</string>
 	<string name="entries_list_profileview_4">Speed Graph</string>
 	<string name="entries_list_profileview_5">TWD Graph</string>
 	<string name="entries_list_profileview_6">TWS Graph</string>
-									
+
 </resources>

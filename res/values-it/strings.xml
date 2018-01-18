@@ -215,6 +215,10 @@
     <string name="useroutecorridor_title">Corridoio sul percorso</string>
     <string name="useroutecorridor_summary">Attiva un\'area intorno al percorso</string>
 
+    <!-- new -->
+    <string name="usecorridoralarm_title">Single Corridor Alarm</string>
+    <string name="usecorridoralarm_summary">Get a single alarm on XTE</string>
+
     <string name="routeignoredate_title">Ignora la data</string>
     <string name="routeignoredate_summary">Quando si importa un percorso, per evitare problemi di visualizzazione</string>
 
@@ -741,7 +745,7 @@
 
 	<string name="anchoralarm">Avviso d\'ancoraggio</string>
 	<string name="wptalarm">Avviso Way point</string>
-	<string name="corridoralarm">Avviso corridoio</string>
+	<string name="corridoralarm">Avviso XTE</string>
 			
 	<string name="depth_unit">- Profondità in</string>
 	    	
@@ -845,10 +849,10 @@
 	<string name="dialog_interval">Intervallo (secondo)</string>
 
 	<string name="aisserver_prefs">Impostazioni server AIS</string>
-    <string name="gps_use_aisserver">Usare un server AIS</string>
-    <string name="gps_use_aisserver_summary">Usa una connessione a un server AIS</string>
-	<string name="gps_aisserver">Impostazioni AIS</string>
-    <string name="gps_aisserver_summary">Impostazioni per server AIS</string>
+    <string name="gps_use_aisserver">Usare un server AIS/ADS-B</string>
+    <string name="gps_use_aisserver_summary">Usa una connessione a un server AIS/ADS-B</string>
+	<string name="gps_aisserver">Impostazioni AIS/ADS-B</string>
+    <string name="gps_aisserver_summary">Impostazioni per server AIS/ADS-B</string>
 		
 	<string name="big_view_top">Pannello di selezione</string>
     <string name="big_view_bottom">Pannello inf.re </string>
@@ -893,6 +897,9 @@
 	<string name="wpt_reached">Way point raggiunto</string>
 	<string name="track_running">Traccia in registrazione</string>
 	<string name="anchor_running">L\'allarme di ancoraggio è attivo</string>
+    <!-- new -->
+    <string name="goto_running">GoTo Mode is running</string>
+
 	<string name="rte_atstart">C\'è un punto più vicino. Partire da quello ?</string>
 	<string name="rte_reached">Percorso completato</string>
 	<string name="no_position">Posizione non trovata</string>
@@ -911,6 +918,10 @@
 	<string name="no">No</string>
 	<string name="ok">OK</string>
 	<string name="start">Inizia</string>
+    <!-- new -->
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+
 	<string name="cancel">Annulla</string>
 	<string name="delete">Elimina</string>
 	<string name="edit">Modifica</string>
@@ -1111,7 +1122,7 @@
 	<!-- profile view -->
 	<string name="entries_list_profileview_0">Profilo della traccia</string>
 	<string name="entries_list_profileview_1">Profilo del percorso</string>
-	<string name="entries_list_profileview_2">Lista AIS</string>
+	<string name="entries_list_profileview_2">Lista AIS/ADS-B</string>
 	<string name="entries_list_profileview_3">Grafico Direz.</string>
 	<string name="entries_list_profileview_4">Grafico Velocità</string>
 	<string name="entries_list_profileview_5">Grafico TWD</string>
