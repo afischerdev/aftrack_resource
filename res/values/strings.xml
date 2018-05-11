@@ -71,6 +71,7 @@
     <string name="menu_stoprouting">Stop Routing</string>
     <string name="menu_restartrouting">Restart Routing</string>
     <string name="menu_makeroute">Copy to Route</string>
+    <string name="menu_makearea">Copy to Area</string>
     <string name="menu_updategroup">Set for all members</string>
     <string name="menu_updategroup_visibility">Visibility</string>
     <string name="menu_updategroup_icon">Icon</string>
@@ -905,8 +906,17 @@ Start from here?</string>
 	<string name="no_space">Not enough disk space</string>
 	<string name="msg_download">This download will take a while and require some resources. Make sure there is enough memory and a data connection over Wifi.</string>
 		
-			
-	<string name="yes">Yes</string>
+    <!-- nearby -->
+    <string name="LookingForPeers">Searching …</string>
+    <string name="SendNearby">Send file</string>
+    <string name="DisconnectedFromNearby">Lost connection to %s</string>
+    <string name="ConnectedToNearby">Connected to %s</string>
+    <string name="FailedToConnectToNearby">No connection to %s</string>
+    <string name="FoundNearby">Connect to %s</string>
+    <string name="ConnectingTo">Connecting to %s</string>
+    <string name="EnableLocationServices">Location must be on</string>
+
+    <string name="yes">Yes</string>
 	<string name="no">No</string>
 	<string name="ok">OK</string>
     <string name="start">Start</string>

@@ -70,6 +70,7 @@
     <string name="menu_stoprouting">Stopp Routing</string>
     <string name="menu_restartrouting">Restart Routing</string>
     <string name="menu_makeroute">Kopiere als Route</string>
+    <string name="menu_makearea">Kopiere als Area</string>
     <string name="menu_updategroup">Aktualisieren Gruppe</string>
     <string name="menu_updategroup_visibility">Sichtbarkeit</string>
     <string name="menu_updategroup_icon">Icon</string>
@@ -901,8 +902,18 @@ Von hier starten?</string>
 	<string name="not_valid">Ungültiger Wert</string>
 	<string name="no_space">Nicht genug Speicherplatz</string>
 	<string name="msg_download">Dieser Download wird eine Weile dauern und einige Resourcen benötigen. Stellen Sie sicher, dass genug Speicher vorhanden ist und eine Datenverbindung über Wifi.</string>
-				
-	<string name="yes">Ja</string>
+
+    <!-- nearby -->
+    <string name="LookingForPeers">Suche …</string>
+    <string name="SendNearby">Sende Datei</string>
+    <string name="DisconnectedFromNearby">Verbindung verloren  %s</string>
+    <string name="ConnectedToNearby">Verbunden %s</string>
+    <string name="FailedToConnectToNearby">Keine Verbindugn zu %s</string>
+    <string name="FoundNearby">Verbinde zu %s</string>
+    <string name="ConnectingTo">Verbinde zu %s</string>
+    <string name="EnableLocationServices">GPS muss aktiviert sein.</string>
+
+    <string name="yes">Ja</string>
 	<string name="no">Nein</string>
 	<string name="ok">Ok</string>
 	<string name="start">Start</string>
@@ -1101,8 +1112,10 @@ Von hier starten?</string>
 	<string name="list_windtype_1">Positionszentriert</string>
 	<string name="list_windtype_2">Feste Station</string>
 	<string name="list_windtype_3">Intern</string>
+    <string name="list_windtype_4">Wind Grib</string>
 
-	<!-- profile view -->
+
+    <!-- profile view -->
 	<string name="entries_list_profileview_0">Track Profil</string>
 	<string name="entries_list_profileview_1">Route Profil</string>
 	<string name="entries_list_profileview_2">AIS/ADS-B Liste</string>

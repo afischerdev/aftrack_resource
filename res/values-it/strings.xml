@@ -70,6 +70,7 @@
     <string name="menu_stoprouting">Sospendi il percorso</string>
     <string name="menu_restartrouting">Riparti col percorso</string>
     <string name="menu_makeroute">Copia nel percorso</string>
+    <string name="menu_makearea">Copia nel area</string>
     <string name="menu_updategroup">Imposta per tutti i membri</string>
     <string name="menu_updategroup_visibility">Visibilità</string>
     <string name="menu_updategroup_icon">Icone</string>
@@ -913,8 +914,18 @@
 
 	<string name="no_space">Spazio disco insufficiente</string>
 	<string name="msg_download">Lo scaricamento richiederà tempo e risorse del sistema. Assicuratevi che ci sia memoria sufficiente e connessione WiFi.</string>
-			
-	<string name="yes">Si</string>
+
+    <!-- nearby -->
+    <string name="LookingForPeers">Searching …</string>
+    <string name="SendNearby">Send file</string>
+    <string name="DisconnectedFromNearby">Lost connection to %s</string>
+    <string name="ConnectedToNearby">Connected to %s</string>
+    <string name="FailedToConnectToNearby">No connection to %s</string>
+    <string name="FoundNearby">Connect to %s</string>
+    <string name="ConnectingTo">Connecting to %s</string>
+    <string name="EnableLocationServices">Location must be on</string>
+
+    <string name="yes">Si</string>
 	<string name="no">No</string>
 	<string name="ok">OK</string>
 	<string name="start">Inizia</string>
@@ -1118,7 +1129,8 @@
 	<string name="list_windtype_1">Centrato sulla posizione</string>
 	<string name="list_windtype_2">Stazione fissa</string>
 	<string name="list_windtype_3">Interno</string>
-	
+    <string name="list_windtype_4">Wind Grib</string>
+
 	<!-- profile view -->
 	<string name="entries_list_profileview_0">Profilo della traccia</string>
 	<string name="entries_list_profileview_1">Profilo del percorso</string>
