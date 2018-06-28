@@ -371,7 +371,12 @@
     
     <string name="text_scale_title">Caratteri di testo</string>
     <string name="text_scale_summary">Sceglie una dimensione per le mappe MapsForge</string>
-    
+
+    <!-- new -->
+    <string name="mapsforgetilesize_title">Tile Size</string>
+    <string name="mapsforgetilesize_summary">Size for one tile</string>
+    <string name="need_restart">Needs a restart</string>
+
     <string name="layout_title">Aspetto, dettagli visibili</string>
     <string name="layout_summary">Sceglie tra aspetti e elementi disponibili</string>
     <string name="layout_elements">Elementi dell\'aspetto</string>
@@ -1023,39 +1028,44 @@
 	<string name="entry_list_mappointer_4">Anello bussola</string>
 	
     <!-- big view -->
-	<string name="entry_big_view_0">Velocità</string>
-	<string name="entry_big_view_1">Direzione</string>
-	<string name="entry_big_view_2">Altitudine</string>	
-	<string name="entry_big_view_3">Posizione</string>
-	<string name="entry_big_view_4">Orario</string>
-	<string name="entry_big_view_5">Orario rete sat.</string>
-	<string name="entry_big_view_6">Lunghezza traccia</string>	
-	<string name="entry_big_view_7">Tempo totale della traccia</string>	
-	<string name="entry_big_view_8">Tempo effettivo della traccia</string>
-	<string name="entry_big_view_9">Salita traccia</string>
-	<string name="entry_big_view_10">Discesa traccia</string>	
-	<string name="entry_big_view_11">Vel. max traccia</string>
-	<string name="entry_big_view_12">Velocità media</string>	
-	<string name="entry_big_view_13">Lunghezza percorso</string>	
-	<string name="entry_big_view_14">Distanza Wpt. </string>
-	<string name="entry_big_view_15">Direzione verso Wpt.</string>
-	<string name="entry_big_view_16">Wpt. XTE</string>
-	<string name="entry_big_view_17">Wpt. VMC</string>
-	<string name="entry_big_view_18">Wpt. TTG</string>
-	<string name="entry_big_view_19">Wpt. Altitudine</string>
-	<string name="entry_big_view_20">Wpt. Tempo</string>
-	<string name="entry_big_view_21">Wpt. Vel. max</string>
-	<string name="entry_big_view_22">Wpt. Batteria</string>
-	<string name="entry_big_view_23">Profondità</string>
-	<string name="entry_big_view_24">Vario</string>
-	<string name="entry_big_view_25">Vel. vento </string>
-	<string name="entry_big_view_26">Direz. vento</string>
-	<string name="entry_big_view_27">Vel. app.te vento</string>
-	<string name="entry_big_view_28">Dir. app.te vento</string>
-	<string name="entry_big_view_29">Rotta in acqua</string>
-	<string name="entry_big_view_30">Velocità in acqua</string>
-				
-	<!-- sms type -->
+    <string name="entry_big_view_0">Instrument View</string>
+	<string name="entry_big_view_1">Velocità</string>
+	<string name="entry_big_view_2">Direzione</string>
+	<string name="entry_big_view_3">Altitudine</string>
+	<string name="entry_big_view_4">Posizione</string>
+	<string name="entry_big_view_5">Orario</string>
+	<string name="entry_big_view_6">Orario rete sat.</string>
+	<string name="entry_big_view_7">Lunghezza traccia</string>
+	<string name="entry_big_view_8">Tempo totale della traccia</string>
+	<string name="entry_big_view_9">Tempo effettivo della traccia</string>
+	<string name="entry_big_view_10">Salita traccia</string>
+	<string name="entry_big_view_11">Discesa traccia</string>
+	<string name="entry_big_view_12">Vel. max traccia</string>
+	<string name="entry_big_view_13">Velocità media</string>
+	<string name="entry_big_view_14">Lunghezza percorso</string>
+	<string name="entry_big_view_15">Distanza Wpt. </string>
+	<string name="entry_big_view_16">Direzione verso Wpt.</string>
+	<string name="entry_big_view_17">Wpt. XTE</string>
+	<string name="entry_big_view_18">Wpt. VMC</string>
+	<string name="entry_big_view_19">Wpt. TTG</string>
+	<string name="entry_big_view_20">Wpt. Altitudine</string>
+	<string name="entry_big_view_21">Wpt. Tempo</string>
+	<string name="entry_big_view_22">Wpt. Vel. max</string>
+	<string name="entry_big_view_23">Wpt. Batteria</string>
+	<string name="entry_big_view_24">Profondità</string>
+	<string name="entry_big_view_25">Vario</string>
+	<string name="entry_big_view_26">Vel. vento </string>
+	<string name="entry_big_view_27">Direz. vento</string>
+	<string name="entry_big_view_28">Vel. app.te vento</string>
+	<string name="entry_big_view_29">Dir. app.te vento</string>
+	<string name="entry_big_view_30">Rotta in acqua</string>
+	<string name="entry_big_view_31">Velocità in acqua</string>
+
+    <string name="entry_big_gauge_0">Panel View</string>
+    <string name="entry_big_gauge_1">True Wind</string>
+    <string name="entry_big_gauge_2">App Wind</string>
+
+    <!-- sms type -->
 	<string name="entries_list_smstype_0">GPRMC</string>
     <string name="entries_list_smstype_1">GPGLL</string>
     <string name="entries_list_smstype_2">Modello</string>

@@ -332,7 +332,11 @@
   
     <string name="text_scale_title">Textgröße</string>
     <string name="text_scale_summary">Textgröße für MapsForge Karten</string>
-    
+
+    <string name="mapsforgetilesize_title">Tilegröße</string>
+    <string name="mapsforgetilesize_summary">Größe für eine Kachel</string>
+    <string name="need_restart">App muss neu gestartet werden.</string>
+
     <string name="layout_title">Layout </string>
     <string name="layout_summary">Auswahl von Layout und Elementen</string>
     <string name="layout_elements">Layout Elemente</string>
@@ -1006,40 +1010,45 @@ Von hier starten?</string>
 	<string name="entry_list_mappointer_2">Linien</string>
 	<string name="entry_list_mappointer_3">Grafik</string>
 	<string name="entry_list_mappointer_4">Kompassrose</string>
-	
-	<string name="entry_big_view_0">Geschwindigkeit</string>
-	<string name="entry_big_view_1">Kurs</string>
-	<string name="entry_big_view_2">Höhe</string>	
-	<string name="entry_big_view_3">Position</string>
-	<string name="entry_big_view_4">Zeit</string>
-	<string name="entry_big_view_5">Zeit UTC</string>
-	<string name="entry_big_view_6">Track Distanz</string>	
-	<string name="entry_big_view_7">Track Zeit</string>	
-	<string name="entry_big_view_8">Track Moving Time</string>
-	<string name="entry_big_view_9">Track Aufstieg</string>
-	<string name="entry_big_view_10">Track Abstieg</string>	
-	<string name="entry_big_view_11">Track max. Geschwindigkeit</string>
-	<string name="entry_big_view_12">Durchschn. Geschwindigkeit</string>	
-	<string name="entry_big_view_13">Route Distanz</string>	
-	<string name="entry_big_view_14">Wpt. Distanz</string>
-	<string name="entry_big_view_15">Wpt. Peilung</string>
-	<string name="entry_big_view_16">Wpt. XTE</string>
-	<string name="entry_big_view_17">Wpt. VMC</string>
-	<string name="entry_big_view_18">Wpt. TTG</string>
-	<string name="entry_big_view_19">Wpt. Höhe</string>
-	<string name="entry_big_view_20">Wpt. Geschwindigkeit</string>
-	<string name="entry_big_view_21">Wpt. max. Geschwindigkeit</string>
-	<string name="entry_big_view_22">Wpt. Akku</string>
-	<string name="entry_big_view_23">Tiefe</string>
-	<string name="entry_big_view_24">Vario</string>
-	<string name="entry_big_view_25">Wind Geschw.</string>
-	<string name="entry_big_view_26">Wind Winkel</string>
-	<string name="entry_big_view_27">Sch. Wind Geschw.</string>
-	<string name="entry_big_view_28">Sch. Wind Winkel</string>
-	<string name="entry_big_view_29">Kurs durchs Wasser</string>
-	<string name="entry_big_view_30">Speed durchs Wasser</string>
-						
-	<!-- sms type -->
+
+    <string name="entry_big_view_0">Instrumenten Ansicht</string>
+	<string name="entry_big_view_1">Geschwindigkeit</string>
+	<string name="entry_big_view_2">Kurs</string>
+	<string name="entry_big_view_3">Höhe</string>
+	<string name="entry_big_view_4">Position</string>
+	<string name="entry_big_view_5">Zeit</string>
+	<string name="entry_big_view_6">Zeit UTC</string>
+	<string name="entry_big_view_7">Track Distanz</string>
+	<string name="entry_big_view_8">Track Zeit</string>
+	<string name="entry_big_view_9">Track Moving Time</string>
+	<string name="entry_big_view_10">Track Aufstieg</string>
+	<string name="entry_big_view_11">Track Abstieg</string>
+	<string name="entry_big_view_12">Track max. Geschwindigkeit</string>
+	<string name="entry_big_view_13">Durchschn. Geschwindigkeit</string>
+	<string name="entry_big_view_14">Route Distanz</string>
+	<string name="entry_big_view_15">Wpt. Distanz</string>
+	<string name="entry_big_view_16">Wpt. Peilung</string>
+	<string name="entry_big_view_17">Wpt. XTE</string>
+	<string name="entry_big_view_18">Wpt. VMC</string>
+	<string name="entry_big_view_19">Wpt. TTG</string>
+	<string name="entry_big_view_20">Wpt. Höhe</string>
+	<string name="entry_big_view_21">Wpt. Geschwindigkeit</string>
+	<string name="entry_big_view_22">Wpt. max. Geschwindigkeit</string>
+	<string name="entry_big_view_23">Wpt. Akku</string>
+	<string name="entry_big_view_24">Tiefe</string>
+	<string name="entry_big_view_25">Vario</string>
+	<string name="entry_big_view_26">Wind Geschw.</string>
+	<string name="entry_big_view_27">Wind Winkel</string>
+	<string name="entry_big_view_28">Sch. Wind Geschw.</string>
+	<string name="entry_big_view_29">Sch. Wind Winkel</string>
+	<string name="entry_big_view_30">Kurs durchs Wasser</string>
+	<string name="entry_big_view_31">Speed durchs Wasser</string>
+
+    <string name="entry_big_gauge_0">Panel Ansicht</string>
+    <string name="entry_big_gauge_1">Wahrer Wind</string>
+    <string name="entry_big_gauge_2">Scheinbarer Wind</string>
+
+    <!-- sms type -->
 	<string name="entries_list_smstype_0">GPRMC</string>
     <string name="entries_list_smstype_1">GPGLL</string>
     <string name="entries_list_smstype_2">Template</string>
