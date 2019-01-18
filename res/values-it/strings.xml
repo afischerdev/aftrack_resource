@@ -141,8 +141,7 @@
     
     <string name="aisvisible_title">AIS visibile</string>
     <string name="aisvisible_summary">Mostra i valori AIS</string>
-    
-    
+
     <string name="extravisible_title">Informazioni aggiuntive visibili</string>
     <string name="extravisible_summary">Mostra un Wpt extra sulla mappa</string>
 
@@ -245,7 +244,17 @@
     <string name="aisicon_title">Mostra icone piccole AIS </string>
     <string name="aisicon_summary">Mostra un\'icona piccola/scalata</string>
 
-    
+    <!-- new -->
+    <string name="aismooring_title">No none moving boats</string>
+    <string name="aismooring_summary">Don\'t display boats at anchor, mooring or very slow going</string>
+
+    <string name="ais_alarmdistance_title">AIS Alarm Distance</string>
+    <string name="ais_alarmdistance_summary">Set alarm distance in nm (Zero for no alarm)</string>
+
+    <string name="aisalarmmooring_title">No Alarm on none moving boats</string>
+    <string name="aisalarmmooring_summary">Don\'t alarm boats at anchor, mooring or very slow going</string>
+
+
     <string name="display_prefs">Impostazioni schermo</string>
     <string name="display_rte_center">Centra tracce/percorsi</string>
     <string name="display_rte_center_summary">Mostra tracce/percorsi centrati sulla mappa</string>
@@ -289,6 +298,12 @@
     <string name="scandirnow_summary">Avvia la ricerca delle mappe nella cartella</string>
     <string name="scanatstart_title">Cerca all\'avvio</string>
     <string name="scanatstart_summary">Cerca le mappe all\'avvio</string>
+
+    <!-- new -->
+    <string name="mapset_title">Load Maps</string>
+    <string name="mapset_summary">Load maps from folder as one set or as single maps</string>
+    <string name="mapset_folder">Single Maps</string>
+    <string name="mapset_mapset">Map Set</string>
 
     <string name="list_new_map">Importa</string>
     <string name="list_loaddir">Dir.</string>
@@ -376,6 +391,9 @@
     <string name="mapsforgetilesize_title">Tile Size</string>
     <string name="mapsforgetilesize_summary">Size for one tile</string>
     <string name="need_restart">Needs a restart</string>
+
+    <string name="drawmaplabelextra_title">Draw Label extra</string>
+    <string name="drawmaplabelextra_summary">Draw the labels with tile or extra</string>
 
     <string name="layout_title">Aspetto, dettagli visibili</string>
     <string name="layout_summary">Sceglie tra aspetti e elementi disponibili</string>
@@ -752,7 +770,8 @@
 	<string name="anchoralarm">Avviso d\'ancoraggio</string>
 	<string name="wptalarm">Avviso Way point</string>
 	<string name="corridoralarm">Avviso XTE</string>
-			
+    <string name="aisalarm">Avviso AIS</string>
+
 	<string name="depth_unit">- Profondità in</string>
 	    	
 	<!--  Labels -->
@@ -791,6 +810,8 @@
 
 	<string name="dock_trk_dist_label">Distanza</string>
 	<string name="dock_trk_points_label">Punti</string>
+    <!-- new -->
+    <string name="dock_trk_height_label">Height</string>
 	<string name="dock_trk_max_label">Vel.Max</string>
 	<string name="dock_trk_avg_label">Vel.Media</string>
 	<string name="dock_trk_date_label">Data</string>
@@ -890,6 +911,10 @@
 	<!--  Messages  -->
 	<string name="save_file">Salva file</string>
 	<string name="lines_imported"> Linee importate</string>
+
+    <!-- new -->
+    <string name="seg_imported"> Segments imported</string>
+
 	<string name="map_imported"> Mappe importate</string>
 	<string name="noFilemanagerInstalled">Non ho trovato nessun file manager</string>
 	<string name="exit_dialog_title">Termina applicazione</string>
@@ -951,7 +976,12 @@
     <string name="error">Errore</string>
     <string name="unknown">Sconosciuto</string>
     <string name="none">Nessuno</string>
-    
+
+    <!-- new -->
+    <string name="newwpt_shortcut_short_label1">Add Position</string>
+    <string name="newwpt_shortcut_long_label1">Add a way point for position</string>
+    <string name="newwpt_disabled_message1">None</string>
+
     <!-- arrays -->
     <!-- way point -->
     <string name="entries_list_wptview_0">Nessun dettaglio</string>
@@ -1149,5 +1179,5 @@
 	<string name="entries_list_profileview_4">Grafico Velocità</string>
 	<string name="entries_list_profileview_5">Grafico TWD</string>
 	<string name="entries_list_profileview_6">Grafico TWS </string>
-		
+
 </resources>

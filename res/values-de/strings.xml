@@ -159,7 +159,7 @@
     
     <string name="extravisible_title">Extra Info sichtbar</string>
     <string name="extravisible_summary">Extra Info anzeigen</string>
-    
+
     <string name="wpt_prefs">Wegepunkt Einstellungen</string>
     <string name="wptview_list_title">Wpt. Anzeige</string>
     <string name="wptview_list_summary">Wie soll ein Wegepunkt angezeigt werden</string>
@@ -255,9 +255,19 @@
     <string name="aisicon_title">Zeige AIS kleine Icons</string>
     <string name="aisicon_summary">Zeige kleine/skalierte Icons</string>
 
+    <string name="ais_alarmdistance_title">AIS Alarm Distanz</string>
+    <string name="ais_alarmdistance_summary">Einstellen Alarmdistanz in sm (Null = kein Alarm)</string>
+
+    <string name="aisalarmmooring_title">Kein Alarm für ruhende Schiffe</string>
+    <string name="aisalarmmooring_summary">Kein Alarm für Schiffe vor Anker, festgemacht oder mit geringer Geschwindigkeit</string>
+
     <string name="own_ais_title">Eigene MMSI</string>
     <string name="own_ais_summary">Wenn gefüllt, nicht angezeigt</string>
-    
+
+    <string name="aismooring_title">Keine ruhenden Schiffe</string>
+    <string name="aismooring_summary">Keine Schiffe anzeigen vor Anker, festgemacht oder mit geringer Geschwindigkeit</string>
+
+
     <string name="map_prefs">Karten Einstellungen</string>
     
     <string name="scandir_title">Scan Verzeichnis</string>
@@ -266,7 +276,12 @@
     <string name="scandirnow_summary">Verzeichnis jetzt scannen</string>
     <string name="scanatstart_title">Scannen am Start</string>
     <string name="scanatstart_summary">Scannen wenn das Programm startet</string>
-    
+
+    <string name="mapset_title">Karten laden</string>
+    <string name="mapset_summary">Lade Karten aus einem Verzeichnis als Set oder als einzelne Karten</string>
+    <string name="mapset_folder">Einzelkarten</string>
+    <string name="mapset_mapset">Map Set</string>
+
     <string name="showviewdir_title">Zeige Blickrichtung</string>
     <string name="showviewdir_summary">Anzeige der Blickrichtung auf der Karte</string>
 
@@ -336,6 +351,9 @@
     <string name="mapsforgetilesize_title">Tilegröße</string>
     <string name="mapsforgetilesize_summary">Größe für eine Kachel</string>
     <string name="need_restart">App muss neu gestartet werden.</string>
+
+    <string name="drawmaplabelextra_title">Label extra generieren</string>
+    <string name="drawmaplabelextra_summary">Generieren der Label in den Tiles oder extra</string>
 
     <string name="layout_title">Layout </string>
     <string name="layout_summary">Auswahl von Layout und Elementen</string>
@@ -528,7 +546,7 @@
 
     <string name="gps_alarm_title">Alarm Einstellungen</string>
     <string name="gps_alarm_dist">Anker Distanz</string>
-    <string name="gps_alarm_dist_summary">Anker Distanz in Meter</string>
+    <string name="gps_alarm_dist_summary">Distanz für Ankeralarm in Meter</string>
 
     	<!-- GPS Time  -->        
     <string name="gps_time_prefs">GPS Update Einstellungen</string>
@@ -740,7 +758,8 @@
 	<string name="anchoralarm">Anker Alarm</string>
 	<string name="wptalarm">Wegepunkt Alarm</string>
 	<string name="corridoralarm">XTE Alarm</string>
-		
+    <string name="aisalarm">AIS Alarm</string>
+
 	<string name="depth_unit">- Tiefen in</string>
 		    
 	<!--  Labels -->
@@ -779,6 +798,7 @@
 	    	    	    	    	    	    	    	    	    	    	    	    
 	<string name="dock_trk_dist_label">Distanz</string>
 	<string name="dock_trk_points_label">Punkte</string>
+    <string name="dock_trk_height_label">Höhe</string>
 	<string name="dock_trk_max_label">Max</string>
 	<string name="dock_trk_avg_label">Avg.</string>
 	<string name="dock_trk_date_label">Datum</string>
@@ -879,6 +899,7 @@
 	<!--  Messages  -->
 	<string name="save_file">Sichere File</string>
 	<string name="lines_imported"> Zeile(n) importiert</string>
+    <string name="seg_imported"> Segmente importiert</string>
 	<string name="map_imported"> Karte(n) importiert</string>
 	<string name="noFilemanagerInstalled">Kein DateiManager gefunden</string>
 	<string name="exit_dialog_title">Schließen</string>
@@ -936,7 +957,11 @@ Von hier starten?</string>
     <string name="error">Fehler</string>
     <string name="unknown">Unbekannt</string>
     <string name="none">---</string>
-    
+
+    <string name="newwpt_shortcut_short_label1">Add Position</string>
+    <string name="newwpt_shortcut_long_label1">Add a way point for position</string>
+    <string name="newwpt_disabled_message1">None</string>
+
     <!-- arrays -->
     <string name="entries_list_wptview_0">Keine Anzeige</string>
     <string name="entries_list_wptview_1">Icon</string>
@@ -1041,7 +1066,7 @@ Von hier starten?</string>
 	<string name="entry_big_view_27">Wind Winkel</string>
 	<string name="entry_big_view_28">Sch. Wind Geschw.</string>
 	<string name="entry_big_view_29">Sch. Wind Winkel</string>
-	<string name="entry_big_view_30">Kurs durchs Wasser</string>
+	<string name="entry_big_view_30">Kompass</string>
 	<string name="entry_big_view_31">Speed durchs Wasser</string>
 
     <string name="entry_big_gauge_0">Panel Ansicht</string>
@@ -1132,5 +1157,5 @@ Von hier starten?</string>
 	<string name="entries_list_profileview_4">Speed Profil</string>
 	<string name="entries_list_profileview_5">TWD Profil</string>
 	<string name="entries_list_profileview_6">TWS Profil</string>
-									
+
 </resources>

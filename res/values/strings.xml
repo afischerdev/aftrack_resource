@@ -270,6 +270,11 @@
     <string name="scanatstart_title">Scan at Start</string>
     <string name="scanatstart_summary">Scan the folder when app starts</string>
 
+    <string name="mapset_title">Load Maps</string>
+    <string name="mapset_summary">Load maps from folder as one set or as single maps</string>
+    <string name="mapset_folder">Single Maps</string>
+    <string name="mapset_mapset">Map Set</string>
+
     <string name="list_new_map">Import</string>
     <string name="list_loaddir">Dir.</string>
     <string name="list_download_maps">Downl.</string>
@@ -354,6 +359,9 @@
     <string name="mapsforgetilesize_title">Tile Size</string>
     <string name="mapsforgetilesize_summary">Size for one tile</string>
     <string name="need_restart">Needs a restart</string>
+
+    <string name="drawmaplabelextra_title">Draw Label extra</string>
+    <string name="drawmaplabelextra_summary">Draw the labels with tile or extra</string>
 
     <string name="layout_title">Layout </string>
     <string name="layout_summary">Select an inbuild layout and elements</string>
@@ -559,6 +567,15 @@
     <string name="aisicon_title">Show AIS small Icons</string>
     <string name="aisicon_summary">Show a small/scaled icon</string>
 
+    <string name="aismooring_title">No none moving boats</string>
+    <string name="aismooring_summary">Don\'t display boats at anchor, mooring or very slow going</string>
+
+    <string name="ais_alarmdistance_title">AIS Alarm Distance</string>
+    <string name="ais_alarmdistance_summary">Set alarm distance in nm (Zero for no alarm)</string>
+
+    <string name="aisalarmmooring_title">No Alarm on none moving boats</string>
+    <string name="aisalarmmooring_summary">Don\'t alarm boats at anchor, mooring or very slow going</string>
+
     <string name="own_ais_title">Own MMSI</string>
     <string name="own_ais_summary">If filled this is not shown</string>
     
@@ -745,7 +762,8 @@
 	<string name="anchoralarm">Anchor Alarm</string>
 	<string name="wptalarm">Way point Alarm</string>
 	<string name="corridoralarm">XTE Alarm</string>
-			
+    <string name="aisalarm">AIS Alarm</string>
+
 	<string name="depth_unit">- depth in</string>
 	    	
 	<!--  Labels -->
@@ -783,7 +801,8 @@
 	<string name="dock_rte_nextdist_label">*</string>
 
 	<string name="dock_trk_dist_label">Distance</string>
-	<string name="dock_trk_points_label">Points</string>
+    <string name="dock_trk_points_label">Points</string>
+    <string name="dock_trk_height_label">Height</string>
 	<string name="dock_trk_max_label">Max</string>
 	<string name="dock_trk_avg_label">Avg.</string>
 	<string name="dock_trk_date_label">Date</string>
@@ -881,7 +900,8 @@
 				
 	<!--  Messages  -->
 	<string name="save_file">Save File</string>
-	<string name="lines_imported"> Lines imported</string>
+    <string name="lines_imported"> Lines imported</string>
+    <string name="seg_imported"> Segments imported</string>
 	<string name="map_imported"> Map imported</string>
 	<string name="noFilemanagerInstalled">No FileManager found</string>
 	<string name="exit_dialog_title">Quit</string>
@@ -939,7 +959,12 @@ Start from here?</string>
     <string name="error">Error</string>
     <string name="unknown">Unknown</string>
     <string name="none">None</string>
-    
+
+    <string name="newwpt_shortcut_short_label1">Add Position</string>
+    <string name="newwpt_shortcut_long_label1">Add a way point for position</string>
+    <string name="newwpt_disabled_message1">None</string>
+
+
     <!-- arrays -->
     <!-- way point -->
     <string name="entries_list_wptview_0">None</string>
@@ -1045,7 +1070,7 @@ Start from here?</string>
 	<string name="entry_big_view_27">Wind Dir.</string>
 	<string name="entry_big_view_28">App. Wind Speed</string>
 	<string name="entry_big_view_29">App. Wind Dir.</string>
-	<string name="entry_big_view_30">Course thru Water</string>
+	<string name="entry_big_view_30">Compass</string>
 	<string name="entry_big_view_31">Speed thru Water</string>
 
     <string name="entry_big_gauge_0">Panel View</string>
