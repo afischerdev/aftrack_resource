@@ -81,7 +81,10 @@
     <string name="menu_layout_default">Osmarender</string> 
     <string name="menu_layout_load">Memoria (xml)&#8230;</string>
     <string name="menu_calibrate">Modifica la calibrazione</string>
-    
+    <!-- new -->
+    <string name="menu_syncpicture">Track with Pictures</string>
+
+
     <!-- Lists -->
         
     <string name="list_new_route">Importa</string>
@@ -226,7 +229,10 @@
     <string name="profileview_list_title">Profilo</string>
     <string name="profileview_list_summary">Scegli un tipo di profilo da mostrare</string>
 
-   	<!-- AIS  -->        
+    <!-- new -->
+    <string name="noneview_list_title">View Content</string>
+
+    <!-- AIS  -->
     <string name="ais_prefs">Impostazioni AIS </string>
     <string name="ais_prefs_summary">Apre le impostazioni AIS</string>
     
@@ -357,7 +363,11 @@
     
     <string name="btnselect_title">Pulsanti sul pannello</string>
     <string name="btnselect_summary">Sceglie i pulsanti in alto</string>
-    
+
+    <!-- new -->
+    <string name="mapposition_title">Show Map Position</string>
+    <string name="mapposition_summary">Show map position in dock view</string>
+
     <string name="cachedir_title">Directory di cache</string>
     <string name="cachedir_summary">Imposta il percorso della dir. di cache</string>
     
@@ -587,6 +597,14 @@
     
     <!-- SMS Prefs -->    
     <string name="sms_prefs">Impostazioni per la gestione degli SMS</string>
+
+    <!-- new -->
+    <string name="sms_install_title">SMS Permission</string>
+    <string name="sms_install_summary">Get SMS Permission information</string>
+
+    <string name="sms_start_title">Call SMS Plugin</string>
+    <string name="sms_start_summary">Start the plugin for settings</string>
+
     <string name="sms_prefs_log">SMS Logging</string>
     <string name="sms_prefs_provider">SMS App</string>
  
@@ -612,7 +630,7 @@
     <string name="sms_resend_title">Rinvia messaggio</string>
     <string name="sms_resend_summary">Rispedisce su invio automatico</string>
     
-    <string name="sms_number_title">Invia al numero</string>
+    <string name="sms_number_title">Numero</string>
     <string name="sms_number_summary">Numero a cui inviare gli SMS</string>
     
     <string name="center_sms_wpt_title">Centra su SMS</string>
@@ -930,6 +948,7 @@
 	<string name="anchor_running">L\'allarme di ancoraggio è attivo</string>
     <!-- new -->
     <string name="goto_running">GoTo Mode is running</string>
+    <string name="sms_not_available">No SMS feature found</string>
 
 	<string name="rte_atstart">C\'è un punto più vicino. Partire da quello ?</string>
 	<string name="rte_reached">Percorso completato</string>
@@ -1179,5 +1198,13 @@
 	<string name="entries_list_profileview_4">Grafico Velocità</string>
 	<string name="entries_list_profileview_5">Grafico TWD</string>
 	<string name="entries_list_profileview_6">Grafico TWS </string>
+
+    <!-- new -->
+    <!-- none view -->
+    <string name="entries_list_noneview_00">Add way point from map center</string>
+    <string name="entries_list_noneview_0">None</string>
+    <string name="entries_list_noneview_1">Map Center</string>
+    <string name="entries_list_noneview_2">Position</string>
+    <string name="entries_list_noneview_3">Mixed</string>
 
 </resources>

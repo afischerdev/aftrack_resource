@@ -81,7 +81,8 @@
     <string name="menu_layout_default">Osmarender</string>
     <string name="menu_layout_load">Lade XML Layoutvorlage ...</string>
     <string name="menu_calibrate">Kalibratierung bearbeiten</string>
-    
+    <string name="menu_syncpicture">Track mit Fotos</string>
+
 
     <string name="list_new_map">Import</string>
     <string name="list_loaddir">Dir.</string>
@@ -239,8 +240,10 @@
     <string name="profile_prefs">Dock Einstellungen</string>
     <string name="profileview_list_title">Profilansicht</string>
     <string name="profileview_list_summary">Auswahl für eine Profilansicht</string>
-    
-	<!-- AIS  -->        
+
+    <string name="noneview_list_title">Anzeige</string>
+
+    <!-- AIS  -->
     <string name="ais_prefs">AIS Einstellungen</string>
     <string name="ais_prefs_summary">Öffne AIS Einstellungen</string>
     
@@ -317,8 +320,10 @@
     
     <string name="btnselect_title">Dock Button</string>
     <string name="btnselect_summary">Auswahl für einen Knopf im Dock</string>
-    
-    
+
+    <string name="mapposition_title">Zeige Karten Position</string>
+    <string name="mapposition_summary">Zeige Koordinaten für das Kartenzentrum </string>
+
     <string name="cachedir_title">Cache Verzeichnis</string>
     <string name="cachedir_summary">Bestimmen des Cache Speichers</string>
     
@@ -579,6 +584,13 @@
     
 	<!-- SMS Prefs -->    
     <string name="sms_prefs">SMS Einstellungen</string>
+
+    <string name="sms_install_title">SMS Berechtigungen</string>
+    <string name="sms_install_summary">Information zu SMS Berechtigungen</string>
+
+    <string name="sms_start_title">Öffne SMS Plugin</string>
+    <string name="sms_start_summary">Starte das Plugin für Einstellungen</string>
+
     <string name="sms_prefs_log">SMS Logging</string>
     <string name="sms_prefs_provider">SMS App</string>
  
@@ -603,7 +615,7 @@
     <string name="sms_resend_title">Nachricht weiterleiten</string>
     <string name="sms_resend_summary">Nachricht beim automatischen Senden weiterleiten</string>
     
-    <string name="sms_number_title">Sende zu Nummer</string>
+    <string name="sms_number_title">Nummer</string>
     <string name="sms_number_summary">Nummer für den Empfang</string>
     
     <string name="center_sms_wpt_title">Zentriere auf SMS</string>
@@ -908,6 +920,7 @@
 	<string name="exit_anchoralarm">Ankeralarm beenden?</string>
 	<string name="no_gps_enabled">GPS ist nicht möglich</string>
 	<string name="receive_sms">: Position erhalten</string>
+    <string name="sms_not_available">Keine SMS Funktion gefunden</string>
 	<string name="send_http_ok">Position gesendet</string>
 	<string name="send_http_fail">Position senden fehlerhaft</string>
 	<string name="wpt_reached">Wegepunkt erreicht</string>
@@ -1157,5 +1170,12 @@ Von hier starten?</string>
 	<string name="entries_list_profileview_4">Speed Profil</string>
 	<string name="entries_list_profileview_5">TWD Profil</string>
 	<string name="entries_list_profileview_6">TWS Profil</string>
+
+    <!-- none view -->
+    <string name="entries_list_noneview_00">Wegepunkt an der Kartenmitte</string>
+    <string name="entries_list_noneview_0">Keine Anzeige</string>
+    <string name="entries_list_noneview_1">Map Center Position</string>
+    <string name="entries_list_noneview_2">Position</string>
+    <string name="entries_list_noneview_3">Wahlweise</string>
 
 </resources>

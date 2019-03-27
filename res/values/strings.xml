@@ -15,7 +15,7 @@
 	<!-- new -->
     <string name="permission_write">Need write permissions</string>
     <string name="permission_position">Need location permissions</string>
-    <string name="permission_sms">Need sms permissions</string>
+    <string name="permission_sms">Need sms permission</string>
     <string name="permission_contact">Need contact permissions</string>
     <string name="permission_id">Need device id permission</string>
     <string name="permission_get">GET</string>
@@ -82,7 +82,7 @@
     <string name="menu_layout_default">Osmarender</string>
     <string name="menu_layout_load">Load Theme xml ...</string>
     <string name="menu_calibrate">Edit Calibration</string>
-    
+    <string name="menu_syncpicture">Track with Pictures</string>
     <!-- Lists -->
         
     <string name="list_new_route">Import</string>
@@ -225,7 +225,9 @@
     <string name="profile_prefs">Dock Settings</string>
     <string name="profileview_list_title">Profile</string>
     <string name="profileview_list_summary">Select a profile view for the dock</string>
-    
+
+    <string name="noneview_list_title">View Content</string>
+
     <string name="display_prefs">Display Settings</string>
     <string name="display_rte_center">Center Tracks/Routes</string>
     <string name="display_rte_center_summary">Display Tracks/Routes centered</string>
@@ -327,7 +329,10 @@
     
     <string name="btnselect_title">Dock Button</string>
     <string name="btnselect_summary">Select a dock button</string>
-    
+
+    <string name="mapposition_title">Show Map Position</string>
+    <string name="mapposition_summary">Show map position in dock view</string>
+
     <string name="cachedir_title">Cache Directory</string>
     <string name="cachedir_summary">Place the Space for the Cache</string>
     
@@ -581,6 +586,13 @@
     
     <!-- SMS Prefs -->    
     <string name="sms_prefs">SMS Settings</string>
+
+    <string name="sms_install_title">SMS Permission</string>
+    <string name="sms_install_summary">Get SMS Permission information</string>
+
+    <string name="sms_start_title">Call SMS Plugin</string>
+    <string name="sms_start_summary">Start the plugin for settings</string>
+
     <string name="sms_prefs_log">SMS Logging</string>
     <string name="sms_prefs_provider">SMS App</string>
  
@@ -605,8 +617,8 @@
     <string name="sms_resend_title">Resend Message</string>
     <string name="sms_resend_summary">Resend on automatic sending</string>
     
-    <string name="sms_number_title">Send to Number</string>
-    <string name="sms_number_summary">Number to send</string>
+    <string name="sms_number_title">Number</string>
+    <string name="sms_number_summary">Number to send to</string>
     
     <string name="center_sms_wpt_title">Center on SMS</string>
     <string name="center_sms_wpt_summary">Center map on the receive position</string>
@@ -910,7 +922,8 @@
 	<string name="exit_anchoralarm">Close the Anchor Alarm now?</string>
 	<string name="no_gps_enabled">GPS is not enabled</string>
 	<string name="receive_sms">: Position received</string>
-	<string name="send_http_ok">Position send</string>
+    <string name="sms_not_available">No SMS feature found</string>
+    <string name="send_http_ok">Position send</string>
 	<string name="send_http_fail">Position send failed</string>
 	<string name="wpt_reached">Way point reached</string>
 	<string name="track_running">Track is running</string>
@@ -1160,5 +1173,12 @@ Start from here?</string>
 	<string name="entries_list_profileview_4">Speed Graph</string>
 	<string name="entries_list_profileview_5">TWD Graph</string>
 	<string name="entries_list_profileview_6">TWS Graph</string>
+
+    <!-- none view -->
+    <string name="entries_list_noneview_00">Add way point from map center</string>
+    <string name="entries_list_noneview_0">None</string>
+    <string name="entries_list_noneview_1">Map Center</string>
+    <string name="entries_list_noneview_2">Position</string>
+    <string name="entries_list_noneview_3">Mixed</string>
 
 </resources>
