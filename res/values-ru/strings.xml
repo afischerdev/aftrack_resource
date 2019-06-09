@@ -27,6 +27,7 @@
     <string name="menu_area">Область</string>
     <string name="menu_wpt_grp">Группа путевых точек</string>
     <string name="menu_map">Карта</string>
+    <string name="menu_camera">Camera</string>
     <string name="menu_map_online">Онлайн карта</string>
     <string name="menu_map_offline">Оффлайн карта</string>
     <string name="menu_profile">Профиль</string>
@@ -83,6 +84,7 @@
     <string name="menu_layout_load">Load Theme xml ...</string>
     <string name="menu_calibrate">Редактировать калибровку</string>
     <string name="menu_syncpicture">Track with Pictures</string>
+    <string name="menu_droppictures">Track without Pictures</string>
 
     <!-- Lists -->
         
@@ -193,7 +195,10 @@
     <string name="importinclude_title">Include at import</string>
     <string name="importinclude_summary">Include wpt at route import</string>
 
-    
+    <string name="trackpicture_title">Picture Path</string>
+    <string name="trackpicture_summary">Include pictures from path to track</string>
+
+
     <string name="rte_prefs">Настройки маршрута</string>
     <string name="routecolor_list_title">Route Color</string>
     <string name="routecolor_list_summary">How to display a Route</string>
@@ -749,6 +754,7 @@
 	<string name="menu_selectdock">Выбрать Dock</string>
 	<string name="menu_selectplugin">Select Plugin</string>
 	<string name="menu_hidebuttons">Hide Button</string>
+    <string name="menu_plugin">Available Plugins</string>
 
 	<string name="menu_getwpt">Save Way Point</string>
 	<string name="menu_getaddress">Get Address</string>
@@ -1082,8 +1088,9 @@ Start from here?</string>
     <string name="entry_big_view_27">Wind Dir.</string>
     <string name="entry_big_view_28">App. Wind Speed</string>
     <string name="entry_big_view_29">App. Wind Dir.</string>
-    <string name="entry_big_view_30">Compass</string>
+    <string name="entry_big_view_30">Course thru Water</string>
     <string name="entry_big_view_31">Speed thru Water</string>
+    <string name="entry_big_view_32">Compass</string>
 
     <string name="entry_big_gauge_0">Panel View</string>
     <string name="entry_big_gauge_1">True Wind</string>

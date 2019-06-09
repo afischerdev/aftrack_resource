@@ -27,6 +27,7 @@
     <string name="menu_area">Area</string>
     <string name="menu_wpt_grp">Wegepunkt Gruppe</string>
     <string name="menu_map">Karte</string>
+    <string name="menu_camera">Kamera</string>
     <string name="menu_map_online">Online Karte</string>
     <string name="menu_map_offline">Offline Karte</string>
     <string name="menu_overlay">Overlays</string>
@@ -82,6 +83,7 @@
     <string name="menu_layout_load">Lade XML Layoutvorlage ...</string>
     <string name="menu_calibrate">Kalibratierung bearbeiten</string>
     <string name="menu_syncpicture">Track mit Fotos</string>
+    <string name="menu_droppictures">Track ohne Fotos</string>
 
 
     <string name="list_new_map">Import</string>
@@ -207,8 +209,12 @@
 
     <string name="importinclude_title">Importieren</string>
     <string name="importinclude_summary">Beim Routenimport auch Wpt laden</string>
-    
-    
+
+    <string name="trackpicture_title">Bildverzeichnis</string>
+    <string name="trackpicture_summary">Bilder aus diesem Verzeichnis zum Track hinzufügen</string>
+
+
+
     <string name="rte_prefs">Route Einstellungen</string>
     <string name="routecolor_list_title">Route Farbe</string>
     <string name="routecolor_list_summary">Wie soll eine Route angezeigt werden</string>
@@ -746,6 +752,7 @@
 	<string name="menu_selectdock">Auswahl Dock</string>
 	<string name="menu_selectplugin">Auswahl Plugin</string>
 	<string name="menu_hidebuttons">Bedienung verstecken</string>
+    <string name="menu_plugin">Verfügbare Plugins</string>
 
 	<string name="menu_getwpt">Sichere Wegepunkt</string>
 	<string name="menu_getaddress">Hole Adresse</string>
@@ -1079,8 +1086,9 @@ Von hier starten?</string>
 	<string name="entry_big_view_27">Wind Winkel</string>
 	<string name="entry_big_view_28">Sch. Wind Geschw.</string>
 	<string name="entry_big_view_29">Sch. Wind Winkel</string>
-	<string name="entry_big_view_30">Kompass</string>
+	<string name="entry_big_view_30">Kurs durchs Wasser</string>
 	<string name="entry_big_view_31">Speed durchs Wasser</string>
+    <string name="entry_big_view_32">Kompass</string>
 
     <string name="entry_big_gauge_0">Panel Ansicht</string>
     <string name="entry_big_gauge_1">Wahrer Wind</string>

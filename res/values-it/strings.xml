@@ -25,6 +25,8 @@
     <string name="menu_area">Area</string>
     <string name="menu_wpt_grp">Gruppo Way Points</string>
     <string name="menu_map">Mappe</string>
+    <!-- new -->
+    <string name="menu_camera">Camera</string>
     <string name="menu_map_online">Mappe online</string>
     <string name="menu_map_offline">Mappe offline</string>
     <string name="menu_profile">Profilo altimetrico</string>
@@ -83,6 +85,7 @@
     <string name="menu_calibrate">Modifica la calibrazione</string>
     <!-- new -->
     <string name="menu_syncpicture">Track with Pictures</string>
+    <string name="menu_droppictures">Track without Pictures</string>
 
 
     <!-- Lists -->
@@ -194,8 +197,12 @@
     
     <string name="importinclude_title">Includi all\'importazione</string>
     <string name="importinclude_summary">Includere punto modo all\'importazione percorso</string>
-    
-     
+
+    <!-- new -->
+    <string name="trackpicture_title">Picture Path</string>
+    <string name="trackpicture_summary">Include pictures from path to track</string>
+
+
     <string name="rte_prefs">Impostazioni percorso</string>
     <string name="routecolor_list_title">Colore del percorso</string>
     <string name="routecolor_list_summary">Imposta il colore</string>
@@ -763,6 +770,8 @@
 	<string name="menu_selectdock">Scegli il pannello</string>
 	<string name="menu_selectplugin">Scegli componente aggiuntivo</string>
 	<string name="menu_hidebuttons">Nascondi i pulsanti</string>
+    <!-- new -->
+    <string name="menu_plugin">Available Plugins</string>
 
 	<string name="menu_getwpt">Salva il Wpt.</string>
 	<string name="menu_getaddress">Cerca indirizzo online</string>
@@ -1109,6 +1118,7 @@
 	<string name="entry_big_view_29">Dir. app.te vento</string>
 	<string name="entry_big_view_30">Rotta in acqua</string>
 	<string name="entry_big_view_31">Velocità in acqua</string>
+    <string name="entry_big_view_32">Compass</string>
 
     <string name="entry_big_gauge_0">Panel View</string>
     <string name="entry_big_gauge_1">True Wind</string>
