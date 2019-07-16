@@ -291,6 +291,9 @@
     <string name="mapset_folder">Einzelkarten</string>
     <string name="mapset_mapset">Map Set</string>
 
+    <string name="scaledouble_title">Skaliere Karte</string>
+    <string name="scaledouble_summary">Skaliere auf größere Darstellung</string>
+
     <string name="showviewdir_title">Zeige Blickrichtung</string>
     <string name="showviewdir_summary">Anzeige der Blickrichtung auf der Karte</string>
 
@@ -627,7 +630,7 @@
     <string name="center_sms_wpt_title">Zentriere auf SMS</string>
     <string name="center_sms_wpt_summary">Karte auf die eingegangene Position einstellen</string>
     
-    <string name="sound_sms_wpt_title">Benachtigung bei SMS</string>
+    <string name="sound_sms_wpt_title">Benachrichtigung bei SMS</string>
     <string name="sound_sms_wpt_summary">Abspielen Benachrichtigungssound bei Eingang</string>
 
     <string name="label_sms_wpt_title">Anzeige bei SMS</string>
@@ -706,6 +709,11 @@
 
     <string name="http_keytimeformat_title">Zeit Format</string>
     <string name="http_keytimeformat_summary">Format für die Zeit in Java Logik</string>
+
+    <string name="http_keytext_title">Text Attribut</string>
+    <string name="http_keytext_summary">Attribut für ergänzenden Text</string>
+
+    <string name="http_sendtext_title">Sende Text</string>
 
     <string name="http_with_log_title">Sende mit Log</string>
     <string name="http_with_log_summary">Automatisch Senden</string>

@@ -334,7 +334,11 @@
     <string name="mapset_no_online">Non cercare le mappe online</string>
     <string name="mapset_automap">Scelta automatica</string>
     <string name="mapset_zoom_buttons">Pulsanti di zoom sulla sinistra</string>
-    
+
+    <!-- new -->
+    <string name="scaledouble_title">Scale Map</string>
+    <string name="scaledouble_summary">Scale map to x size</string>
+
     <string name="showviewdir_title">Mostra l\'angolo visuale</string>
     <string name="showviewdir_summary">Attiva un triangolo rosa sulla mappa per indicare la direzione</string>
 
@@ -722,6 +726,11 @@
 
     <string name="http_keytimeformat_title">Formato data/ora</string>
     <string name="http_keytimeformat_summary">Formato ora in Java</string>
+
+    <string name="http_keytext_title">Text Attribute</string>
+    <string name="http_keytext_summary">Attribute for supplementary text</string>
+
+    <string name="http_sendtext_title">Send Text</string>
 
     <string name="http_with_log_title">Invia con le annotazioni</string>
     <string name="http_with_log_summary">Invio automatico</string>

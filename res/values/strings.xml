@@ -300,7 +300,10 @@
     <string name="mapset_no_online">Never online</string>
     <string name="mapset_automap">Auto Map</string>
     <string name="mapset_zoom_buttons">Show Zoom Buttons on left</string>
-    
+
+    <string name="scaledouble_title">Scale Map</string>
+    <string name="scaledouble_summary">Scale map to x size</string>
+
     <string name="showviewdir_title">Show View Direction</string>
     <string name="showviewdir_summary">Display the View Direction on the map</string>
 
@@ -709,6 +712,11 @@
 
     <string name="http_keytimeformat_title">Time Format</string>
     <string name="http_keytimeformat_summary">Format for Time (Java logic)</string>
+
+    <string name="http_keytext_title">Text Attribute</string>
+    <string name="http_keytext_summary">Attribute for supplementary text</string>
+
+    <string name="http_sendtext_title">Send Text</string>
 
     <string name="http_with_log_title">Send with Log</string>
     <string name="http_with_log_summary">Automatic sending</string>
