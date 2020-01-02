@@ -197,8 +197,18 @@
     <string name="importinclude_title">Include at import</string>
     <string name="importinclude_summary">Include wpt at route import</string>
 
+
+    <string name="picture_prefs">Track / Picture Settings</string>
+    <string name="picture_prefs_summary">Define Picture scan options</string>
+
     <string name="trackpicture_title">Picture Path</string>
     <string name="trackpicture_summary">Include pictures from path to track</string>
+
+    <string name="trackpic_offset_title">Time Offset</string>
+    <string name="trackpic_offset_summary">Usable when track and photo time zone is not equal</string>
+
+    <string name="pic_add_gps_title">Add GPS data</string>
+    <string name="pic_add_gps_summary">Add GPS values if not predefined</string>
 
 
     <string name="rte_prefs">Route Settings</string>
@@ -292,6 +302,8 @@
         
     <string name="mapset_clear">Clear Cache</string>
     <string name="mapset_clear_summary">Clear all cache files</string>
+    <string name="cacheagetype_list_title">Clear Cache after</string>
+    <string name="cacheagetype_list_summary">Clear Cache after x time</string>
     <string name="mapset_set">Set Cache</string>
     <string name="mapset_set_summary">Set Cache directory</string>
     <string name="mapset_dir">Cache Directory (card)</string>
@@ -333,10 +345,13 @@
     
     <string name="wind_laylineonwpt">Layline Wpt</string>
     <string name="wind_laylineonwpt_summary">Show laylines on the way point</string>
-    
+
     <string name="boatsetting">Boat Settings</string>
-    <string name="boatsetting_summary">Boat parameter</string>
-    
+    <string name="boatsetting_summary">Sail Parameter</string>
+
+    <string name="boatmessure">Boat Dimensions</string>
+    <string name="boatmessure_summary">Boat Parameter</string>
+
     <string name="btnselect_title">Dock Button</string>
     <string name="btnselect_summary">Select a dock button</string>
 
@@ -925,7 +940,11 @@
 	<string name="boat_use_polar">Use Polar Data</string>
 	<string name="boat_gen_polar">Generate Polar Data</string>
 	<string name="boat_polar_name">Polar File</string>
-				
+    <string name="boat_length">Boat Length</string>
+    <string name="boat_width">Boat Width</string>
+    <string name="boat_height">Boat Height</string>
+    <string name="boat_draft">Boat Draft</string>
+
 	<!--  Messages  -->
 	<string name="save_file">Save File</string>
     <string name="lines_imported"> Lines imported</string>
@@ -945,6 +964,7 @@
 	<string name="track_running">Track is running</string>
     <string name="anchor_running">Anchor Alarm is running</string>
     <string name="goto_running">GoTo Mode is running</string>
+    <string name="mock_running">Mock Location Mode is running</string>
 	<string name="rte_atstart">Found nearer point.
 Start from here?</string>
 	<string name="rte_reached">Route finished</string>
@@ -1156,7 +1176,13 @@ Start from here?</string>
 	<string name="large">large</string>
 	<string name="huge">huge</string>
 
-	<!-- Send to -->
+    <!-- Cahce Age Type -->
+    <string name="never">never</string>
+    <string name="oneday">One Day</string>
+    <string name="oneweek">One Week</string>
+    <string name="onemonth">One Month</string>
+
+    <!-- Send to -->
 	<string name="osmupload">OSM Upload</string>
 	<string name="others">Others &#8230;</string>
 	

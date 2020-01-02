@@ -198,9 +198,20 @@
     <string name="importinclude_title">Includi all\'importazione</string>
     <string name="importinclude_summary">Includere punto modo all\'importazione percorso</string>
 
+
     <!-- new -->
+    <string name="picture_prefs">Track / Picture Settings</string>
+    <string name="picture_prefs_summary">Define Picture scan options</string>
+
     <string name="trackpicture_title">Picture Path</string>
     <string name="trackpicture_summary">Include pictures from path to track</string>
+
+    <string name="trackpic_offset_title">Time Offset</string>
+    <string name="trackpic_offset_summary">Usable when track and photo time zone is not equal</string>
+
+    <string name="pic_add_gps_title">Add GPS data</string>
+    <string name="pic_add_gps_summary">Add GPS values if not predefined</string>
+
 
 
     <string name="rte_prefs">Impostazioni percorso</string>
@@ -326,6 +337,8 @@
         
     <string name="mapset_clear">Svuota la cache ...</string>
     <string name="mapset_clear_summary">... da tutti i files delle mappe</string>
+    <string name="cacheagetype_list_title">Clear Cache after</string>
+    <string name="cacheagetype_list_summary">Clear Cache after x time</string>
     <string name="mapset_set">Definisci la cache</string>
     <string name="mapset_set_summary">Seleziona la directory di cache</string>
     <string name="mapset_dir">Directory di cache (card)</string>
@@ -371,7 +384,11 @@
  
     <string name="boatsetting">Parametri del natante</string>
     <string name="boatsetting_summary">Caratteristiche del natante</string>
-    
+
+    <!-- new -->
+    <string name="boatmessure">Boat Dimensions</string>
+    <string name="boatmessure_summary">Boat Parameter</string>
+
     <string name="btnselect_title">Pulsanti sul pannello</string>
     <string name="btnselect_summary">Sceglie i pulsanti in alto</string>
 
@@ -943,8 +960,13 @@
 	<string name="boat_use_polar">Usa i dati polari</string>
 	<string name="boat_gen_polar">Genera i dati polari</string>
 	<string name="boat_polar_name">File dati polari</string>
-			
-	<!--  Messages  -->
+	<!-- new -->
+    <string name="boat_length">Boat Length</string>
+    <string name="boat_width">Boat Width</string>
+    <string name="boat_height">Boat Height</string>
+    <string name="boat_draft">Boat Draft</string>
+
+    <!--  Messages  -->
 	<string name="save_file">Salva file</string>
 	<string name="lines_imported"> Linee importate</string>
 
@@ -966,6 +988,7 @@
 	<string name="anchor_running">L\'allarme di ancoraggio è attivo</string>
     <!-- new -->
     <string name="goto_running">GoTo Mode is running</string>
+    <string name="mock_running">Mock Location Mode is running</string>
     <string name="sms_not_available">No SMS feature found</string>
 
 	<string name="rte_atstart">C\'è un punto più vicino. Partire da quello ?</string>

@@ -94,6 +94,8 @@
         
     <string name="mapset_clear">Lösche Cache</string>
     <string name="mapset_clear_summary">Lösche alle Dateien im Cache</string>
+    <string name="cacheagetype_list_title">Lösche Cache nach</string>
+    <string name="cacheagetype_list_summary">Lösche Cache nach x Zeit</string>
     <string name="mapset_set">Setze Cache</string>
     <string name="mapset_set_summary">Setze Cache Verzeichnis</string>
     <string name="mapset_dir">Cache Verzeichnis (card)</string>
@@ -210,8 +212,18 @@
     <string name="importinclude_title">Importieren</string>
     <string name="importinclude_summary">Beim Routenimport auch Wpt laden</string>
 
+
+    <string name="picture_prefs">Track / Photo Einstellungen</string>
+    <string name="picture_prefs_summary">Photo Scan Optionen einstellen</string>
+
     <string name="trackpicture_title">Bildverzeichnis</string>
     <string name="trackpicture_summary">Bilder aus diesem Verzeichnis zum Track hinzufügen</string>
+
+    <string name="trackpic_offset_title">Time Offset</string>
+    <string name="trackpic_offset_summary">Track und Photo Zeitzonen ausgleichen</string>
+
+    <string name="pic_add_gps_title">GPS Daten</string>
+    <string name="pic_add_gps_summary">GPS Daten ergänzen</string>
 
 
 
@@ -326,7 +338,10 @@
  
     <string name="boatsetting">Einstellungen Boot</string>
     <string name="boatsetting_summary">Boot beschreiben</string>
-    
+
+    <string name="boatmessure">Bootsgrößen</string>
+    <string name="boatmessure_summary">Bootsabmessungen</string>
+
     <string name="btnselect_title">Dock Button</string>
     <string name="btnselect_summary">Auswahl für einen Knopf im Dock</string>
 
@@ -922,7 +937,11 @@
 	<string name="boat_use_polar">Nutze Polardaten</string>
 	<string name="boat_gen_polar">Generiere Polardaten</string>
 	<string name="boat_polar_name">Polar Datei</string>
-				
+    <string name="boat_length">Boot Länge</string>
+    <string name="boat_width">Boot Weite</string>
+    <string name="boat_height">Boot Höhe</string>
+    <string name="boat_draft">Boot Tiefgang</string>
+
 	<!--  Messages  -->
 	<string name="save_file">Sichere File</string>
 	<string name="lines_imported"> Zeile(n) importiert</string>
@@ -942,6 +961,7 @@
 	<string name="track_running">Track läuft</string>
 	<string name="anchor_running">Ankeralarm läuft</string>
     <string name="goto_running">GoTo Mode läuft</string>
+    <string name="mock_running">Mock Location Mode läuft</string>
 	<string name="rte_atstart">Näheren Punkt gefunden.
 Von hier starten?</string>
 	<string name="rte_reached">Route beendet</string>
