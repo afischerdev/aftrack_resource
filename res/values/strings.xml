@@ -118,6 +118,7 @@
     
     <string name="gps_state">GPS State</string>
     <string name="gps_enable">The GPS seems to be disabled. Activate now?</string>
+    <string name="power_disable">The Power Save Mode seems to be enabled. Deactivate now?</string>
 
     <string name="prefs">Settings</string>
     
@@ -181,6 +182,12 @@
 
     <string name="trackreset_title">Track Restart</string>
     <string name="trackreset_summary">Start new Track after x minutes</string>
+
+    <string name="trackflat_title">Smooth Track</string>
+    <string name="trackflat_summary">Set a value for smooth altitudes of a track (0 = none)</string>
+
+    <string name="trackdescupdate_title">Track Description</string>
+    <string name="trackdescupdate_summary">Auto Update from OSM online</string>
 
     <string name="trackupdownhill_title">Up/Down Colors</string>
     <string name="trackupdownhill_summary">Display up/down hill colors for the Track</string>
@@ -944,8 +951,11 @@
     <string name="boat_width">Boat Width</string>
     <string name="boat_height">Boat Height</string>
     <string name="boat_draft">Boat Draft</string>
+    <string name="boat_liter">Litres per hour</string>
 
-	<!--  Messages  -->
+    <string name="selectmap">OSM Map Inspector</string>
+
+    <!--  Messages  -->
 	<string name="save_file">Save File</string>
     <string name="lines_imported"> Lines imported</string>
     <string name="seg_imported"> Segments imported</string>
@@ -1119,8 +1129,8 @@ Start from here?</string>
 	<string name="entry_big_view_27">Wind Dir.</string>
 	<string name="entry_big_view_28">App. Wind Speed</string>
 	<string name="entry_big_view_29">App. Wind Dir.</string>
-	<string name="entry_big_view_30">Course thru Water</string>
-	<string name="entry_big_view_31">Speed thru Water</string>
+	<string name="entry_big_view_30">Course through Water</string>
+	<string name="entry_big_view_31">Speed through Water</string>
     <string name="entry_big_view_32">Compass</string>
 
     <string name="entry_big_gauge_0">Panel View</string>
@@ -1218,10 +1228,21 @@ Start from here?</string>
 	<string name="entries_list_profileview_6">TWS Graph</string>
 
     <!-- none view -->
-    <string name="entries_list_noneview_00">Add way point from map center</string>
+    <string name="entries_list_noneview_00">Map Center</string>
     <string name="entries_list_noneview_0">None</string>
     <string name="entries_list_noneview_1">Map Center</string>
     <string name="entries_list_noneview_2">Position</string>
     <string name="entries_list_noneview_3">Mixed</string>
+
+    <string name="entries_listaddwpt_00">Add Way Point from</string>
+    <string name="entries_list_addwpt_0">Touch</string>
+    <string name="entries_list_addwpt_1">Position</string>
+    <string name="entries_list_addwpt_2">Map Center</string>
+    <string name="entries_list_addwpt_3">Bearing</string>
+    <string name="entries_list_addwpt_4">New Collection</string>
+
+    <string name="entries_list_mapinspector_0">Offline Landmarks</string>
+    <string name="entries_list_mapinspector_1">Landmarks</string>
+    <string name="entries_list_mapinspector_2">Seamarks</string>
 
 </resources>

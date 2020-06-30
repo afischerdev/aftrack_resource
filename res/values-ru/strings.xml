@@ -117,6 +117,7 @@
     
     <string name="gps_state">GPS State</string>
     <string name="gps_enable">GPS отключен. Включить сейчас?</string>
+    <string name="power_disable">The Power Save Mode seems to be enabled. Deactivate now?</string>
 
     <string name="prefs">Настройки</string>
     
@@ -179,6 +180,12 @@
 
     <string name="trackreset_title">Track Restart</string>
     <string name="trackreset_summary">Start new Track after x minutes</string>
+
+    <string name="trackflat_title">Smooth Track</string>
+    <string name="trackflat_summary">Set a value for smooth altitudes of a track (0 = none)</string>
+
+    <string name="trackdescupdate_title">Auto update Track Description</string>
+    <string name="trackdescupdate_summary">Update from OSM online</string>
 
     <string name="trackupdownhill_title">Up/Down Colors</string>
     <string name="trackupdownhill_summary">Display up/down hill colors for the Track</string>
@@ -943,8 +950,11 @@
     <string name="boat_width">Boat Width</string>
     <string name="boat_height">Boat Height</string>
     <string name="boat_draft">Boat Draft</string>
+    <string name="boat_liter">Litres per hour</string>
 
-	<!--  Messages  -->
+    <string name="selectmap">OSM Map Inspector</string>
+
+    <!--  Messages  -->
 	<string name="save_file">Save File</string>
 	<string name="lines_imported"> Lines imported</string>
     <string name="seg_imported"> Segments imported</string>
@@ -1174,7 +1184,13 @@ Start from here?</string>
 	<string name="large">large</string>
 	<string name="huge">huge</string>
 
-	<!-- Send to -->
+    <!-- Cahce Age Type -->
+    <string name="never">never</string>
+    <string name="oneday">One Day</string>
+    <string name="oneweek">One Week</string>
+    <string name="onemonth">One Month</string>
+
+    <!-- Send to -->
 	<string name="osmupload">OSM Upload</string>
 	<string name="others">Others &#8230;</string>
 	
@@ -1215,5 +1231,16 @@ Start from here?</string>
     <string name="entries_list_noneview_1">Map Center</string>
     <string name="entries_list_noneview_2">Position</string>
     <string name="entries_list_noneview_3">Mixed</string>
+
+    <string name="entries_listaddwpt_00">Add Way Point from</string>
+    <string name="entries_list_addwpt_0">Touch</string>
+    <string name="entries_list_addwpt_1">Position</string>
+    <string name="entries_list_addwpt_2">Map Center</string>
+    <string name="entries_list_addwpt_3">Bearing</string>
+    <string name="entries_list_addwpt_4">New Collection</string>
+
+    <string name="entries_list_mapinspector_0">Offline Landmarks</string>
+    <string name="entries_list_mapinspector_1">Landmarks</string>
+    <string name="entries_list_mapinspector_2">Seamarks</string>
 
 </resources>

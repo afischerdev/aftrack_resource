@@ -134,6 +134,7 @@
     
     <string name="gps_state">GPS Status</string>
     <string name="gps_enable">Der GPS ist ausgeschaltet. Jetzt aktivieren?</string>
+    <string name="power_disable">Der Power Save Mode scheint eingeschaltet. Jetzt deaktivieren?</string>
 
      <string name="prefs">Einstellungen</string>
     
@@ -196,6 +197,12 @@
 
     <string name="trackreset_title">Track Restart</string>
     <string name="trackreset_summary">Start neuen Track nach x Minuten</string>
+
+    <string name="trackflat_title">Trackhöhen glätten</string>
+    <string name="trackflat_summary">Einen Wert für die Höhenglättung von Tracks (0 = keine)</string>
+
+    <string name="trackdescupdate_title">Update Trackbeschreibung</string>
+    <string name="trackdescupdate_summary">Update mit OSM online Daten automatisch</string>
 
     <string name="trackupdownhill_title">Up/Down Farben</string>
     <string name="trackupdownhill_summary">Anzeigen von up/down Farben für den Track</string>
@@ -941,8 +948,11 @@
     <string name="boat_width">Boot Weite</string>
     <string name="boat_height">Boot Höhe</string>
     <string name="boat_draft">Boot Tiefgang</string>
+    <string name="boat_liter">Liter pro Stunde</string>
 
-	<!--  Messages  -->
+    <string name="selectmap">OSM Map Inspektor</string>
+
+    <!--  Messages  -->
 	<string name="save_file">Sichere File</string>
 	<string name="lines_imported"> Zeile(n) importiert</string>
     <string name="seg_imported"> Segmente importiert</string>
@@ -974,7 +984,7 @@ Von hier starten?</string>
     <string name="usb_connected">USB gefunden</string>
 	<string name="not_valid">Ungültiger Wert</string>
 	<string name="no_space">Nicht genug Speicherplatz</string>
-	<string name="msg_download">Dieser Download wird eine Weile dauern und einige Resourcen benötigen. Stellen Sie sicher, dass genug Speicher vorhanden ist und eine Datenverbindung über Wifi.</string>
+	<string name="msg_download">Dieser Download wird eine Weile dauern und einige Ressourcen benötigen. Stellen Sie sicher, dass genug Speicher vorhanden ist und eine Datenverbindung über Wifi.</string>
 
     <!-- nearby -->
     <string name="LookingForPeers">Suche …</string>
@@ -1171,7 +1181,13 @@ Von hier starten?</string>
 	<string name="large">groß</string>
 	<string name="huge">sehr groß</string>
 
-		<!-- Send to -->
+    <!-- Cahce Age Type -->
+    <string name="never">Niemals</string>
+    <string name="oneday">Einem Tag</string>
+    <string name="oneweek">Einer Woche</string>
+    <string name="onemonth">Einem Monat</string>
+
+    <!-- Send to -->
 	<string name="osmupload">OSM Upload</string>
 	<string name="others">Andere &#8230;</string>
 
@@ -1213,5 +1229,16 @@ Von hier starten?</string>
     <string name="entries_list_noneview_1">Map Center Position</string>
     <string name="entries_list_noneview_2">Position</string>
     <string name="entries_list_noneview_3">Wahlweise</string>
+
+    <string name="entries_listaddwpt_00">Neuer Wegepunkt</string>
+    <string name="entries_list_addwpt_0">Touch</string>
+    <string name="entries_list_addwpt_1">Position</string>
+    <string name="entries_list_addwpt_2">Kartenmitte</string>
+    <string name="entries_list_addwpt_3">Peilung</string>
+    <string name="entries_list_addwpt_4">Neue Wegepunkt Kollektion</string>
+
+    <string name="entries_list_mapinspector_0">Offline: Landpunkte</string>
+    <string name="entries_list_mapinspector_1">Landpunkte</string>
+    <string name="entries_list_mapinspector_2">Seezeichen</string>
 
 </resources>

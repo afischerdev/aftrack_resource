@@ -119,6 +119,7 @@
     
     <string name="gps_state">Stato del GPS</string>
     <string name="gps_enable">Il ricevitore GPS è disabilitato. Lo attivo ?</string>
+    <string name="power_disable">The Power Save Mode seems to be enabled. Deactivate now?</string>
 
     <string name="prefs">Impostazioni</string>
     
@@ -182,6 +183,12 @@
 
     <string name="trackreset_title">Riavvia traccia</string>
     <string name="trackreset_summary">Inizia nuova traccia dopo x minuti</string>
+
+    <string name="trackflat_title">Traccia fluida</string>
+    <string name="trackflat_summary">Imposta un valore per altitudini uniformi di una traccia (0 = nessuna)</string>
+
+    <string name="trackdescupdate_title">Descrizione della traccia</string>
+    <string name="trackdescupdate_summary">Aggiornamento automatico da OSM online</string>
 
     <string name="trackupdownhill_title">Salita/discesa</string>
     <string name="trackupdownhill_summary">Mostra la pendenza codificata con un colore</string>
@@ -965,6 +972,9 @@
     <string name="boat_width">Boat Width</string>
     <string name="boat_height">Boat Height</string>
     <string name="boat_draft">Boat Draft</string>
+    <string name="boat_liter">Litres per hour</string>
+
+    <string name="selectmap">OSM Map Inspector</string>
 
     <!--  Messages  -->
 	<string name="save_file">Salva file</string>
@@ -1205,8 +1215,14 @@
 	<string name="normal">normale</string>
 	<string name="large">grande</string>
 	<string name="huge">enorme</string>
-	
-	<!-- Send to -->
+
+    <!-- Cahce Age Type -->
+    <string name="never">never</string>
+    <string name="oneday">One Day</string>
+    <string name="oneweek">One Week</string>
+    <string name="onemonth">One Month</string>
+
+    <!-- Send to -->
 	<string name="osmupload">OSM Upload</string>
 	<string name="others">Altro &#8230;</string>
 		
@@ -1248,5 +1264,16 @@
     <string name="entries_list_noneview_1">Map Center</string>
     <string name="entries_list_noneview_2">Position</string>
     <string name="entries_list_noneview_3">Mixed</string>
+
+    <string name="entries_listaddwpt_00">Add Way Point from</string>
+    <string name="entries_list_addwpt_0">Touch</string>
+    <string name="entries_list_addwpt_1">Position</string>
+    <string name="entries_list_addwpt_2">Map Center</string>
+    <string name="entries_list_addwpt_3">Bearing</string>
+    <string name="entries_list_addwpt_4">New Collection</string>
+
+    <string name="entries_list_mapinspector_0">Offline Landmarks</string>
+    <string name="entries_list_mapinspector_1">Landmarks</string>
+    <string name="entries_list_mapinspector_2">Seamarks</string>
 
 </resources>
