@@ -78,6 +78,9 @@
     <string name="menu_updategroup_icon">Icone</string>
     <string name="menu_updategroup_distance">Distanza di avviso (m)</string>
     <string name="menu_revers">Inverti il percorso</string>
+    <!-- nuew -->
+    <string name="menu_resample">Resample the Route with BRouter</string>
+
     <string name="menu_nightmode">Visualizzazione notturna</string>
     <string name="menu_send">Invia</string>
     <string name="menu_layout_default">Osmarender</string> 
@@ -1264,6 +1267,7 @@
     <string name="entries_list_noneview_1">Map Center</string>
     <string name="entries_list_noneview_2">Position</string>
     <string name="entries_list_noneview_3">Mixed</string>
+    <string name="entries_list_noneview_4">Geo Info</string>
 
     <string name="entries_listaddwpt_00">Add Way Point from</string>
     <string name="entries_list_addwpt_0">Touch</string>

@@ -77,6 +77,7 @@
     <string name="menu_updategroup_icon">Icon</string>
     <string name="menu_updategroup_distance">Alarm Distanz</string>
     <string name="menu_revers">Route revers</string>
+    <string name="menu_resample">Neuberechnen Route mit BRouter</string>
     <string name="menu_nightmode">Nacht Mode</string>
     <string name="menu_send">Senden</string>
     <string name="menu_layout_default">Osmarender</string>
@@ -1229,6 +1230,7 @@ Von hier starten?</string>
     <string name="entries_list_noneview_1">Map Center Position</string>
     <string name="entries_list_noneview_2">Position</string>
     <string name="entries_list_noneview_3">Wahlweise</string>
+    <string name="entries_list_noneview_4">Geo Info</string>
 
     <string name="entries_listaddwpt_00">Neuer Wegepunkt</string>
     <string name="entries_list_addwpt_0">Touch</string>

@@ -78,6 +78,7 @@
     <string name="menu_updategroup_icon">Icon</string>
     <string name="menu_updategroup_distance">Alarm Distance</string>
     <string name="menu_revers">Марщрут назад?</string>
+    <string name="menu_resample">Resample the Route with BRouter</string>
     <string name="menu_nightmode">Ночной режим</string>
     <string name="menu_send">Отправить</string>
     <string name="menu_layout_default">Osmarender</string>
@@ -1231,6 +1232,7 @@ Start from here?</string>
     <string name="entries_list_noneview_1">Map Center</string>
     <string name="entries_list_noneview_2">Position</string>
     <string name="entries_list_noneview_3">Mixed</string>
+    <string name="entries_list_noneview_4">Geo Info</string>
 
     <string name="entries_listaddwpt_00">Add Way Point from</string>
     <string name="entries_list_addwpt_0">Touch</string>
