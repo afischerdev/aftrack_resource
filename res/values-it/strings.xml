@@ -83,13 +83,24 @@
 
     <string name="menu_nightmode">Visualizzazione notturna</string>
     <string name="menu_send">Invia</string>
-    <string name="menu_layout_default">Osmarender</string> 
+    <string name="menu_layout_default">Default</string>
     <string name="menu_layout_load">Memoria (xml)&#8230;</string>
     <string name="menu_calibrate">Modifica la calibrazione</string>
     <!-- new -->
     <string name="menu_syncpicture">Track with Pictures</string>
     <string name="menu_droppictures">Track without Pictures</string>
 
+    <!-- new -->
+    <string name="routing_title">Routing Settings</string>
+    <string name="routing_summary">Collect routing parameters</string>
+    <string name="route_mode">Routing Mode</string>
+    <string name="routing_only">Only this</string>
+    <string name="use_for_tracking">Use for Tracking</string>
+    <string name="draw_route_direct">Draw route direct</string>
+    <string name="offline_direct_routing">Offline: Direct Routing</string>
+
+    <string name="language_list_title">Language</string>
+    <string name="language_list_summary">Select a language for the app</string>
 
     <!-- Lists -->
         
@@ -1279,5 +1290,6 @@
     <string name="entries_list_mapinspector_0">Offline Landmarks</string>
     <string name="entries_list_mapinspector_1">Landmarks</string>
     <string name="entries_list_mapinspector_2">Seamarks</string>
+
 
 </resources>

@@ -81,7 +81,7 @@
     <string name="menu_resample">Resample the Route with BRouter</string>
     <string name="menu_nightmode">Night Mode</string>
     <string name="menu_send">Send</string>
-    <string name="menu_layout_default">Osmarender</string>
+    <string name="menu_layout_default">Default</string>
     <string name="menu_layout_load">Load Theme xml ...</string>
     <string name="menu_calibrate">Edit Calibration</string>
     <string name="menu_syncpicture">Track with Pictures</string>
@@ -805,8 +805,18 @@
 	<string name="menu_sort_date">Date</string>
 	<string name="menu_sort_name">Name</string>
 	<string name="menu_sort_dist">Distance</string>
-			
-		
+
+    <string name="routing_title">Routing Settings</string>
+    <string name="routing_summary">Collect routing parameters</string>
+    <string name="route_mode">Routing Mode</string>
+    <string name="routing_only">Only this</string>
+    <string name="use_for_tracking">Use for Tracking</string>
+    <string name="draw_route_direct">Draw route direct</string>
+    <string name="offline_direct_routing">Offline: Direct Routing</string>
+
+    <string name="language_list_title">Language</string>
+    <string name="language_list_summary">Select a language for the app</string>
+
 	<string name="selectfile">Select File</string>
 	<string name="deletefile">Delete File</string>
 
@@ -1246,5 +1256,6 @@ Start from here?</string>
     <string name="entries_list_mapinspector_0">Offline Landmarks</string>
     <string name="entries_list_mapinspector_1">Landmarks</string>
     <string name="entries_list_mapinspector_2">Seamarks</string>
+
 
 </resources>
