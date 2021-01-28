@@ -81,7 +81,7 @@
     <string name="menu_nightmode">Nacht Mode</string>
     <string name="menu_send">Senden</string>
     <string name="menu_layout_default">Default</string>
-    <string name="menu_layout_load">Lade XML Layoutvorlage ...</string>
+    <string name="menu_layout_load">Lade XML Layoutvorlage …</string>
     <string name="menu_calibrate">Kalibratierung bearbeiten</string>
     <string name="menu_syncpicture">Track mit Fotos</string>
     <string name="menu_droppictures">Track ohne Fotos</string>
@@ -296,6 +296,11 @@
     <string name="aismooring_title">Keine ruhenden Schiffe</string>
     <string name="aismooring_summary">Keine Schiffe anzeigen vor Anker, festgemacht oder mit geringer Geschwindigkeit</string>
 
+    <!-- Map Prefs -->
+    <string name="dir_title">Verzeichnisse</string>
+    <string name="mapdir_title">Kartenverzeichnis</string>
+    <string name="themedir_title">Kartenstil Verzeichnis</string>
+    <string name="exportdir_title">Export Verzeichnis</string>
 
     <string name="map_prefs">Karten Einstellungen</string>
     
@@ -385,6 +390,9 @@
     <string name="text_scale_title">Textgröße</string>
     <string name="text_scale_summary">Textgröße für MapsForge Karten</string>
 
+    <string name="icon_scale_title">Icongröße</string>
+    <string name="icon_scale_summary">Icongröße für MapsForge Karten</string>
+
     <string name="mapsforgetilesize_title">Tilegröße</string>
     <string name="mapsforgetilesize_summary">Größe für eine Kachel</string>
     <string name="need_restart">App muss neu gestartet werden.</string>
@@ -427,11 +435,17 @@
     
     <string name="misc_prefs">Weitere Einstellungen</string>
     <string name="save_prefs">Einstellungen sichern</string>
-    <string name="save_prefs_summary">Einstellungen ins AFTrack Verzeichnis schreiben</string>
+    <string name="save_prefs_summary">Einstellungen ins Export Verzeichnis schreiben</string>
 
     <string name="load_prefs">Einstellungen laden</string>
     <string name="load_prefs_summary">Einstellungen einlesen</string>
-    
+
+    <string name="save_db">Databank sichern</string>
+    <string name="save_db_summary">Databank in das Export Verzeichnis schreiben</string>
+
+    <string name="load_db">Databank importieren</string>
+    <string name="load_db_summary">Datenbank einlesen</string>
+
     <string name="full_screen">Große Anzeige</string>
     <string name="full_screen_summary">Anzeige in größerer Ansicht</string>
     
@@ -997,6 +1011,12 @@ Von hier starten?</string>
 	<string name="not_valid">Ungültiger Wert</string>
 	<string name="no_space">Nicht genug Speicherplatz</string>
 	<string name="msg_download">Dieser Download wird eine Weile dauern und einige Ressourcen benötigen. Stellen Sie sicher, dass genug Speicher vorhanden ist und eine Datenverbindung über Wifi.</string>
+    <string name="overwrite_map_question">Die Karte \"%s\" existiert bereits! Löschen und Download?</string>
+    <string name="no_map_directory">Kein Kartenverzeichnis definiert</string>
+    <string name="no_export_directory">Kein Exportverzeichnis definiert</string>
+    <string name="move_to_internal">Dieser Kartentyp kann nicht im externen Speicher gelesen werden. Verschieben oder kopieren in den internen Speicher?</string>
+    <string name="dir_move_to_internal">Der Kartentyp in diesem Verzeichnis kann nicht im externen Speicher gelesen werden. Verschieben oder kopieren in den internen Speicher?</string>
+
 
     <!-- nearby -->
     <string name="LookingForPeers">Suche …</string>
@@ -1023,7 +1043,11 @@ Von hier starten?</string>
 	<string name="stop_go_to">Stopp Go To</string>
 	<string name="deleted">Gelöscht</string>
 	<string name="undo">Rückgängig</string>
-		
+    <string name="ignore">Ignorieren</string>
+    <string name="later">Später</string>
+    <string name="copy">Kopieren</string>
+    <string name="move">Verschieben</string>
+
     <string name="error">Fehler</string>
     <string name="unknown">Unbekannt</string>
     <string name="none">---</string>
@@ -1063,8 +1087,8 @@ Von hier starten?</string>
     <string name="entries_list_logmode_2">Smart Boot/Fahrrad</string>  
     <string name="entries_list_logmode_3">Smart Wandern</string>  
     <string name="entries_list_logmode_4">Sekunden</string>  
-    <string name="entries_list_logmode_5">SMS Position</string>
-    <string name="entries_list_logmode_6">Mehrere SMS Positionen</string>
+    <string name="entries_list_logmode_5">Nur SMS Positionen</string>
+    <string name="entries_list_logmode_6">SMS und GPS-Positionen</string>
     
     <!-- altitude -->
     <string name="entries_list_altmeasure_0">Meter</string>

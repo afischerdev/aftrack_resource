@@ -328,13 +328,24 @@
 
     <string name="load_prefs">Carica preferenze</string>
     <string name="load_prefs_summary">Leggi le impostazioni da una cartella</string>
-    
+
+    <string name="save_db">Save Database</string>
+    <string name="save_db_summary">Write database to Export folder</string>
+
+    <string name="load_db">Load Database</string>
+    <string name="load_db_summary">Read database from folder</string>
+
     <string name="full_screen">Schermo intero</string>
     <string name="full_screen_summary">Mostra uno schermo più grande</string>
     
     
     <!-- Map Prefs -->
-    
+    <!-- new -->
+    <string name="dir_title">Folders</string>
+    <string name="mapdir_title">Map Folder</string>
+    <string name="themedir_title">Map Theme Folder</string>
+    <string name="exportdir_title">Export Folder</string>
+
     <string name="map_prefs">Impostazioni mappe</string>
     
     <string name="scandir_title">Cerca qui le mappe</string>
@@ -356,8 +367,8 @@
     <string name="list_clear_maps">Pulisci</string>
     <string name="list_no_maps">Nessuna mappa</string>
         
-    <string name="mapset_clear">Svuota la cache ...</string>
-    <string name="mapset_clear_summary">... da tutti i files delle mappe</string>
+    <string name="mapset_clear">Svuota la cache …</string>
+    <string name="mapset_clear_summary">… da tutti i files delle mappe</string>
     <string name="cacheagetype_list_title">Clear Cache after</string>
     <string name="cacheagetype_list_summary">Clear Cache after x time</string>
     <string name="mapset_set">Definisci la cache</string>
@@ -447,6 +458,9 @@
     <string name="text_scale_summary">Sceglie una dimensione per le mappe MapsForge</string>
 
     <!-- new -->
+    <string name="icon_scale_title">Icon Scale</string>
+    <string name="icon_scale_summary">Select an icon size for MapsForge maps</string>
+
     <string name="mapsforgetilesize_title">Tile Size</string>
     <string name="mapsforgetilesize_summary">Size for one tile</string>
     <string name="need_restart">Needs a restart</string>
@@ -1028,6 +1042,13 @@
 
 	<string name="no_space">Spazio disco insufficiente</string>
 	<string name="msg_download">Lo scaricamento richiederà tempo e risorse del sistema. Assicuratevi che ci sia memoria sufficiente e connessione WiFi.</string>
+    <!-- new -->
+    <string name="overwrite_map_question">The map \"%s\" already exists! Delete and start download?</string>
+    <string name="no_map_directory">No Map Folder defined</string>
+    <string name="no_export_directory">No Export Folder defined</string>
+    <string name="move_to_internal">This map type is not readable in external storage. Move or Copy to app internal storage?</string>
+    <string name="dir_move_to_internal">The map type for this folder is not readable in external storage. Move or Copy to app internal storage?</string>
+
 
     <!-- nearby -->
     <string name="LookingForPeers">Searching …</string>
@@ -1056,7 +1077,12 @@
 	<string name="stop_go_to">Ferma Vai a</string>
 	<string name="deleted">Cancellato</string>
 	<string name="undo">Annulla ultimo comando</string>
-		
+	<!-- new -->
+    <string name="ignore">Ignore</string>
+    <string name="later">Later</string>
+    <string name="copy">Copy</string>
+    <string name="move">Move</string>
+
     <string name="error">Errore</string>
     <string name="unknown">Sconosciuto</string>
     <string name="none">Nessuno</string>

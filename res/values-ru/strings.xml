@@ -281,12 +281,23 @@
 
     <string name="load_prefs">Загрузить предпочтения</string>
     <string name="load_prefs_summary">Read preferences from folder</string>
-    
+
+    <string name="save_db">Save Database</string>
+    <string name="save_db_summary">Write database to Export folder</string>
+
+    <string name="load_db">Load Database</string>
+    <string name="load_db_summary">Read database from folder</string>
+
     <string name="full_screen">Full Screen</string>
     <string name="full_screen_summary">Show a bigger display</string>
     
     <!-- Map Prefs -->
-    
+
+    <string name="dir_title">Folders</string>
+    <string name="mapdir_title">Map Folder</string>
+    <string name="themedir_title">Map Theme Folder</string>
+    <string name="exportdir_title">Export Folder</string>
+
     <string name="map_prefs">Настройки карты</string>
     
     <string name="scandir_title">Scan folder</string>
@@ -392,6 +403,9 @@
     
     <string name="text_scale_title">Text Size</string>
     <string name="text_scale_summary">Select a text size for MapsForge maps</string>
+
+    <string name="icon_scale_title">Icon Scale</string>
+    <string name="icon_scale_summary">Select an icon size for MapsForge maps</string>
 
     <string name="mapsforgetilesize_title">Tile Size</string>
     <string name="mapsforgetilesize_summary">Size for one tile</string>
@@ -997,6 +1011,12 @@ Start from here?</string>
 	<string name="not_valid">Not a valid value</string>
 	<string name="no_space">Not enough disk space</string>
 	<string name="msg_download">This download will take a while and require some resources. Make sure there is enough memory and a data connection over Wifi.</string>
+    <string name="overwrite_map_question">The map \"%s\" already exists! Delete and start download?</string>
+    <string name="no_map_directory">No Map Folder defined</string>
+    <string name="no_export_directory">No Export Folder defined</string>
+    <string name="move_to_internal">This map type is not readable in external storage. Move or Copy to app internal storage?</string>
+    <string name="dir_move_to_internal">The map type for this folder is not readable in external storage. Move or Copy to app internal storage?</string>
+
 
     <!-- nearby -->
     <string name="LookingForPeers">Searching …</string>
@@ -1023,7 +1043,11 @@ Start from here?</string>
 	<string name="stop_go_to">Stop Go To</string>
 	<string name="deleted">Deleted</string>
 	<string name="undo">Undo</string>
-			
+    <string name="ignore">Ignore</string>
+    <string name="later">Later</string>
+    <string name="copy">Copy</string>
+    <string name="move">Move</string>
+
     <string name="error">Ошибка</string>
     <string name="unknown">Unknown</string>
     <string name="none">None</string>
@@ -1064,8 +1088,8 @@ Start from here?</string>
     <string name="entries_list_logmode_2">Smart Boat/Bike</string>  
     <string name="entries_list_logmode_3">Smart Hike</string>  
     <string name="entries_list_logmode_4">Seconds</string>  
-    <string name="entries_list_logmode_5">SMS Positions</string>
-    <string name="entries_list_logmode_6">Multiple SMS Positions</string>
+    <string name="entries_list_logmode_5">Only SMS Positions</string>
+    <string name="entries_list_logmode_6">SMS and GPS Positions</string>
     
     <!-- altitude / depth -->
     <string name="entries_list_altmeasure_0">Meter</string>
