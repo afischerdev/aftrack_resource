@@ -400,6 +400,9 @@
     <string name="drawmaplabelextra_title">Label extra generieren</string>
     <string name="drawmaplabelextra_summary">Generieren der Label in den Tiles oder extra</string>
 
+    <string name="drawhillshade_title">Höhen Schattierung</string>
+    <string name="drawhillshade_summary">SRTM Dateien zur Höhenschattierung nutzen</string>
+
     <string name="layout_title">Layout </string>
     <string name="layout_summary">Auswahl von Layout und Elementen</string>
     <string name="layout_elements">Layout Elemente</string>
@@ -1274,9 +1277,10 @@ Von hier starten?</string>
     <string name="entries_list_addwpt_3">Peilung</string>
     <string name="entries_list_addwpt_4">Neue Wegepunkt Kollektion</string>
 
-    <string name="entries_list_mapinspector_0">Offline: Landpunkte</string>
-    <string name="entries_list_mapinspector_1">Landpunkte</string>
-    <string name="entries_list_mapinspector_2">Seezeichen</string>
+    <string name="entries_list_mapinspector_0">Offline: Karten Daten</string>
+    <string name="entries_list_mapinspector_1">Offline: Poi Daten</string>
+    <string name="entries_list_mapinspector_2">Landpunkte</string>
+    <string name="entries_list_mapinspector_3">Seezeichen</string>
 
 
 </resources>

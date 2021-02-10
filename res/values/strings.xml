@@ -415,6 +415,9 @@
     <string name="drawmaplabelextra_title">Draw Label extra</string>
     <string name="drawmaplabelextra_summary">Draw the labels with tile or extra</string>
 
+    <string name="drawhillshade_title">Draw Hill Shading</string>
+    <string name="drawhillshade_summary">Draw hill shading from srtm files</string>
+
     <string name="layout_title">Layout </string>
     <string name="layout_summary">Select an inbuild layout and elements</string>
     <string name="layout_elements">Layout Elements</string>
@@ -1277,9 +1280,10 @@ Start from here?</string>
     <string name="entries_list_addwpt_3">Bearing</string>
     <string name="entries_list_addwpt_4">New Collection</string>
 
-    <string name="entries_list_mapinspector_0">Offline Landmarks</string>
-    <string name="entries_list_mapinspector_1">Landmarks</string>
-    <string name="entries_list_mapinspector_2">Seamarks</string>
+    <string name="entries_list_mapinspector_0">Offline Map Marks</string>
+    <string name="entries_list_mapinspector_1">Offline Poi Marks</string>
+    <string name="entries_list_mapinspector_2">Landmarks</string>
+    <string name="entries_list_mapinspector_3">Seamarks</string>
 
 
 </resources>
