@@ -437,6 +437,9 @@
 
     
     <string name="misc_prefs">Weitere Einstellungen</string>
+    <string name="clear_prefs">Einstellungen zurücksetzen</string>
+    <string name="clear_prefs_summary">Alle Einstellungen löschen</string>
+
     <string name="save_prefs">Einstellungen sichern</string>
     <string name="save_prefs_summary">Einstellungen ins Export Verzeichnis schreiben</string>
 

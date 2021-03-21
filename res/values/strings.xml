@@ -277,6 +277,9 @@
 
     
     <string name="misc_prefs">Other Settings</string>
+    <string name="clear_prefs">Clear Preferences</string>
+    <string name="clear_prefs_summary">Clear all preferences</string>
+
     <string name="save_prefs">Save Preferences</string>
     <string name="save_prefs_summary">Write preferences to Expport folder</string>
 

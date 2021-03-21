@@ -276,6 +276,9 @@
 
     
     <string name="misc_prefs">Другие настройки</string>
+    <string name="clear_prefs">Clear Preferences</string>
+    <string name="clear_prefs_summary">Clear all preferences</string>
+
     <string name="save_prefs">Сохранить предпочтения</string>
     <string name="save_prefs_summary">Write preferences to AFTrack folder</string>
 

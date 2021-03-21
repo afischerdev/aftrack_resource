@@ -323,6 +323,10 @@
     <string name="rotation_list_summary">Verticale, orizzontale, automatico, &#8230;</string>
 
     <string name="misc_prefs">Altre impostazioni</string>
+    <!-- new -->
+    <string name="clear_prefs">Clear Preferences</string>
+    <string name="clear_prefs_summary">Clear all preferences</string>
+
     <string name="save_prefs">Salva impostazioni</string>
     <string name="save_prefs_summary">Salva le impostazioni nella cartella di AFTrack</string>
 
