@@ -403,6 +403,16 @@
     <string name="drawhillshade_title">Höhen Schattierung</string>
     <string name="drawhillshade_summary">SRTM Dateien zur Höhenschattierung nutzen</string>
 
+    <string name="useworldmap_title">Nutze World Map</string>
+    <string name="useworldmap_summary">Umschalten auf Weltkarte</string>
+
+    <string name="worldzoom_title">Zoom Level</string>
+    <string name="worldzoom_summary">Zoom zum Umschalten auf Weltkarte</string>
+
+    <string name="worldmap_title">Weltkarte</string>
+    <string name="worldmap_summary">Map: </string>
+
+
     <string name="layout_title">Layout </string>
     <string name="layout_summary">Auswahl von Layout und Elementen</string>
     <string name="layout_elements">Layout Elemente</string>

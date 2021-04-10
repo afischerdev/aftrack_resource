@@ -475,6 +475,17 @@
     <string name="drawhillshade_title">Draw Hill Shading</string>
     <string name="drawhillshade_summary">Draw hill shading from srtm files</string>
 
+    <!-- new -->
+    <string name="useworldmap_title">Use World Map</string>
+    <string name="useworldmap_summary">Switch to world map</string>
+
+    <string name="worldzoom_title">Zoom Level</string>
+    <string name="worldzoom_summary">Zoom to switch to world map</string>
+
+    <string name="worldmap_title">World Map</string>
+    <string name="worldmap_summary">Map: </string>
+
+
     <string name="layout_title">Aspetto, dettagli visibili</string>
     <string name="layout_summary">Sceglie tra aspetti e elementi disponibili</string>
     <string name="layout_elements">Elementi dell\'aspetto</string>
