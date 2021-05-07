@@ -86,6 +86,8 @@
     <string name="menu_calibrate">Edit Calibration</string>
     <string name="menu_syncpicture">Track with Pictures</string>
     <string name="menu_droppictures">Track without Pictures</string>
+    <string name="resample_new_route">Generate new route</string>
+    <string name="resample_route">Resample Route</string>
 
 
     <!-- Lists -->
@@ -612,7 +614,14 @@
     <string name="gps_acc_prefs">GPS Accuracy Settings</string>
     <string name="log_acc">Accuracy</string>
     <string name="log_acc_summary">Accuracy for a valid position</string>
-    
+
+    <string name="gps_logging_check">GPS Check</string>
+    <string name="gps_logging_check_title">Check on Logging</string>
+    <string name="gps_logging_check_summary">Check for valid speed when logging</string>
+
+    <string name="gps_check_speed_title">Check Speed Value</string>
+    <string name="gps_check_speed_summary">Used for none smart tracking (0=no test)</string>
+
     <string name="log_at_start">Log at start</string>
     <string name="log_at_start_summary">Start logging at app start</string>
     

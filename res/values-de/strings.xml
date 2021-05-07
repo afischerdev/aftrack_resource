@@ -85,6 +85,8 @@
     <string name="menu_calibrate">Kalibratierung bearbeiten</string>
     <string name="menu_syncpicture">Track mit Fotos</string>
     <string name="menu_droppictures">Track ohne Fotos</string>
+    <string name="resample_new_route">Neue Route anlegen</string>
+    <string name="resample_route">Route neu berechnen</string>
 
 
     <string name="list_new_map">Import</string>
@@ -636,7 +638,14 @@
     <string name="gps_acc_prefs">GPS Genauigkeit Einstellungen</string>
     <string name="log_acc">Genauigkeit</string>
     <string name="log_acc_summary">Genauigkeit für eine Position</string>
-    
+
+    <string name="gps_logging_check">GPS check</string>
+    <string name="gps_logging_check_title">Check Logging</string>
+    <string name="gps_logging_check_summary">Prüfe Geschwindigkeit beim Logging</string>
+
+    <string name="gps_check_speed_title">Check Geschwindigkeit Wert</string>
+    <string name="gps_check_speed_summary">Für Test ohne Smart Tracking (0=kein Test)</string>
+
     <string name="log_at_start">Automatisch Loggen</string>
     <string name="log_at_start_summary">Start neuen Track bei Programmstart</string>
     

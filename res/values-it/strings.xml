@@ -89,6 +89,8 @@
     <!-- new -->
     <string name="menu_syncpicture">Track with Pictures</string>
     <string name="menu_droppictures">Track without Pictures</string>
+    <string name="resample_new_route">Generate new route</string>
+    <string name="resample_route">Resample Route</string>
 
     <!-- new -->
     <string name="routing_title">Routing Settings</string>
@@ -668,7 +670,15 @@
    <string name="gps_acc_prefs">Parametri accuratezza GPS</string>
     <string name="log_acc">Accuratezza</string>
     <string name="log_acc_summary">Accuratezza per una posizione valida</string>
-    
+
+    <!-- new -->
+    <string name="gps_logging_check">GPS Check</string>
+    <string name="gps_logging_check_title">Check on Logging</string>
+    <string name="gps_logging_check_summary">Check for valid speed when logging</string>
+
+    <string name="gps_check_speed_title">Check Speed Value</string>
+    <string name="gps_check_speed_summary">Used for none smart tracking (0=no test)</string>
+
     <string name="log_at_start">Registra dall\'inizio</string>
     <string name="log_at_start_summary">Comincia a registrare non appena parte l\'app</string>
     
