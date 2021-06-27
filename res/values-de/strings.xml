@@ -452,6 +452,9 @@
     <string name="clear_prefs">Einstellungen zurücksetzen</string>
     <string name="clear_prefs_summary">Alle Einstellungen löschen</string>
 
+    <string name="clear_templates">Vorlagen zurücksetzen</string>
+    <string name="clear_templates_summary">Vorlagen neu laden</string>
+
     <string name="save_prefs">Einstellungen sichern</string>
     <string name="save_prefs_summary">Einstellungen ins Export Verzeichnis schreiben</string>
 
@@ -1041,6 +1044,7 @@ Von hier starten?</string>
     <string name="no_export_directory">Kein Exportverzeichnis definiert</string>
     <string name="move_to_internal">Dieser Kartentyp kann nicht im externen Speicher gelesen werden. Verschieben oder kopieren in den internen Speicher?</string>
     <string name="dir_move_to_internal">Der Kartentyp in diesem Verzeichnis kann nicht im externen Speicher gelesen werden. Verschieben oder kopieren in den internen Speicher?</string>
+    <string name="round">rund</string>
 
 
     <!-- nearby -->
@@ -1080,6 +1084,9 @@ Von hier starten?</string>
     <string name="newwpt_shortcut_short_label1">Add Position</string>
     <string name="newwpt_shortcut_long_label1">Add a way point for position</string>
     <string name="newwpt_disabled_message1">None</string>
+
+    <string name="genlogs_shortcut_short_label1">Error Logs</string>
+    <string name="genlogs_shortcut_long_label1">Generiere Error Log und sende</string>
 
     <!-- arrays -->
     <string name="entries_list_wptview_0">Keine Anzeige</string>
@@ -1297,7 +1304,8 @@ Von hier starten?</string>
     <string name="entries_list_addwpt_1">Position</string>
     <string name="entries_list_addwpt_2">Kartenmitte</string>
     <string name="entries_list_addwpt_3">Peilung</string>
-    <string name="entries_list_addwpt_4">Neue Wegepunkt Kollektion</string>
+    <string name="entries_list_addwpt_4">Route hierhin</string>
+    <string name="entries_list_addwpt_5">Neue Wegepunkt Kollektion</string>
 
     <string name="entries_list_mapinspector_0">Offline: Karten Daten</string>
     <string name="entries_list_mapinspector_1">Offline: Poi Daten</string>

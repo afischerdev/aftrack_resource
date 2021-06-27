@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">AFTrack</string>
 
     <string name="app_lite_name">AFTrack Lite</string>
@@ -281,6 +281,9 @@
     <string name="misc_prefs">Other Settings</string>
     <string name="clear_prefs">Clear Preferences</string>
     <string name="clear_prefs_summary">Clear all preferences</string>
+
+    <string name="clear_templates">Clear Templates</string>
+    <string name="clear_templates_summary">Clear all templates</string>
 
     <string name="save_prefs">Save Preferences</string>
     <string name="save_prefs_summary">Write preferences to Expport folder</string>
@@ -1042,6 +1045,7 @@ Start from here?</string>
     <string name="no_export_directory">No Export Folder defined</string>
     <string name="move_to_internal">This map type is not readable in external storage. Move or Copy to app internal storage?</string>
     <string name="dir_move_to_internal">The map type for this folder is not readable in external storage. Move or Copy to app internal storage?</string>
+    <string name="round">round</string>
 
 
     <!-- nearby -->
@@ -1081,6 +1085,9 @@ Start from here?</string>
     <string name="newwpt_shortcut_short_label1">Add Position</string>
     <string name="newwpt_shortcut_long_label1">Add a way point for position</string>
     <string name="newwpt_disabled_message1">None</string>
+
+    <string name="genlogs_shortcut_short_label1">Gen Error Logs</string>
+    <string name="genlogs_shortcut_long_label1">Generate error log and send</string>
 
 
     <!-- arrays -->
@@ -1299,12 +1306,14 @@ Start from here?</string>
     <string name="entries_list_addwpt_1">Position</string>
     <string name="entries_list_addwpt_2">Map Center</string>
     <string name="entries_list_addwpt_3">Bearing</string>
-    <string name="entries_list_addwpt_4">New Collection</string>
+    <string name="entries_list_addwpt_4">Route here</string>
+    <string name="entries_list_addwpt_5">New Collection</string>
 
     <string name="entries_list_mapinspector_0">Offline Map Marks</string>
     <string name="entries_list_mapinspector_1">Offline Poi Marks</string>
     <string name="entries_list_mapinspector_2">Landmarks</string>
     <string name="entries_list_mapinspector_3">Seamarks</string>
+
 
 
 </resources>
