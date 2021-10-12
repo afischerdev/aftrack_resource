@@ -14,7 +14,7 @@
     
     
     <string name="permission_write">Benötige Schreibberechtigung</string>
-    <string name="permission_position">Benötige Standort-Berechtigung</string>
+    <string name="permission_position">Benötige genaue Standort-Berechtigung</string>
     <string name="permission_sms">Benötige SMS-Berechtigung</string>
     <string name="permission_contact">Benötige Kontact-Berechtigung</string>
     <string name="permission_id">Benötige Geräte Id Berechtigung</string>
@@ -67,6 +67,9 @@
     <string name="menu_export_kml">KML</string>
     <string name="menu_export_igc">IGC</string>
     <string name="menu_export_ovl">OVL</string>
+    <string name="with_waypoint_group">Mit Wegpunktgruppe</string>
+    <string name="with_favorites">Mit Favoriten</string>
+
     <string name="menu_startrouting">Starte Routing</string>
     <string name="menu_stoprouting">Stopp Routing</string>
     <string name="menu_restartrouting">Restart Routing</string>
@@ -147,7 +150,9 @@
     <string name="wptvisible_summary">Wegepunkte auf der Karte zeigen</string>
 
     <string name="wptgrpvisible_title">Nur Wegepunktgruppe</string>
-    
+
+    <string name="favexport_title">Export Favoriten</string>
+
     <string name="trkvisible_title">Track sichtbar</string>
     <string name="trkvisible_summary">Tracks auf der Karte zeigen</string>
 
@@ -469,7 +474,13 @@
 
     <string name="full_screen">Große Anzeige</string>
     <string name="full_screen_summary">Anzeige in größerer Ansicht</string>
-    
+
+    <string name="routing_settings">Routing Einstellungen</string>
+
+    <string name="when_routing_settings">Wenn Routing</string>
+
+    <string name="targettop_title">Map Ziel oben</string>
+    <string name="targettop_summary">Zeige Karte rotiert nach dem Ziel</string>
 
 	<!-- GPS Prefs -->    
 
@@ -504,8 +515,10 @@
 
     <string name="gps_useasgpsd">GPS Daemon</string>
     <string name="gps_useasgpsd_summary">Sende Positionen als GPSD</string>
- 
-    
+
+    <string name="gps_useasgpsd_port">GPS Daemon Port</string>
+    <string name="gps_useasgpsd_port_summary">Der Port für den Gpsd</string>
+
     <string name="gps_plugin_title">Plugin Einstellungen</string>
     
     <string name="gps_log_title">Log Mode Einstellungen</string>
@@ -850,7 +863,9 @@
     <string name="routing_only">Nur dies</string>
     <string name="use_for_tracking">Tracking mit Unterstützung</string>
     <string name="draw_route_direct">Route direkt anzeigen</string>
+    <string name="draw_route_direct_summary">Anzeigen ohne suchen</string>
     <string name="offline_direct_routing">Offline: Direkt Routing</string>
+    <string name="generate_hints">Generiere Pseudo-Routinganweisungen</string>
 
     <string name="language_list_title">Sprache</string>
     <string name="language_list_summary">Ein Sprache für die App wählen</string>
@@ -1026,6 +1041,7 @@
 	<string name="anchor_running">Ankeralarm läuft</string>
     <string name="goto_running">GoTo Mode läuft</string>
     <string name="mock_running">Mock Location Mode läuft</string>
+    <string name="route_running">Routing läuft</string>
 	<string name="rte_atstart">Näheren Punkt gefunden.
 Von hier starten?</string>
 	<string name="rte_reached">Route beendet</string>
@@ -1157,10 +1173,11 @@ Von hier starten?</string>
 	
     <!-- map pointer -->
     <string name="entry_list_mappointer_0">Klein</string>
-	<string name="entry_list_mappointer_1">Groß</string>
-	<string name="entry_list_mappointer_2">Linien</string>
-	<string name="entry_list_mappointer_3">Grafik</string>
-	<string name="entry_list_mappointer_4">Kompassrose</string>
+    <string name="entry_list_mappointer_1">Klein gefüllt</string>
+    <string name="entry_list_mappointer_2">Groß</string>
+	<string name="entry_list_mappointer_3">Linien</string>
+	<string name="entry_list_mappointer_4">Grafik</string>
+	<string name="entry_list_mappointer_5">Kompassrose</string>
 
     <string name="entry_big_view_0">Instrumenten Ansicht</string>
 	<string name="entry_big_view_1">Geschwindigkeit</string>

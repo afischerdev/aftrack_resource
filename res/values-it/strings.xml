@@ -68,6 +68,11 @@
     <string name="menu_export_kml">KML</string>
     <string name="menu_export_igc">IGC</string>
     <string name="menu_export_ovl">OVL</string>
+
+    <!-- new -->
+    <string name="with_waypoint_group">With Waypoint Group</string>
+    <string name="with_favorites">With Favorites</string>
+
     <string name="menu_startrouting">Comincia il percorso</string>
     <string name="menu_stoprouting">Sospendi il percorso</string>
     <string name="menu_restartrouting">Riparti col percorso</string>
@@ -99,7 +104,9 @@
     <string name="routing_only">Only this</string>
     <string name="use_for_tracking">Use for Tracking</string>
     <string name="draw_route_direct">Draw route direct</string>
+    <string name="draw_route_direct_summary">Draw route after move</string>
     <string name="offline_direct_routing">Offline: Direct Routing</string>
+    <string name="generate_hints">Generate pseudo hints</string>
 
     <string name="language_list_title">Language</string>
     <string name="language_list_summary">Select a language for the app</string>
@@ -145,7 +152,10 @@
     <string name="wptvisible_summary">Mostra Wpts. sulla mappa</string>
 
     <string name="wptgrpvisible_title">Solo il gruppo corrente</string>
-    
+
+    <!-- new -->
+    <string name="favexport_title">Export way point favorites</string>
+
     <string name="trkvisible_title">Traccia visibile</string>
     <string name="trkvisible_summary">Mostra la traccia sulla mappa</string>
 
@@ -347,8 +357,15 @@
 
     <string name="full_screen">Schermo intero</string>
     <string name="full_screen_summary">Mostra uno schermo più grande</string>
-    
-    
+
+    <!-- new -->
+    <string name="routing_settings">Routing Settings</string>
+
+    <string name="when_routing_settings">Set when routing</string>
+
+    <string name="targettop_title">Map Target Top</string>
+    <string name="targettop_summary">Show map rotated for target</string>
+
     <!-- Map Prefs -->
     <!-- new -->
     <string name="dir_title">Folders</string>
@@ -535,8 +552,11 @@
     
     <string name="gps_useasgpsd">Daemon GPS</string>
     <string name="gps_useasgpsd_summary">Invia la posizione tramite logica GPSD</string>
- 
-    
+
+    <!-- new -->
+    <string name="gps_useasgpsd_port">GPS Daemon Port</string>
+    <string name="gps_useasgpsd_port_summary">Define a port for gpsd</string>
+
     <string name="gps_plugin_title">Impostazioni dei componenti aggiuntivi</string>
     
     <string name="gps_log_title">Impostazioni di registrazione</string>
@@ -1059,6 +1079,7 @@
     <!-- new -->
     <string name="goto_running">GoTo Mode is running</string>
     <string name="mock_running">Mock Location Mode is running</string>
+    <string name="route_running">Routing is running</string>
     <string name="sms_not_available">No SMS feature found</string>
 
 	<string name="rte_atstart">C\'è un punto più vicino. Partire da quello ?</string>
@@ -1198,10 +1219,11 @@
 	
     <!-- map pointer -->
     <string name="entry_list_mappointer_0">Piccolo</string>
-	<string name="entry_list_mappointer_1">Grande</string>
-	<string name="entry_list_mappointer_2">Linee</string>
-	<string name="entry_list_mappointer_3">Bitmap</string>
-	<string name="entry_list_mappointer_4">Anello bussola</string>
+    <string name="entry_list_mappointer_1">Piccolo riempito</string>
+    <string name="entry_list_mappointer_2">Grande</string>
+	<string name="entry_list_mappointer_3">Linee</string>
+	<string name="entry_list_mappointer_4">Bitmap</string>
+	<string name="entry_list_mappointer_5">Anello bussola</string>
 	
     <!-- big view -->
     <string name="entry_big_view_0">Instrument View</string>

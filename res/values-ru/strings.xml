@@ -14,7 +14,7 @@
     
 	<!-- new -->
     <string name="permission_write">Need write permissions</string>
-    <string name="permission_position">Need location permissions</string>
+    <string name="permission_position">Need fine location permissions</string>
     <string name="permission_sms">Need sms permissions</string>
     <string name="permission_contact">Need contact permissions</string>
     <string name="permission_id">Need device id permission</string>
@@ -68,6 +68,9 @@
     <string name="menu_export_kml">KML</string>
     <string name="menu_export_igc">IGC</string>
     <string name="menu_export_ovl">OVL</string>
+    <string name="with_waypoint_group">With Waypoint Group</string>
+    <string name="with_favorites">With Favorites</string>
+
     <string name="menu_startrouting">Старт маршутизации</string>
     <string name="menu_stoprouting">Стоп маршутизации</string>
     <string name="menu_restartrouting">Перезапуск маршутизации</string>
@@ -82,7 +85,7 @@
     <string name="menu_nightmode">Ночной режим</string>
     <string name="menu_send">Отправить</string>
     <string name="menu_layout_default">Default</string>
-    <string name="menu_layout_load">Load Theme xml ...</string>
+    <string name="menu_layout_load">Load Theme xml …</string>
     <string name="menu_calibrate">Редактировать калибровку</string>
     <string name="menu_syncpicture">Track with Pictures</string>
     <string name="menu_droppictures">Track without Pictures</string>
@@ -130,7 +133,9 @@
     <string name="wptvisible_summary">Показать путевые точки на карте</string>
     
     <string name="wptgrpvisible_title">Way point group only</string>
-    
+
+    <string name="favexport_title">Export way point favorites</string>
+
     <string name="trkvisible_title">Треки видны</string>
     <string name="trkvisible_summary">Display Tracks on the Map</string>
 
@@ -298,7 +303,14 @@
 
     <string name="full_screen">Full Screen</string>
     <string name="full_screen_summary">Show a bigger display</string>
-    
+
+    <string name="routing_settings">Routing Settings</string>
+
+    <string name="when_routing_settings">Set when routing</string>
+
+    <string name="targettop_title">Map Target Top</string>
+    <string name="targettop_summary">Show map rotated for target</string>
+
     <!-- Map Prefs -->
 
     <string name="dir_title">Folders</string>
@@ -477,8 +489,10 @@
  
     <string name="gps_useasgpsd">GPS Daemon</string>
     <string name="gps_useasgpsd_summary">Send positions via gpsd logic</string>
- 
-    
+
+    <string name="gps_useasgpsd_port">GPS Daemon Port</string>
+    <string name="gps_useasgpsd_port_summary">Define a port for gpsd</string>
+
     <string name="gps_plugin_title">Plugin Settings</string>
     
     
@@ -852,9 +866,11 @@
     <string name="routing_only">Nur dies</string>
     <string name="use_for_tracking">Tracking mit Unterstützung</string>
     <string name="draw_route_direct">Route direkt anzeigen</string>
+    <string name="draw_route_direct_summary">Draw route after move</string>
     <string name="offline_direct_routing">Offline: Direkt Routing</string>
     <string name="language_list_title">Language</string>
     <string name="language_list_summary">Select a language for the app</string>
+    <string name="generate_hints">Generate pseudo hints</string>
 
 	<string name="selectfile">Выбрать файл</string>
 	<string name="deletefile">Удалить файл</string>
@@ -1025,6 +1041,7 @@
 	<string name="anchor_running">Anchor Alarm is running</string>
     <string name="goto_running">GoTo Mode is running</string>
     <string name="mock_running">Mock Location Mode is running</string>
+    <string name="route_running">Routing is running</string>
 	<string name="rte_atstart">Found nearer point.
 Start from here?</string>
 	<string name="rte_reached">Route finished</string>
@@ -1157,10 +1174,11 @@ Start from here?</string>
 			
     <!-- map pointer -->
     <string name="entry_list_mappointer_0">Small</string>
-	<string name="entry_list_mappointer_1">Big</string>
-	<string name="entry_list_mappointer_2">Lines</string>
-	<string name="entry_list_mappointer_3">Bitmap</string>
-	<string name="entry_list_mappointer_4">Compass Ring</string>
+    <string name="entry_list_mappointer_1">Small filled</string>
+	<string name="entry_list_mappointer_2">Big</string>
+	<string name="entry_list_mappointer_3">Lines</string>
+	<string name="entry_list_mappointer_4">Bitmap</string>
+	<string name="entry_list_mappointer_5">Compass Ring</string>
 
     <string name="entry_big_view_0">Instrument View</string>
     <string name="entry_big_view_1">Speed</string>
