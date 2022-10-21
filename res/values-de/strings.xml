@@ -187,6 +187,15 @@
     <string name="zoomlevellimit_title">Wpt. Zoomlevel</string>
     <string name="zoomlevellimit_summary">Anzeigen bis Zoomstufe</string>
 
+    <string name="show_special_wptgrp_title">Zeige ausgewählte Gruppe</string>
+    <string name="show_special_wptgrp_summary">Zeige die nächsten Punkte der Gruppe</string>
+
+    <string name="special_wptgrp_prefs">Wegepunkt Gruppeneinstellugen</string>
+    <string name="special_wptgrp_radius_title">Radius Gruppe</string>
+    <string name="special_wptgrp_radius_summary">Radius für den Zähler der nahegelegenen Punkte (in km)</string>
+    <string name="special_wptgrp_list_title">Gruppenauswahl</string>
+    <string name="special_wptgrp_list_summary">Gruppe für Beobachtung wählen</string>
+
     <string name="mapgrid_title">Zeige Kartenraster</string>
     <string name="mapgrid_summary">Zeige ein Raster auf der Karte</string>
 	
@@ -245,9 +254,11 @@
     <string name="rte_prefs">Route Einstellungen</string>
     <string name="routecolor_list_title">Route Farbe</string>
     <string name="routecolor_list_summary">Wie soll eine Route angezeigt werden</string>
+    <string name="runroutecolor_list_summary">Wie soll eine laufende Route angezeigt werden</string>
 
     <string name="routelinesize_title">Route Linienstärke</string>
     <string name="routelinesize_summary">Wie soll eine Route angezeigt werden</string>
+    <string name="runroutelinesize_summary">Wie soll eine laufende Route angezeigt werden</string>
 
     <string name="routeproximity_title">Route Alarm Distanz</string>
     <string name="routeproximity_summary">Distanz zum nächsten Routenpunkt</string>
@@ -424,7 +435,8 @@
     <string name="layout_summary">Auswahl von Layout und Elementen</string>
     <string name="layout_elements">Layout Elemente</string>
     <string name="layout_languages">Layout Sprachen</string>
-    
+    <string name="layout_depths">Layout Tiefen</string>
+
     <string name="nvchart_prefs">NV-digital Einstellungen</string>
     <string name="nvchart_title">Karten registrieren</string>
     <string name="nvchart_summary">NV-digital Karten registrieren lassen</string>
@@ -482,9 +494,15 @@
     <string name="targettop_title">Map Ziel oben</string>
     <string name="targettop_summary">Zeige Karte rotiert nach dem Ziel</string>
 
-	<!-- GPS Prefs -->    
+    <string name="routesim_title">Zeige bei Simulation</string>
+    <string name="routesim_summary">Nutze dise Einstellungen beim Simulieren</string>
+
+    <!-- GPS Prefs -->
 
     <string name="gps_title">GPS Einstellungen</string>
+    <string name="gps_use_traccar">Traccar nutzen</string>
+    <string name="gps_use_traccar_summary">Wegepunkt Updates vom Traccar Server holen</string>
+
     <string name="gps_use_gpsgate">GpsGate nutzen</string>
     <string name="gps_use_gpsgate_summary">Wegepunkt Updates vom GpsGate Server holen</string>
 
@@ -667,9 +685,19 @@
     
     <string name="save_log">Speichern Log</string>
     <string name="save_log_summary">Automatisches Speichern bei Trackende</string>
-    
-    
-	<!-- SMS Prefs -->    
+
+    <!-- Depths on chart  -->
+    <string name="map_depth_prefs">Kartentiefen Einstellungen</string>
+    <string name="map_depth_shallow_title">Flachwasser</string>
+    <string name="map_depth_shallow_summary">Flachwassergebiet</string>
+
+    <string name="map_depth_safety_title">Sicheres Wasser</string>
+    <string name="map_depth_safety_summary">Gebiet mit Sicherheitstiefe</string>
+
+    <string name="map_depth_deep_title">Tiefes Wasser</string>
+    <string name="map_depth_deep_summary">Tiefwassergebiet</string>
+
+    <!-- SMS Prefs -->
     <string name="sms_prefs">SMS Einstellungen</string>
 
     <string name="sms_install_title">SMS Berechtigungen</string>
@@ -866,6 +894,8 @@
     <string name="draw_route_direct_summary">Anzeigen ohne suchen</string>
     <string name="offline_direct_routing">Offline: Direkt Routing</string>
     <string name="generate_hints">Generiere Pseudo-Routinganweisungen</string>
+    <string name="routing_send_nogo">Sende NoGos</string>
+    <string name="routing_send_nogo_summary">Sende NoGo Linien/Areas zum Router</string>
 
     <string name="language_list_title">Sprache</string>
     <string name="language_list_summary">Ein Sprache für die App wählen</string>
@@ -1076,6 +1106,7 @@ Von hier starten?</string>
     <string name="yes">Ja</string>
 	<string name="no">Nein</string>
 	<string name="ok">Ok</string>
+    <string name="connect">Verbinden</string>
 	<string name="start">Start</string>
     <string name="stop">Stop</string>
     <string name="reset">Reset</string>
@@ -1103,6 +1134,9 @@ Von hier starten?</string>
 
     <string name="genlogs_shortcut_short_label1">Error Logs</string>
     <string name="genlogs_shortcut_long_label1">Generiere Error Log und sende</string>
+
+    <string name="clearprefs_shortcut_short_label1">Start ohne Einstellungen</string>
+    <string name="clearprefs_shortcut_long_label1">Starten ohne Einstellungen</string>
 
     <!-- arrays -->
     <string name="entries_list_wptview_0">Keine Anzeige</string>

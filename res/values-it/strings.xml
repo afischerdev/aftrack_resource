@@ -107,6 +107,8 @@
     <string name="draw_route_direct_summary">Draw route after move</string>
     <string name="offline_direct_routing">Offline: Direct Routing</string>
     <string name="generate_hints">Generate pseudo hints</string>
+    <string name="routing_send_nogo">Send NoGos</string>
+    <string name="routing_send_nogo_summary">Send NoGo lines/areas to router</string>
 
     <string name="language_list_title">Language</string>
     <string name="language_list_summary">Select a language for the app</string>
@@ -191,6 +193,16 @@
     <string name="zoomlevellimit_title">Livello di zoom</string>
     <string name="zoomlevellimit_summary">Imposta il valore di zoom oltre il quale i Wpt sono visibili</string>
 
+    <!-- new -->
+    <string name="show_special_wptgrp_title">Show Special Interest Group</string>
+    <string name="show_special_wptgrp_summary">Show the nearest points of a group</string>
+
+    <string name="special_wptgrp_prefs">Way Point Group Settings</string>
+    <string name="special_wptgrp_radius_title">Group Radius</string>
+    <string name="special_wptgrp_radius_summary">Radius for Counter on near Way Points (in km)</string>
+    <string name="special_wptgrp_list_title">Way Point Group</string>
+    <string name="special_wptgrp_list_summary">Select a Group for watching</string>
+
     <string name="mapgrid_title">Griglia</string>
     <string name="mapgrid_summary">Mostra una griglia sulla mappa</string>
 
@@ -250,9 +262,11 @@
     <string name="rte_prefs">Impostazioni percorso</string>
     <string name="routecolor_list_title">Colore del percorso</string>
     <string name="routecolor_list_summary">Imposta il colore</string>
+    <string name="runroutecolor_list_summary">How to display a running Route</string>
 
     <string name="routelinesize_title">Spessore del percorso</string>
     <string name="routelinesize_summary">Imposta lo spessore della linea</string>
+    <string name="runroutelinesize_summary">How to display a running Route</string>
 
     <string name="routeproximity_title">Allarme punti percorso</string>
     <string name="routeproximity_summary">Distanza dal prossimo punto sul percorso</string>
@@ -365,6 +379,9 @@
 
     <string name="targettop_title">Map Target Top</string>
     <string name="targettop_summary">Show map rotated for target</string>
+
+    <string name="routesim_title">Show on simulation</string>
+    <string name="routesim_summary">Use settings on simulation</string>
 
     <!-- Map Prefs -->
     <!-- new -->
@@ -513,7 +530,8 @@
     <string name="layout_summary">Sceglie tra aspetti e elementi disponibili</string>
     <string name="layout_elements">Elementi dell\'aspetto</string>
     <string name="layout_languages">Layout Languages</string>
-    
+    <string name="layout_depths">Layout Depths</string>
+
     <string name="nvchart_prefs">Impostazioni NV-digital</string>
     <string name="nvchart_title">Verifica le mappe</string>
     <string name="nvchart_summary">Ottiene la chiave per le mappe NV-digital</string>
@@ -522,6 +540,10 @@
     <!-- GPS Prefs -->    
 
     <string name="gps_title">Impostazioni GPS</string>
+<!-- new -->
+    <string name="gps_use_traccar">Use Traccar</string>
+    <string name="gps_use_traccar_summary">Use a Traccar connection to get way point updates</string>
+
     <string name="gps_use_gpsgate">Utilizza GpsGate</string>
     <string name="gps_use_gpsgate_summary">Chiede aggiornamenti dei Wpt a un server GpsGate</string>
 
@@ -708,8 +730,19 @@
     
     <string name="save_log">Salva automaticamente &#8230;</string>
     <string name="save_log_summary">&#8230; a fine registrazione traccia</string>
-    
-    
+
+    <!-- new -->
+    <!-- Depths on chart  -->
+    <string name="map_depth_prefs">Depth Settings</string>
+    <string name="map_depth_shallow_title">Depth Shallow</string>
+    <string name="map_depth_shallow_summary">Depth below</string>
+
+    <string name="map_depth_safety_title">Depth Safety</string>
+    <string name="map_depth_safety_summary">Depth safety</string>
+
+    <string name="map_depth_deep_title">Depth Deep</string>
+    <string name="map_depth_deep_summary">Depth deep water</string>
+
     <!-- SMS Prefs -->    
     <string name="sms_prefs">Impostazioni per la gestione degli SMS</string>
 
@@ -1117,6 +1150,7 @@
     <string name="yes">Si</string>
 	<string name="no">No</string>
 	<string name="ok">OK</string>
+    <string name="connect">Connect</string>
 	<string name="start">Inizia</string>
     <!-- new -->
     <string name="stop">Stop</string>
@@ -1148,6 +1182,9 @@
 
     <string name="genlogs_shortcut_short_label1">Gen Error Logs</string>
     <string name="genlogs_shortcut_long_label1">Generate error log and send</string>
+
+    <string name="clearprefs_shortcut_short_label1">Start w/o settings</string>
+    <string name="clearprefs_shortcut_long_label1">Start without settings</string>
 
     <!-- arrays -->
     <!-- way point -->
