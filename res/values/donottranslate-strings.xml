@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AFTrack</string>
+
+    <string name="app_lite_name">AFTrack Lite</string>
+
+    <string name="dialog_sailtimer_title">SailTimer™ API</string>
+    <string name="dialog_sailtimerplugin_title">SailTimer™ API</string>
+
+    <string name="wpt_format_D">D.D</string>
+    <string name="wpt_format_DM">D M.M</string>
+    <string name="wpt_format_DMS">D M S.S</string>
+    <string name="wpt_format_UTM">UTM</string>
+    <string name="wpt_format_UKGRID">OS</string>
+
+    <!-- location -->
+    <string name="entries_list_locformat_0">D.D</string>
+    <string name="entries_list_locformat_1">D M.M</string>
+    <string name="entries_list_locformat_2">D M S.S</string>
+    <string name="entries_list_locformat_3">UTM Format</string>
+    <string name="entries_list_locformat_4">MGRS / USNG</string>
+    <string name="entries_list_locformat_5">UK Ordnance Survey Grid</string>
+
+</resources>

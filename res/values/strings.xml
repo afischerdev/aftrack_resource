@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">AFTrack</string>
-
-    <string name="app_lite_name">AFTrack Lite</string>
     <string name="app_lite">Welcome to the Lite Version of AFTrack</string>
     <string name="app_lite_delete">The full version is already available. Delete this version now?</string>
     <string name="app_buy">Buy now</string>
@@ -70,6 +67,7 @@
     <string name="menu_export_ovl">OVL</string>
     <string name="with_waypoint_group">With Waypoint Group</string>
     <string name="with_favorites">With Favorites</string>
+    <string name="with_rtehints">With Routing Hints</string>
 
     <string name="menu_startrouting">Start Routing</string>
     <string name="menu_stoprouting">Stop Routing</string>
@@ -91,6 +89,7 @@
     <string name="menu_droppictures">Track without Pictures</string>
     <string name="resample_new_route">Generate new route</string>
     <string name="resample_route">Resample Route</string>
+    <string name="menu_clear_hints">Clear routing hints</string>
 
 
     <!-- Lists -->
@@ -243,12 +242,21 @@
     <string name="routelinesize_title">Route Line Size</string>
     <string name="routelinesize_summary">How to display a Route</string>
     <string name="runroutelinesize_summary">How to display a running Route</string>
+    <string name="rerouting_title">Allow Rerouting</string>
+    <string name="rerouting_summary">Start rerouting when current route is left</string>
+    <string name="voicehint_title">Allow Voice Hints</string>
+    <string name="voicehint_summary">Start routing with voice markers</string>
+    <string name="voicehintprefs_title">Voice Hints Settings</string>
+    <string name="voicehintprefs_summary">Settings for voice hint generation</string>
 
     <string name="routeproximity_title">Route Alarm Distance</string>
     <string name="routeproximity_summary">Distance to next route point</string>
 
     <string name="calculatespeed_title">Assumed Speed</string>
-    <string name="calculatespeed_summary">Speed for arrive time calculation</string>
+    <string name="calculatespeed_foot_title">Assumed Speed Pedestrian</string>
+    <string name="calculatespeed_car_title">Assumed Speed Car</string>
+    <string name="calculatespeed_bike_title">Assumed Speed Bike</string>
+    <string name="calculatespeed_summary">Speed for arrival time calculation</string>
 
     <string name="routeupdownhill_title">Up/Down Colors</string>
     <string name="routeupdownhill_summary">Display up/down hill colors for the Route</string>
@@ -493,7 +501,9 @@
     
     <string name="gps_bt">Bluetooth Gps</string>
     <string name="gps_bt_summary">BT Gps device </string>
-    
+    <string name="gps_bt_nopermission">No BT Permission granted</string>
+    <string name="dialog_need_bt_permission">"The app needs BT permission when you like to use a BT gps device.</string>
+
     <string name="gps_bt_close">Close Bluetooth</string>
     <string name="gps_bt_close_summary">Close BT after use</string>
     
@@ -630,7 +640,11 @@
     <string name="gps_alarm_dist">Anchor Distance</string>
     <string name="gps_alarm_dist_summary">Set Anchor Distance in Meter</string>
 
-	<!-- GPS Time  -->        
+    <string name="wind_alarm_title">Wind Alarm Settings</string>
+    <string name="wind_alarm_speed">Wind Speed Alarm</string>
+    <string name="wind_alarm_speed_summary">Set Wind Speed in knots</string>
+
+    <!-- GPS Time  -->
     <string name="gps_time_prefs">GPS Refresh Settings</string>
     <string name="gps_time_prefs_summary">Refresh frequency for the gps</string>
     <string name="gps_time_seconds_title">Seconds</string>
@@ -894,6 +908,8 @@
 
     <string name="routing_title">Routing Settings</string>
     <string name="routing_summary">Collect routing parameters</string>
+    <string name="onrouting_title">On Routing Settings</string>
+    <string name="onrouting_summary">Define on routing parameters</string>
     <string name="route_mode">Routing Mode</string>
     <string name="routing_only">Only this</string>
     <string name="use_for_tracking">Use for Tracking</string>
@@ -903,14 +919,24 @@
     <string name="generate_hints">Generate pseudo hints</string>
     <string name="routing_send_nogo">Send NoGos</string>
     <string name="routing_send_nogo_summary">Send NoGo lines/areas to router</string>
+    <string name="draw_routing_hint_marker">Show hint marker</string>
+    <string name="draw_routing_hint_marker_summary">Show info marker along route</string>
 
     <string name="language_list_title">Language</string>
     <string name="language_list_summary">Select a language for the app</string>
+    <string name="install_language_title">Install Language</string>
+    <string name="install_language_summary">Install language and voice</string>
+
+    <string name="select_language_title">Language</string>
+    <string name="select_language_summary">Select language and voice</string>
+
+    <string name="default_language">Default App Language</string>
 
 	<string name="selectfile">Select File</string>
 	<string name="deletefile">Delete File</string>
 
-	<string name="anchoralarm">Anchor Alarm</string>
+    <string name="anchoralarm">Anchor Alarm</string>
+    <string name="windalarm">Wind Alarm</string>
 	<string name="wptalarm">Way point Alarm</string>
 	<string name="corridoralarm">XTE Alarm</string>
     <string name="aisalarm">AIS Alarm</string>
@@ -1006,9 +1032,7 @@
 	<string name="dialog_nvc_cd">CD-Key</string>
 	<string name="dialog_nvc_send">Send</string>
 	<string name="dialog_nvc_state">State</string>
-	<string name="dialog_sailtimer_title">SailTimer™ API</string>
 	<string name="dialog_sailtimer_text">API not found. Like to install it for wind instrument and/or wind clould?</string>
-	<string name="dialog_sailtimerplugin_title">SailTimer™ API</string>
 	<string name="dialog_sailtimerplugin_text">API found. Like to install the plugin for wind instrument and/or wind clould?</string>
 								
 	<string name="gpsgate_prefs">GpsGate Settings</string>
@@ -1027,7 +1051,10 @@
 
     <string name="whatsnew_dialog_title">New Features</string>
     <string name="weather_dialog_title">Weather</string>
-    
+
+    <string name="permission_dialog_title">Permission</string>
+    <string name="location_disclosure">AFTrack collects position data into a local database to enable tracking (recording of positions) even in the background. These can then be exported, shared or otherwise processed by the user.</string>
+
     <string name="import_dialog_title">Import</string>
     <string name="import_dialog_route">Route</string>
     <string name="import_dialog_waypoint">Way point</string>
@@ -1036,11 +1063,6 @@
     <string name="dialog_wpt_get_address">Get Address</string>
     <string name="dialog_wpt_get_position">Get Position</string>
     <string name="wpt_pos_format">Position Format</string>
-    <string name="wpt_format_D">D.D</string>
-	<string name="wpt_format_DM">D M.M</string>
-	<string name="wpt_format_DMS">D M S.S</string>
-	<string name="wpt_format_UTM">UTM</string>
-	<string name="wpt_format_UKGRID">OS</string>
 
     <string name="set_wind">Set Wind</string>
 	<string name="boat_best_angle">Up Wind Best Angle</string>
@@ -1056,6 +1078,13 @@
 
     <string name="selectmap">OSM Map Inspector</string>
 
+    <string name="route_revers_dialog_title">Route revers</string>
+    <string name="route_revers_dialog_text">This route contains routing hints. Revers will drop this info. Continue?</string>
+
+    <string name="debug_data_disclosure">This function sends the last error log entries of AFTrack to the developer. The data is used exclusively to detect errors and improve the app.</string>
+
+    <string name="dialog_download">Waterway Tiles Download</string>
+
     <!--  Messages  -->
 	<string name="save_file">Save File</string>
     <string name="lines_imported"> Lines imported</string>
@@ -1064,8 +1093,11 @@
 	<string name="noFilemanagerInstalled">No FileManager found</string>
 	<string name="exit_dialog_title">Quit</string>
 	<string name="exit_dialog">Are you sure you want to exit?</string>
-	<string name="exit_anchoralarm_title">Anchor Alarm</string>
-	<string name="exit_anchoralarm">Close the Anchor Alarm now?</string>
+    <string name="exit_anchoralarm_title">Anchor Alarm</string>
+    <string name="exit_anchoralarm">Close the Anchor Alarm now?</string>
+    <string name="exit_windalarm_title">Wind Alarm</string>
+    <string name="exit_windalarm">Close the Wind Alarm now?</string>
+    <string name="wind_running">Wind Alarm is running</string>
 	<string name="no_gps_enabled">GPS is not enabled</string>
 	<string name="receive_sms">: Position received</string>
     <string name="sms_not_available">No SMS feature found</string>
@@ -1076,6 +1108,7 @@
     <string name="anchor_running">Anchor Alarm is running</string>
     <string name="goto_running">GoTo Mode is running</string>
     <string name="mock_running">Mock Location Mode is running</string>
+    <string name="nmealog_running">NMEA log is running</string>
     <string name="route_running">Routing is running</string>
 	<string name="rte_atstart">Found nearer point.
 Start from here?</string>
@@ -1096,6 +1129,7 @@ Start from here?</string>
     <string name="move_to_internal">This map type is not readable in external storage. Move or Copy to app internal storage?</string>
     <string name="dir_move_to_internal">The map type for this folder is not readable in external storage. Move or Copy to app internal storage?</string>
     <string name="round">round</string>
+    <string name="rte_noresult">No results</string>
 
 
     <!-- nearby -->
@@ -1126,6 +1160,7 @@ Start from here?</string>
 	<string name="undo">Undo</string>
     <string name="ignore">Ignore</string>
     <string name="later">Later</string>
+    <string name="understand">Understand</string>
     <string name="copy">Copy</string>
     <string name="move">Move</string>
 
@@ -1163,13 +1198,18 @@ Start from here?</string>
     <string name="entries_list_wptviewlabel_2">medium</string>
     <string name="entries_list_wptviewlabel_3">large</string>
     <string name="entries_list_wptviewlabel_4">big</string>
-    
+
     <!-- way point visibility -->
     <string name="entry_visibility_0">Not Visible</string>
     <string name="entry_visibility_1">Visible</string>
     <string name="entry_visibility_2">With Alarm</string>
     <string name="entry_visibility_3">As Collection</string>
-    
+
+    <!-- way point type -->
+    <string name="entry_wpttype_0">Normal</string>
+    <string name="entry_wpttype_1">NoGo Point</string>
+    <string name="entry_wpttype_2">NoGo weighted Point</string>
+
     <!-- log mode -->
     <string name="entries_list_logmode_0">None</string>
     <string name="entries_list_logmode_1">Smart Car</string>
@@ -1204,13 +1244,6 @@ Start from here?</string>
     <string name="entries_list_areaformat_2">Kilometer</string>
     <string name="entries_list_areaformat_3">Meter</string>
     
-    <!-- location -->
-    <string name="entries_list_locformat_0">D.D</string>
-	<string name="entries_list_locformat_1">D M.M</string>
-	<string name="entries_list_locformat_2">D M S.S</string>
-	<string name="entries_list_locformat_3">UTM Format</string>
-	<string name="entries_list_locformat_4">MGRS / USNG</string>
-	<string name="entries_list_locformat_5">UK Ordnance Survey Grid</string>
 			
     <!-- map pointer -->
     <string name="entry_list_mappointer_0">Small</string>
@@ -1290,9 +1323,9 @@ Start from here?</string>
 	<string name="settings_2">Display Settings</string>
 	<string name="settings_3">Map Settings</string>
 	<string name="settings_4">Online Settings</string>
-	<string name="settings_5">SMS Settings</string>
-	<string name="settings_6">IGC Settings</string>
-    
+	<string name="settings_5">IGC Settings</string>
+    <string name="settings_6">SMS Settings</string>
+
 	<!-- lists -->
 	<string name="lists_0">Track</string>
 	<string name="lists_1">Route</string>
@@ -1307,7 +1340,7 @@ Start from here?</string>
 	<string name="large">large</string>
 	<string name="huge">huge</string>
 
-    <!-- Cahce Age Type -->
+    <!-- Cache Age Type -->
     <string name="never">never</string>
     <string name="oneday">One Day</string>
     <string name="oneweek">One Week</string>
@@ -1362,12 +1395,12 @@ Start from here?</string>
     <string name="entries_list_addwpt_2">Map Center</string>
     <string name="entries_list_addwpt_3">Bearing</string>
     <string name="entries_list_addwpt_4">Route here</string>
-    <string name="entries_list_addwpt_5">New Collection</string>
+    <string name="entries_list_addwpt_5">Route to last way point</string>
+    <string name="entries_list_addwpt_6">New Collection</string>
 
     <string name="entries_list_mapinspector_0">Offline Map Marks</string>
     <string name="entries_list_mapinspector_1">Offline Poi Marks</string>
     <string name="entries_list_mapinspector_2">Landmarks</string>
     <string name="entries_list_mapinspector_3">Seamarks</string>
-
 
 </resources>

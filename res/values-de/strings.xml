@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AFTrack</string>
-
-    <string name="app_lite_name">AFTrack Lite</string>
     <string name="app_lite">Willkommen zur Lite-Version von AFTrack</string>
     <string name="app_lite_delete">Die Vollversion ist bereits vorhanden. Diese Version jetzt löschen?</string>
     <string name="app_buy">Jetzt kaufen</string>
@@ -16,7 +13,7 @@
     <string name="permission_write">Benötige Schreibberechtigung</string>
     <string name="permission_position">Benötige genaue Standort-Berechtigung</string>
     <string name="permission_sms">Benötige SMS-Berechtigung</string>
-    <string name="permission_contact">Benötige Kontact-Berechtigung</string>
+    <string name="permission_contact">Benötige Kontakt-Berechtigung</string>
     <string name="permission_id">Benötige Geräte Id Berechtigung</string>
     <string name="permission_get">Erlauben</string>
     
@@ -69,6 +66,7 @@
     <string name="menu_export_ovl">OVL</string>
     <string name="with_waypoint_group">Mit Wegpunktgruppe</string>
     <string name="with_favorites">Mit Favoriten</string>
+    <string name="with_rtehints">Mit Routinganweisungen</string>
 
     <string name="menu_startrouting">Starte Routing</string>
     <string name="menu_stoprouting">Stopp Routing</string>
@@ -90,6 +88,7 @@
     <string name="menu_droppictures">Track ohne Fotos</string>
     <string name="resample_new_route">Neue Route anlegen</string>
     <string name="resample_route">Route neu berechnen</string>
+    <string name="menu_clear_hints">Routinganweisungen löschen</string>
 
 
     <string name="list_new_map">Import</string>
@@ -259,12 +258,21 @@
     <string name="routelinesize_title">Route Linienstärke</string>
     <string name="routelinesize_summary">Wie soll eine Route angezeigt werden</string>
     <string name="runroutelinesize_summary">Wie soll eine laufende Route angezeigt werden</string>
+    <string name="rerouting_title">Rerouting zulassen</string>
+    <string name="rerouting_summary">Starte Routenneuberechnung wenn die aktuelle verlassen wird</string>
+    <string name="voicehint_title">Sprachansagen zulassen</string>
+    <string name="voicehint_summary">Es werden Routinganweisungen ausgegeben</string>
+    <string name="voicehintprefs_title">Einstellung Spachansagen</string>
+    <string name="voicehintprefs_summary">Anweisungen für den Routenablauf einstellen</string>
 
     <string name="routeproximity_title">Route Alarm Distanz</string>
     <string name="routeproximity_summary">Distanz zum nächsten Routenpunkt</string>
 
     <string name="calculatespeed_title">Angenommene Geschwindigkeit</string>
-    <string name="calculatespeed_summary">Geschwindigkeit für die Berechnung der Ankunft</string>
+    <string name="calculatespeed_foot_title">Geschwindigkeit Fußgänger</string>
+    <string name="calculatespeed_car_title">Geschwindigkeit Auto</string>
+    <string name="calculatespeed_bike_title">Geschwindigkeit Fahrrad</string>
+    <string name="calculatespeed_summary">Angenommene Geschwindigkeit für die Berechnung der Ankunft</string>
 
     <string name="routeupdownhill_title">Up/Down Farben</string>
     <string name="routeupdownhill_summary">Anzeigen von up/down Farben für die Route</string>
@@ -518,7 +526,9 @@
     
     <string name="gps_bt">Bluetooth Gps</string>
     <string name="gps_bt_summary">BT Gps device </string>
-    
+    <string name="gps_bt_nopermission">Keine BT Berechtigung vergeben</string>
+    <string name="dialog_need_bt_permission">Diese App benötigt eine BT Berechtigung, wenn ein BT Gps Gerät genutzt werden soll.</string>
+
     <string name="gps_bt_close">Bluetooth schließen</string>
     <string name="gps_bt_close_summary">Bluetooth beenden nach Benutzung</string>
     
@@ -651,7 +661,11 @@
     <string name="gps_alarm_dist">Anker Distanz</string>
     <string name="gps_alarm_dist_summary">Distanz für Ankeralarm in Meter</string>
 
-    	<!-- GPS Time  -->        
+    <string name="wind_alarm_title">Wind Alarm Einstellungen</string>
+    <string name="wind_alarm_speed">Windspeed Alarm</string>
+    <string name="wind_alarm_speed_summary">Alarm Windspeed in Knoten</string>
+
+    <!-- GPS Time  -->
     <string name="gps_time_prefs">GPS Update Einstellungen</string>
     <string name="gps_time_prefs_summary">Updatehäufigkeit einstellen</string>
     <string name="gps_time_seconds_title">Sekunden</string>
@@ -887,6 +901,8 @@
 
     <string name="routing_title">Routing Einstellungen</string>
     <string name="routing_summary">Routing Parameter vorbelegen</string>
+    <string name="onrouting_title">On Routing Einstellungen</string>
+    <string name="onrouting_summary">Parameter während des Routings</string>
     <string name="route_mode">Routing Modus</string>
     <string name="routing_only">Nur dies</string>
     <string name="use_for_tracking">Tracking mit Unterstützung</string>
@@ -896,14 +912,24 @@
     <string name="generate_hints">Generiere Pseudo-Routinganweisungen</string>
     <string name="routing_send_nogo">Sende NoGos</string>
     <string name="routing_send_nogo_summary">Sende NoGo Linien/Areas zum Router</string>
+    <string name="draw_routing_hint_marker">Zeige Route Marker</string>
+    <string name="draw_routing_hint_marker_summary">Zeige Infomarker an der Route</string>
 
     <string name="language_list_title">Sprache</string>
     <string name="language_list_summary">Ein Sprache für die App wählen</string>
+    <string name="install_language_title">Sprache installieren</string>
+    <string name="install_language_summary">Installieren von Sprachen und Aussprachen</string>
+
+    <string name="select_language_title">Sprache</string>
+    <string name="select_language_summary">Sprache auswählen</string>
+
+    <string name="default_language">Standardsprache der App</string>
 
     <string name="selectfile">Auswahl File</string>
 	<string name="deletefile">Lösche File</string>
 	
 	<string name="anchoralarm">Anker Alarm</string>
+    <string name="windalarm">Wind Alarm</string>
 	<string name="wptalarm">Wegepunkt Alarm</string>
 	<string name="corridoralarm">XTE Alarm</string>
     <string name="aisalarm">AIS Alarm</string>
@@ -1000,9 +1026,7 @@
 	<string name="dialog_nvc_cd">CD-Key</string>
 	<string name="dialog_nvc_send">Senden</string>
 	<string name="dialog_nvc_state">Status</string>
-	<string name="dialog_sailtimer_title">SailTimer™ API</string>
 	<string name="dialog_sailtimer_text">API nicht gefunden. Installieren zur Nutzung des Windinstrument und/oder der Wind Clould?</string>
-	<string name="dialog_sailtimerplugin_title">SailTimer™ API</string>
 	<string name="dialog_sailtimerplugin_text">API gefunden. Soll das Plugin dafür installiert werden?</string>
 					
 	<string name="gpsgate_prefs">GpsGate Einstellungen</string>
@@ -1022,7 +1046,10 @@
     
     <string name="whatsnew_dialog_title">Was ist neu?</string>
     <string name="weather_dialog_title">Wetter</string>
-    
+
+    <string name="permission_dialog_title">Berechtigung</string>
+    <string name="location_disclosure">AFTrack sammelt Positionsdaten in einer lokalen Datenbank, um Tracking (Aufzeichnung von Positionen) auch im Hintergrund zu ermöglichen. Diese können dann vom Nutzer exportiert, geteilt oder anders weiterverarbeitet werden.</string>
+
     <string name="import_dialog_title">Import</string>
     <string name="import_dialog_route">Route</string>
     <string name="import_dialog_waypoint">Wegepunkt</string>
@@ -1032,11 +1059,7 @@
     <string name="dialog_wpt_get_address">Hole Adresse</string>
     <string name="dialog_wpt_get_position">Hole Position</string>
     <string name="wpt_pos_format">Position Format</string>
-    <string name="wpt_format_D">D.D</string>
-	<string name="wpt_format_DM">D M.M</string>
-	<string name="wpt_format_DMS">D M S.S</string>
-	<string name="wpt_format_UTM">UTM</string>
-	<string name="wpt_format_UKGRID">OS</string>
+
 	<string name="set_wind">Wind einstellen</string>
 	<string name="boat_best_angle">Bester Winkel zum Wind</string>
 	<string name="boat_max_speed">Max. Geschwindigkeit (kts)</string>
@@ -1051,6 +1074,13 @@
 
     <string name="selectmap">OSM Map Inspektor</string>
 
+    <string name="route_revers_dialog_title">Route revers</string>
+    <string name="route_revers_dialog_text">Diese Route enthält Routinganweisungen. Revers wird diese Info löschen. Weiter?</string>
+
+    <string name="debug_data_disclosure">Diese Funktion sendet die letzten Fehlerprotokolleinträge an den Entwickler. Die Daten werden ausschließlich dazu verwendet, Fehler zu erkennen und die App zu verbessern.</string>
+
+    <string name="dialog_download">Wasserwege: Tiles Download</string>
+
     <!--  Messages  -->
 	<string name="save_file">Sichere File</string>
 	<string name="lines_imported"> Zeile(n) importiert</string>
@@ -1061,6 +1091,8 @@
 	<string name="exit_dialog">Wirklich beenden?</string>
 	<string name="exit_anchoralarm_title">Anker Alarm</string>
 	<string name="exit_anchoralarm">Ankeralarm beenden?</string>
+    <string name="exit_windalarm_title">Wind Alarm</string>
+    <string name="exit_windalarm">Windalarm beenden?</string>
 	<string name="no_gps_enabled">GPS ist nicht möglich</string>
 	<string name="receive_sms">: Position erhalten</string>
     <string name="sms_not_available">Keine SMS Funktion gefunden</string>
@@ -1071,6 +1103,7 @@
 	<string name="anchor_running">Ankeralarm läuft</string>
     <string name="goto_running">GoTo Mode läuft</string>
     <string name="mock_running">Mock Location Mode läuft</string>
+    <string name="nmealog_running">NMEA Log läuft</string>
     <string name="route_running">Routing läuft</string>
 	<string name="rte_atstart">Näheren Punkt gefunden.
 Von hier starten?</string>
@@ -1091,6 +1124,7 @@ Von hier starten?</string>
     <string name="move_to_internal">Dieser Kartentyp kann nicht im externen Speicher gelesen werden. Verschieben oder kopieren in den internen Speicher?</string>
     <string name="dir_move_to_internal">Der Kartentyp in diesem Verzeichnis kann nicht im externen Speicher gelesen werden. Verschieben oder kopieren in den internen Speicher?</string>
     <string name="round">rund</string>
+    <string name="rte_noresult">Kein Ergebnisse</string>
 
 
     <!-- nearby -->
@@ -1121,6 +1155,7 @@ Von hier starten?</string>
 	<string name="undo">Rückgängig</string>
     <string name="ignore">Ignorieren</string>
     <string name="later">Später</string>
+    <string name="understand">Verstanden</string>
     <string name="copy">Kopieren</string>
     <string name="move">Verschieben</string>
 
@@ -1162,7 +1197,13 @@ Von hier starten?</string>
     <string name="entry_visibility_1">Sichtbar</string>
     <string name="entry_visibility_2">Mit Alarm</string>
     <string name="entry_visibility_3">Als Kollektion</string>
-    
+
+    <!-- way point type -->
+    <string name="entry_wpttype_0">Normal</string>
+    <string name="entry_wpttype_1">NoGo Punkt</string>
+    <string name="entry_wpttype_2">NoGo Punkt gewichtet</string>
+
+
     <!-- log mode -->
     <string name="entries_list_logmode_0">Kein Log</string>
     <string name="entries_list_logmode_1">Smart Auto</string>
@@ -1196,15 +1237,7 @@ Von hier starten?</string>
     <string name="entries_list_areaformat_1">Meile</string>
     <string name="entries_list_areaformat_2">Kilometer</string>
     <string name="entries_list_areaformat_3">Meter</string>
-    
-    <!-- location -->
-    <string name="entries_list_locformat_0">D.D</string>
-	<string name="entries_list_locformat_1">D M.M</string>
-	<string name="entries_list_locformat_2">D M S.S</string>
-	<string name="entries_list_locformat_3">UTM Format</string>
-	<string name="entries_list_locformat_4">MGRS / USNG</string>
-	<string name="entries_list_locformat_5">UK Ordnance Survey Grid</string>
-	
+
     <!-- map pointer -->
     <string name="entry_list_mappointer_0">Klein</string>
     <string name="entry_list_mappointer_1">Klein gefüllt</string>
@@ -1283,8 +1316,8 @@ Von hier starten?</string>
 	<string name="settings_2">Display Einstellungen</string>
 	<string name="settings_3">Karten Einstellungen</string>
 	<string name="settings_4">Online Einstellungen</string>
-	<string name="settings_5">SMS Einstellungen</string>
-	<string name="settings_6">IGC Einstellungen</string>
+	<string name="settings_5">IGC Einstellungen</string>
+    <string name="settings_6">SMS Einstellungen</string>
 
 	<!-- lists -->
 	<string name="lists_0">Track</string>
@@ -1356,7 +1389,8 @@ Von hier starten?</string>
     <string name="entries_list_addwpt_2">Kartenmitte</string>
     <string name="entries_list_addwpt_3">Peilung</string>
     <string name="entries_list_addwpt_4">Route hierhin</string>
-    <string name="entries_list_addwpt_5">Neue Wegepunkt Kollektion</string>
+    <string name="entries_list_addwpt_5">Route zum letzten Wegepunkt</string>
+    <string name="entries_list_addwpt_6">Neue Wegepunkt Kollektion</string>
 
     <string name="entries_list_mapinspector_0">Offline: Karten Daten</string>
     <string name="entries_list_mapinspector_1">Offline: Poi Daten</string>
