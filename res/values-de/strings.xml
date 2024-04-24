@@ -1341,6 +1341,7 @@ Von hier starten?</string>
 
     <!-- Send to -->
 	<string name="osmupload">OSM Upload</string>
+    <string name="sigmaupload">Sigma/VDO Upload</string>
 	<string name="others">Andere &#8230;</string>
 
 		<!-- areas -->

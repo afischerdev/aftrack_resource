@@ -279,7 +279,7 @@
 
     <string name="noneview_list_title">View Content</string>
 
-    <string name="display_prefs">Display Settings</string>
+    <string name="display_prefs">Настройки дисплея</string>
     <string name="display_rte_center">Center Tracks/Routes</string>
     <string name="display_rte_center_summary">Display Tracks/Routes centered</string>
 
@@ -482,7 +482,7 @@
     
 	<!-- GPS Prefs -->    
 
-    <string name="gps_title">GPS Settings</string>
+    <string name="gps_title">GPS Настройки</string>
     <string name="gps_use_traccar">Use Traccar</string>
     <string name="gps_use_traccar_summary">Use a Traccar connection to get way point updates</string>
 
@@ -716,7 +716,7 @@
     <string name="own_ais_summary">If filled this is not shown</string>
     
     <!-- SMS Prefs -->    
-    <string name="sms_prefs">SMS Settings</string>
+    <string name="sms_prefs">SMS Настройки</string>
 
     <string name="sms_install_title">SMS Permission</string>
     <string name="sms_install_summary">Get SMS Permission information</string>
@@ -765,7 +765,7 @@
     
     
 	<!-- HTTP Prefs -->    
-	<string name="online_prefs">Online Settings</string>
+	<string name="online_prefs">Онлайн настройки</string>
 
 		<string name="http_profiles">Profiles</string>
 	<string name="http_profile">Profile</string>
@@ -846,7 +846,7 @@
 	<string name="http_upload">Upload</string>
     
 	<!-- IGC Prefs -->    
-    <string name="igc_prefs">IGC Settings</string>
+    <string name="igc_prefs">IGC настройки</string>
     <string name="igcname_title">Name</string>
     <string name="igcname_summary">Give it a Name</string>
     
@@ -1316,12 +1316,12 @@ Start from here?</string>
     
     <!-- settings -->
     <string name="settings_0">Easy Settings</string>
-    <string name="settings_1">GPS Settings</string>
-	<string name="settings_2">Display Settings</string>
-	<string name="settings_3">Map Settings</string>
-	<string name="settings_4">Online Settings</string>
-	<string name="settings_5">IGC Settings</string>
-    <string name="settings_6">SMS Settings</string>
+    <string name="settings_1">GPS Настройки</string>
+	<string name="settings_2">Настройки дисплея</string>
+	<string name="settings_3">Настройки карты</string>
+	<string name="settings_4">Онлайн настройки</string>
+	<string name="settings_5">IGC настройки</string>
+    <string name="settings_6">SSMS Настройки</string>
 
 	<!-- lists -->
 	<string name="lists_0">Track</string>
@@ -1345,6 +1345,7 @@ Start from here?</string>
 
     <!-- Send to -->
 	<string name="osmupload">OSM Upload</string>
+    <string name="sigmaupload">Sigma/VDO Upload</string>
 	<string name="others">Others &#8230;</string>
 	
 	<!-- areas -->

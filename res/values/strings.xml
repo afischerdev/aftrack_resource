@@ -1347,7 +1347,8 @@ Start from here?</string>
     <string name="onemonth">One Month</string>
 
     <!-- Send to -->
-	<string name="osmupload">OSM Upload</string>
+    <string name="osmupload">OSM Upload</string>
+    <string name="sigmaupload">Sigma/VDO Upload</string>
 	<string name="others">Others &#8230;</string>
 	
 	<!-- areas -->
