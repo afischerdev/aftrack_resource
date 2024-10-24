@@ -39,7 +39,7 @@
     <string name="menu_sat">GPS Info</string>
 
     <string name="menu_display_settings">Display Einstellungen</string>
-    <string name="menu_simple_settings">Einfache Einstellungen</string>
+    <string name="menu_simple_settings">Preset Einstellungen</string>
     <string name="menu_gps_settings">GPS Einstellungen</string>
     <string name="menu_sms_settings">SMS Einstellungen</string>
     <string name="menu_http_settings">Online Einstellungen</string>
@@ -268,10 +268,13 @@
     <string name="routeproximity_title">Route Alarm Distanz</string>
     <string name="routeproximity_summary">Distanz zum nächsten Routenpunkt</string>
 
+    <string name="calculatespeed_label">Geschwindigkeit</string>
     <string name="calculatespeed_title">Angenommene Geschwindigkeit</string>
     <string name="calculatespeed_foot_title">Geschwindigkeit Fußgänger</string>
     <string name="calculatespeed_car_title">Geschwindigkeit Auto</string>
     <string name="calculatespeed_bike_title">Geschwindigkeit Fahrrad</string>
+    <string name="calculatespeed_boat_title">Geschwindigkeit Boot</string>
+    <string name="calculatespeed_canoe_title">Geschwindigkeit Kanu</string>
     <string name="calculatespeed_summary">Angenommene Geschwindigkeit für die Berechnung der Ankunft</string>
 
     <string name="routeupdownhill_title">Up/Down Farben</string>
@@ -360,6 +363,9 @@
     <string name="display_10MinDistance">Zeige 10 Min.</string>
     <string name="display_10MinDistance_summary">Zeige eine Distanzlinie für 10 Minuten</string>
 
+    <string name="mindistance_title">Zeige Min. Distanz</string>
+    <string name="mindistance_summary">Zeige eine Distanzlinie für x Minuten</string>
+
     <string name="virtualpositionradius_title">Radius VP</string>
     <string name="virtualpositionradius_summary">Radius für die virtuelle Positionskontrolle (km)</string>
        
@@ -386,6 +392,9 @@
 
     <string name="mapposition_title">Zeige Karten Position</string>
     <string name="mapposition_summary">Zeige Koordinaten für das Kartenzentrum </string>
+
+    <string name="bigviewlogic_title">Instrumentenansicht</string>
+    <string name="bigviewlogic_summary">Zeige versch. Instrumente im großen Fenster</string>
 
     <string name="cachedir_title">Cache Verzeichnis</string>
     <string name="cachedir_summary">Bestimmen des Cache Speichers</string>
@@ -1093,6 +1102,7 @@
 	<string name="exit_anchoralarm">Ankeralarm beenden?</string>
     <string name="exit_windalarm_title">Wind Alarm</string>
     <string name="exit_windalarm">Windalarm beenden?</string>
+    <string name="wind_running">Wind Alarm läuft</string>
 	<string name="no_gps_enabled">GPS ist nicht möglich</string>
 	<string name="receive_sms">: Position erhalten</string>
     <string name="sms_not_available">Keine SMS Funktion gefunden</string>
@@ -1124,7 +1134,7 @@ Von hier starten?</string>
     <string name="move_to_internal">Dieser Kartentyp kann nicht im externen Speicher gelesen werden. Verschieben oder kopieren in den internen Speicher?</string>
     <string name="dir_move_to_internal">Der Kartentyp in diesem Verzeichnis kann nicht im externen Speicher gelesen werden. Verschieben oder kopieren in den internen Speicher?</string>
     <string name="round">rund</string>
-    <string name="rte_noresult">Kein Ergebnisse</string>
+    <string name="rte_noresult">Keine Ergebnisse</string>
 
 
     <!-- nearby -->
@@ -1172,6 +1182,14 @@ Von hier starten?</string>
 
     <string name="clearprefs_shortcut_short_label1">Start ohne Einstellungen</string>
     <string name="clearprefs_shortcut_long_label1">Starten ohne Einstellungen</string>
+
+    <string name="newtrack_shortcut_short_label1">Starte Track</string>
+    <string name="newtrack_shortcut_long_label1">Starte mit neuem Track</string>
+
+    <string name="prefs_default">Aktuelles Preset</string>
+    <string name="note_speed_view">Speed Format</string>
+    <string name="note_speed_view_summary">Zur Anzeige wird die Preset Vorbelegung genutzt</string>
+    <string name="speedprefs_title">Geschwindigkeit Einstellungen</string>
 
     <!-- arrays -->
     <string name="entries_list_wptview_0">Keine Anzeige</string>
@@ -1247,6 +1265,7 @@ Von hier starten?</string>
 	<string name="entry_list_mappointer_5">Kompassrose</string>
 
     <string name="entry_big_view_0">Instrumenten Ansicht</string>
+    <string name="entry_big_view_0a">Mehr Ansichten</string>
 	<string name="entry_big_view_1">Geschwindigkeit</string>
 	<string name="entry_big_view_2">Kurs</string>
 	<string name="entry_big_view_3">Höhe</string>
@@ -1281,8 +1300,25 @@ Von hier starten?</string>
     <string name="entry_big_view_32">Kompass</string>
 
     <string name="entry_big_gauge_0">Panel Ansicht</string>
+    <string name="entry_big_gauge_0a">Mehr Ansichten</string>
     <string name="entry_big_gauge_1">Wahrer Wind</string>
     <string name="entry_big_gauge_2">Scheinbarer Wind</string>
+    <string name="entry_big_gauge_3">AIS Radar Nord oben</string>
+    <string name="entry_big_gauge_4">AIS Radar Fahrtrichtung oben</string>
+
+    <string name="entry_stat_view_1">10min  Speed</string>
+    <string name="entry_stat_view_2">10min  Direction</string>
+    <string name="entry_stat_view_3">10min  Altitude</string>
+    <string name="entry_stat_view_4">10min  Depth</string>
+    <string name="entry_stat_view_5">10min  CTW</string>
+    <string name="entry_stat_view_6">10min  STW</string>
+
+    <string name="entry_sail_stat_view_1">10min  SOG</string>
+    <string name="entry_sail_stat_view_2">10min  COG</string>
+    <string name="entry_sail_stat_view_3">10min  Altitude</string>
+    <string name="entry_sail_stat_view_4">10min  Depth</string>
+    <string name="entry_sail_stat_view_5">10min  CTW</string>
+    <string name="entry_sail_stat_view_6">10min  STW</string>
 
     <!-- sms type -->
 	<string name="entries_list_smstype_0">GPRMC</string>
@@ -1311,7 +1347,7 @@ Von hier starten?</string>
     <string name="entries_list_color_6">Violet</string>
     
     <!-- settings -->
-    <string name="settings_0">Einfache Einstellungen</string>
+    <string name="settings_0">Preset Einstellungen</string>
     <string name="settings_1">GPS Einstellungen</string>
 	<string name="settings_2">Display Einstellungen</string>
 	<string name="settings_3">Karten Einstellungen</string>
@@ -1397,6 +1433,12 @@ Von hier starten?</string>
     <string name="entries_list_mapinspector_1">Offline: Poi Daten</string>
     <string name="entries_list_mapinspector_2">Landpunkte</string>
     <string name="entries_list_mapinspector_3">Seezeichen</string>
+
+    <string name="preset_hiking_title">Wandern</string>
+    <string name="preset_biking_title">Fahrrad</string>
+    <string name="preset_car_title">Auto</string>
+    <string name="preset_sailing_title">Segeln</string>
+    <string name="preset_canoe_title">Kanufahren</string>
 
 
 </resources>

@@ -39,7 +39,7 @@
     <string name="menu_sat">Informazioni GPS</string>
 
     <string name="menu_display_settings">Impostazioni schermo </string>
-    <string name="menu_simple_settings">Impostazioni facili</string>
+    <string name="menu_simple_settings">Impostazioni predefinite</string>
     
     <string name="menu_gps_settings">Impostazioni GPS</string>
     <string name="menu_sms_settings">Impostazioni SMS</string>
@@ -287,11 +287,14 @@
     <string name="routeproximity_title">Allarme punti percorso</string>
     <string name="routeproximity_summary">Distanza dal prossimo punto sul percorso</string>
 
+    <string name="calculatespeed_label">Velocità</string>
     <string name="calculatespeed_title">Velocità calcolata</string>
 <!-- new -->
     <string name="calculatespeed_foot_title">Assumed Speed Pedestrian</string>
     <string name="calculatespeed_car_title">Assumed Speed Car</string>
     <string name="calculatespeed_bike_title">Assumed Speed Bike</string>
+    <string name="calculatespeed_boat_title">Assummed Speed Boat</string>
+    <string name="calculatespeed_canoe_title">Assumed Speed Canoe</string>
     <string name="calculatespeed_summary">Velocità per il calcolo del tempo di arrivo</string>
 
     <string name="routeupdownhill_title">Salita/discesa</string>
@@ -462,7 +465,10 @@
 
     <string name="display_10MinDistance">Mostra 10 Min.</string>
     <string name="display_10MinDistance_summary">Mostra una linea per un punto distante 10 min</string>
-    
+
+    <string name="mindistance_title">Show Min. Pointer</string>
+    <string name="mindistance_summary">Display a distance line to the position in x Minutes</string>
+
     <string name="virtualpositionradius_title">Raggio posizione</string>
     <string name="virtualpositionradius_summary">In km, per centrare la mappa tra posizione e Wpt.</string>
     
@@ -491,6 +497,9 @@
     <!-- new -->
     <string name="mapposition_title">Show Map Position</string>
     <string name="mapposition_summary">Show map position in dock view</string>
+
+    <string name="bigviewlogic_title">Instrument View</string>
+    <string name="bigviewlogic_summary">Show some instruments in big view</string>
 
     <string name="cachedir_title">Directory di cache</string>
     <string name="cachedir_summary">Imposta il percorso della dir. di cache</string>
@@ -1099,9 +1108,6 @@
     <string name="dialog_wpt_get_address">Cerca l\'indirizzo</string>
     <string name="dialog_wpt_get_position">Dai la posizione</string>
     <string name="wpt_pos_format">Formato posizione</string>
-    <string name="wpt_format_D">°.°</string>
-	<string name="wpt_format_DM">° min.min.</string>
-	<string name="wpt_format_DMS">° min.sec.sec</string>
 
 	<string name="set_wind">Imposta il vento</string>
 	<string name="boat_best_angle">Migliore angolazione controvento</string>
@@ -1141,6 +1147,7 @@
     <!-- new -->
     <string name="exit_windalarm_title">Wind Alarm</string>
     <string name="exit_windalarm">Close the Wind Alarm now?</string>
+    <string name="wind_running">Wind Alarm is running</string>
 	<string name="no_gps_enabled">Il ricevitore GPS non è in funzione</string>
 	<string name="receive_sms">Posizione ricevuta</string>
 	<string name="send_http_ok">Invia posizione</string>
@@ -1228,6 +1235,14 @@
     <string name="clearprefs_shortcut_short_label1">Start w/o settings</string>
     <string name="clearprefs_shortcut_long_label1">Start without settings</string>
 
+    <string name="newtrack_shortcut_short_label1">Start with Track</string>
+    <string name="newtrack_shortcut_long_label1">Start with new Track</string>
+
+    <string name="prefs_default">Current selected Preset</string>
+    <string name="note_speed_view">Speed Format</string>
+    <string name="note_speed_view_summary">To display speed format the preset defaults are used</string>
+    <string name="speedprefs_title">Speed Preferences</string>
+
     <!-- arrays -->
     <!-- way point -->
     <string name="entries_list_wptview_0">Nessun dettaglio</string>
@@ -1304,6 +1319,7 @@
 	
     <!-- big view -->
     <string name="entry_big_view_0">Instrument View</string>
+    <string name="entry_big_view_0a">More Views</string>
 	<string name="entry_big_view_1">Velocità</string>
 	<string name="entry_big_view_2">Direzione</string>
 	<string name="entry_big_view_3">Altitudine</string>
@@ -1338,8 +1354,25 @@
     <string name="entry_big_view_32">Compass</string>
 
     <string name="entry_big_gauge_0">Panel View</string>
+    <string name="entry_big_gauge_0a">Statistic View</string>
     <string name="entry_big_gauge_1">True Wind</string>
     <string name="entry_big_gauge_2">App Wind</string>
+    <string name="entry_big_gauge_3">AIS Radar North Top</string>
+    <string name="entry_big_gauge_4">AIS Radar Direction Top</string>
+
+    <string name="entry_stat_view_1">10min Speed</string>
+    <string name="entry_stat_view_2">10min Direction</string>
+    <string name="entry_stat_view_3">10min Altitude</string>
+    <string name="entry_stat_view_4">10min Depth</string>
+    <string name="entry_stat_view_5">10min CTW</string>
+    <string name="entry_stat_view_6">10min STW</string>
+
+    <string name="entry_sail_stat_view_1">10min  SOG</string>
+    <string name="entry_sail_stat_view_2">10min  COG</string>
+    <string name="entry_sail_stat_view_3">10min  Altitude</string>
+    <string name="entry_sail_stat_view_4">10min  Depth</string>
+    <string name="entry_sail_stat_view_5">10min  CTW</string>
+    <string name="entry_sail_stat_view_6">10min  STW</string>
 
     <!-- sms type -->
 	<string name="entries_list_smstype_0">GPRMC</string>
@@ -1369,7 +1402,7 @@
     
     <!-- settings -->
     <!-- new -->
-    <string name="settings_0">Impostazioni semplici</string>
+    <string name="settings_0">Impostazioni predefinite</string>
     <string name="settings_1">Impostazioni GPS</string>
 	<string name="settings_2">Impostazioni schermo</string>
 	<string name="settings_3">Impostazioni mappa</string>
@@ -1456,5 +1489,10 @@
     <string name="entries_list_mapinspector_2">Landmarks</string>
     <string name="entries_list_mapinspector_3">Seamarks</string>
 
+    <string name="preset_hiking_title">Hiking</string>
+    <string name="preset_biking_title">Biking</string>
+    <string name="preset_car_title">Car</string>
+    <string name="preset_sailing_title">Sailing</string>
+    <string name="preset_canoe_title">Canoe</string>
 
 </resources>

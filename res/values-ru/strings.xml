@@ -41,7 +41,7 @@
     <string name="menu_sat">GPS Инфо</string>
 
     <string name="menu_display_settings">Настройки дисплея</string>
-    <string name="menu_simple_settings">Easy Settings</string>
+    <string name="menu_simple_settings">Preset Settings</string>
     <string name="menu_gps_settings">GPS Настройки</string>
     <string name="menu_sms_settings">SMS Настройки</string>
     <string name="menu_http_settings">Онлайн настройки</string>
@@ -252,10 +252,13 @@
     <string name="routeproximity_title">Route Alarm Distance</string>
     <string name="routeproximity_summary">Distance to next route point</string>
 
+    <string name="calculatespeed_label">Speed</string>
     <string name="calculatespeed_title">Assumed Speed</string>
     <string name="calculatespeed_foot_title">Assumed Speed Pedestrian</string>
     <string name="calculatespeed_car_title">Assumed Speed Car</string>
     <string name="calculatespeed_bike_title">Assumed Speed Bike</string>
+    <string name="calculatespeed_boat_title">Assummed Speed Boat</string>
+    <string name="calculatespeed_canoe_title">Assumed Speed Canoe</string>
     <string name="calculatespeed_summary">Speed for arrive time calculation</string>
 
     <string name="routeupdownhill_title">Up/Down Colors</string>
@@ -391,7 +394,10 @@
    
     <string name="display_10MinDistance">Show 10 Min.</string>
     <string name="display_10MinDistance_summary">Display a distance line to the position in 10 Minutes</string>
-    
+
+    <string name="mindistance_title">Show Min. Pointer</string>
+    <string name="mindistance_summary">Display a distance line to the position in x Minutes</string>
+
     <string name="virtualpositionradius_title">Radius VP</string>
     <string name="virtualpositionradius_summary">Radius for the virtual position check (km)</string>
     
@@ -418,6 +424,9 @@
 
     <string name="mapposition_title">Show Map Position</string>
     <string name="mapposition_summary">Show map position in dock view</string>
+
+    <string name="bigviewlogic_title">Instrument View</string>
+    <string name="bigviewlogic_summary">Show some instruments in big view</string>
 
     <string name="cachedir_title">Cache Directory</string>
     <string name="cachedir_summary">Place the Space for the Cache</string>
@@ -1096,6 +1105,7 @@
 	<string name="exit_anchoralarm">Close the Anchor Alarm now?</string>
     <string name="exit_windalarm_title">Wind Alarm</string>
     <string name="exit_windalarm">Close the Wind Alarm now?</string>
+    <string name="wind_running">Wind Alarm is running</string>
 	<string name="no_gps_enabled">GPS is not enabled</string>
 	<string name="receive_sms">: Position received</string>
     <string name="sms_not_available">No SMS feature found</string>
@@ -1176,6 +1186,15 @@ Start from here?</string>
     <string name="clearprefs_shortcut_short_label1">Start w/o settings</string>
     <string name="clearprefs_shortcut_long_label1">Start without settings</string>
 
+    <string name="newtrack_shortcut_short_label1">Start with Track</string>
+    <string name="newtrack_shortcut_long_label1">Start with new Track</string>
+
+    <string name="prefs_default">Current selected Preset</string>
+    <string name="note_speed_view">Speed Format</string>
+    <string name="note_speed_view_summary">To display speed format the preset defaults are used</string>
+    <string name="speedprefs_title">Speed Preferences</string>
+
+
     <!-- arrays -->
     <!-- way point -->
     <string name="entries_list_wptview_0">None</string>
@@ -1251,6 +1270,7 @@ Start from here?</string>
 	<string name="entry_list_mappointer_5">Compass Ring</string>
 
     <string name="entry_big_view_0">Instrument View</string>
+    <string name="entry_big_view_0a">More Views</string>
     <string name="entry_big_view_1">Speed</string>
     <string name="entry_big_view_2">Course</string>
     <string name="entry_big_view_3">Altitude</string>
@@ -1285,8 +1305,25 @@ Start from here?</string>
     <string name="entry_big_view_32">Compass</string>
 
     <string name="entry_big_gauge_0">Panel View</string>
+    <string name="entry_big_gauge_0a">Statistic View</string>
     <string name="entry_big_gauge_1">True Wind</string>
     <string name="entry_big_gauge_2">App Wind</string>
+    <string name="entry_big_gauge_3">AIS Radar North Top</string>
+    <string name="entry_big_gauge_4">AIS Radar Direction Top</string>
+
+    <string name="entry_stat_view_1">10min Speed</string>
+    <string name="entry_stat_view_2">10min Direction</string>
+    <string name="entry_stat_view_3">10min Altitude</string>
+    <string name="entry_stat_view_4">10min Depth</string>
+    <string name="entry_stat_view_5">10min CTW</string>
+    <string name="entry_stat_view_6">10min STW</string>
+
+    <string name="entry_sail_stat_view_1">10min  SOG</string>
+    <string name="entry_sail_stat_view_2">10min  COG</string>
+    <string name="entry_sail_stat_view_3">10min  Altitude</string>
+    <string name="entry_sail_stat_view_4">10min  Depth</string>
+    <string name="entry_sail_stat_view_5">10min  CTW</string>
+    <string name="entry_sail_stat_view_6">10min  STW</string>
 
     <!-- sms type -->
 	<string name="entries_list_smstype_0">GPRMC</string>
@@ -1315,7 +1352,7 @@ Start from here?</string>
     <string name="entries_list_color_6">Violet</string>
     
     <!-- settings -->
-    <string name="settings_0">Easy Settings</string>
+    <string name="settings_0">Preset Settings</string>
     <string name="settings_1">GPS Настройки</string>
 	<string name="settings_2">Настройки дисплея</string>
 	<string name="settings_3">Настройки карты</string>
@@ -1401,5 +1438,10 @@ Start from here?</string>
     <string name="entries_list_mapinspector_2">Landmarks</string>
     <string name="entries_list_mapinspector_3">Seamarks</string>
 
+    <string name="preset_hiking_title">Hiking</string>
+    <string name="preset_biking_title">Biking</string>
+    <string name="preset_car_title">Car</string>
+    <string name="preset_sailing_title">Sailing</string>
+    <string name="preset_canoe_title">Canoe</string>
 
 </resources>

@@ -9,6 +9,8 @@ res/values-de/strings.xml is the German translation (finished)
 
 res/values-it/strings.xml is the Italian translation (finished)
 
+res/values-fr/strings.xml is the French translation (only partly, not part of AFTrack at the moment)
+
 res/values-ru/strings.xml is the Russian translation (only partly, not part of AFTrack at the moment)
 </pre>
 
