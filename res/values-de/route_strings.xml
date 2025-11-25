@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="route_tlu">wenden links herum</string>
+    <string name="route_tu">wenden</string>
+    <string name="route_tr">rechts</string>
+    <string name="route_tshr">scharf rechts</string>
+    <string name="route_tslr">halb rechts</string>
+    <string name="route_kr">rechts halten</string>
+    <string name="route_c">gerade aus</string>
+    <string name="route_kl">links halten</string>
+    <string name="route_tl">links</string>
+    <string name="route_tshl">scharf links</string>
+    <string name="route_tsll">halb links</string>
+    <string name="route_tru">wenden rechts herum</string>
+    <string name="route_rndb">Ausfahrt %s nehmen</string>
+    <string name="route_rnlb">Ausfahrt %s nehmen</string>
+    <string name="route_offr">Offroad</string>
+    <string name="route_bl">Direkter Weg</string>
+    <string name="route_el">Ausfahrt links</string>
+    <string name="route_er">Ausfahrt rechts</string>
+    <string name="route_end">Ende der Route</string>
+    <string name="route_close">Routing beendet</string>
+    <string name="route_renew">Routenneuberechnung</string>
+    <string name="route_away">Route verlassen</string>
+    <string name="route_goon">weiter für </string>
+    <string name="route_in">in </string>
+
+    <string name="half_nautical_mile">Mehr als eine halbe nautische Meile</string>
+    <string name="half_mile">Mehr als eine halbe Meile</string>
+
+</resources>

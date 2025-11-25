@@ -32,10 +32,14 @@
     <string name="menu_visibility">Visibility</string>
     <string name="menu_trans">Overlay transparency</string>
     <string name="menu_overlay_plugin">Plugin Overlay</string>
+    <string name="menu_bshstream">BSH Tidal Current Overlay</string>
     <string name="menu_layout">Layout</string>
     <string name="menu_help">Help</string>
     <string name="menu_settings">Settings</string>
-    
+
+    <string name="menu_bsh_northsea">BSH Northsea  Baltic Sea</string>
+    <string name="menu_bsh_coast">BSH German Coast</string>
+
     <string name="menu_big">Big Views</string>
     <string name="menu_sat">GPS Info</string>
 
@@ -291,10 +295,13 @@
     
     <string name="asymmetricposition">Asymmetric Position</string>
     <string name="asymmetricposition_summary">Show the position asymmetric to direction</string>
-    
+
     <string name="keeplight_title">Set Light</string>
     <string name="keeplight_summary">Display light always on</string>
-	
+
+    <string name="runonlockscreen_title">Run on Lock Screen</string>
+    <string name="runonlockscreen_summary">Show app on lock screen</string>
+
     <string name="dockautoview_title">Auto Dock</string>
     <string name="dockautoview_summary">Display dock on \'view on map\' selection</string>
 	
@@ -383,6 +390,9 @@
     <string name="showviewdir_title">Show View Direction</string>
     <string name="showviewdir_summary">Display the View Direction on the map</string>
 
+    <string name="show_bearing_on_move_title">Show Bearing on move</string>
+    <string name="show_bearing_on_move_summary">Display the bearing from position to map center</string>
+
     <string name="pointer_title">Pointer</string>
     <string name="pointer_summary">How to display the GPS Direction</string>
 
@@ -433,7 +443,10 @@
     
     <string name="neveronline_title">Never Online</string>
     <string name="neveronline_summary">Do not use the net connection</string>
-    
+
+    <string name="online_set_title">Online Map Set</string>
+    <string name="online_set_summary">Define a set for the map selector</string>
+
     <string name="automap_title">Auto map</string>
     <string name="automap_summary">Automatic selection of an available map</string>
     
@@ -528,8 +541,8 @@
     <string name="gps_useasgpsd">GPS Daemon</string>
     <string name="gps_useasgpsd_summary">Send positions via gpsd logic</string>
 
-    <string name="gps_useasgpsd_port">GPS Daemon Port</string>
-    <string name="gps_useasgpsd_port_summary">Define a port for gpsd</string>
+    <string name="gps_useasgpsd_port">GPS Daemon Settings</string>
+    <string name="gps_useasgpsd_port_summary">Define for gpsd</string>
 
 
 
@@ -725,8 +738,11 @@
 
     <string name="own_ais_title">Own MMSI</string>
     <string name="own_ais_summary">If filled this is not shown</string>
-    
-    <!-- SMS Prefs -->    
+
+    <string name="clear_ais_db_title">Clear AIS names</string>
+    <string name="clear_ais_db_summary">Drop entries on AIS database</string>
+
+    <!-- SMS Prefs -->
     <string name="sms_prefs">SMS Settings</string>
 
     <string name="sms_install_title">SMS Permission</string>
@@ -1012,7 +1028,8 @@
 	<string name="dialog_show_pwd">Show password</string>
 	<string name="dialog_track_edit_desc">Description</string>
 	<string name="dialog_map_edit_credit">Credits</string>
-	<string name="dialog_wpt_bearing_title">Wpt. Bearing</string>
+    <string name="dialog_use_as_overlay">Use as Overlay</string>
+    <string name="dialog_wpt_bearing_title">Wpt. Bearing</string>
 	<string name="dialog_wpt_bearing">Bearing (°)</string>
 	<string name="dialog_wpt_dist">Distance (m)</string>
 	<string name="delete_dialog">Delete?</string>
@@ -1172,6 +1189,7 @@ Start from here?</string>
     <string name="understand">Understand</string>
     <string name="copy">Copy</string>
     <string name="move">Move</string>
+    <string name="appexit">Close</string>
 
     <string name="error">Error</string>
     <string name="unknown">Unknown</string>
@@ -1302,7 +1320,9 @@ Start from here?</string>
 	<string name="entry_big_view_29">App. Wind Dir.</string>
 	<string name="entry_big_view_30">Course through Water</string>
 	<string name="entry_big_view_31">Speed through Water</string>
-    <string name="entry_big_view_32">Compass</string>
+    <string name="entry_big_view_32">Compass (internal)</string>
+    <string name="entry_big_view_33">Pressure</string>
+    <string name="entry_big_view_34">AutoPilot</string>
 
     <string name="entry_big_gauge_0">Panel View</string>
     <string name="entry_big_gauge_0a">Statistic View</string>
@@ -1317,9 +1337,9 @@ Start from here?</string>
     <string name="entry_stat_view_4">10min Depth</string>
     <string name="entry_stat_view_5">10min CTW</string>
     <string name="entry_stat_view_6">10min STW</string>
-    <string name="entry_stat_view_7">10min  TWS</string>
-    <string name="entry_stat_view_8">10min  TWD</string>
-    <string name="entry_stat_view_9">10min  TWA</string>
+    <string name="entry_stat_view_7">10min TWS</string>
+    <string name="entry_stat_view_8">10min TWD</string>
+    <string name="entry_stat_view_9">1h Pressure</string>
 
     <string name="entry_sail_stat_view_1">10min  SOG</string>
     <string name="entry_sail_stat_view_2">10min  COG</string>
@@ -1329,7 +1349,7 @@ Start from here?</string>
     <string name="entry_sail_stat_view_6">10min  STW</string>
     <string name="entry_sail_stat_view_7">10min  TWS</string>
     <string name="entry_sail_stat_view_8">10min  TWD</string>
-    <string name="entry_sail_stat_view_9">10min  TWA</string>
+    <string name="entry_sail_stat_view_9">1h  Pressure</string>
 
     <!-- sms type -->
 	<string name="entries_list_smstype_0">GPRMC</string>
@@ -1449,6 +1469,7 @@ Start from here?</string>
     <string name="entries_list_mapinspector_1">Offline Poi Marks</string>
     <string name="entries_list_mapinspector_2">Landmarks</string>
     <string name="entries_list_mapinspector_3">Seamarks</string>
+    <string name="entries_list_mapinspector_4">Routing Data</string>
 
 
     <string name="preset_hiking_title">Hiking</string>
@@ -1456,6 +1477,7 @@ Start from here?</string>
     <string name="preset_car_title">Car</string>
     <string name="preset_sailing_title">Sailing</string>
     <string name="preset_canoe_title">Canoe</string>
+
 
 
 </resources>

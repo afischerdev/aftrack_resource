@@ -33,10 +33,14 @@
     <string name="menu_visibility">Visibilité</string>
     <string name="menu_trans">Transparence superposée</string>
     <string name="menu_overlay_plugin">Superposition de plugins"</string>
+    <string name="menu_bshstream">BSH Tidal Current Overlay</string>
     <string name="menu_layout">Plan d\'implantation</string>
     <string name="menu_help">Help</string>
     <string name="menu_settings">Paramètres</string>
-    
+
+    <string name="menu_bsh_northsea">BSH Northsea / Baltic Sea</string>
+    <string name="menu_bsh_coast">BSH German Coast</string>
+
     <string name="menu_big">Grandes vues</string>
     <string name="menu_sat">Informations GPS</string>
 
@@ -291,10 +295,13 @@
     
     <string name="asymmetricposition">Asymmetric Position</string>
     <string name="asymmetricposition_summary">Show the position asymmetric to direction</string>
-    
-    <string name="keeplight_title">Set Light</string>
-    <string name="keeplight_summary">Display light always on</string>
-	
+
+    <string name="keeplight_title">Allumer la lumière</string>
+    <string name="keeplight_summary">L\'écran est toujours allumé</string>
+
+    <string name="runonlockscreen_title">Écran de verrouillage</string>
+    <string name="runonlockscreen_summary">Afficher l\'application sur l\'écran de verrouillage</string>
+
     <string name="dockautoview_title">Auto Dock</string>
     <string name="dockautoview_summary">Display dock on \'view on map\' selection</string>
 	
@@ -383,6 +390,9 @@
     <string name="showviewdir_title">Show View Direction</string>
     <string name="showviewdir_summary">Display the View Direction on the map</string>
 
+    <string name="show_bearing_on_move_title">Show Bearing on move</string>
+    <string name="show_bearing_on_move_summary">Display the bearing from position to map center</string>
+
     <string name="pointer_title">Pointer</string>
     <string name="pointer_summary">How to display the GPS Direction</string>
 
@@ -433,7 +443,10 @@
     
     <string name="neveronline_title">Never Online</string>
     <string name="neveronline_summary">Do not use the net connection</string>
-    
+
+    <string name="online_set_title">Online Map Set</string>
+    <string name="online_set_summary">Define a set for the map selector</string>
+
     <string name="automap_title">Auto map</string>
     <string name="automap_summary">Automatic selection of an available map</string>
     
@@ -528,8 +541,8 @@
     <string name="gps_useasgpsd">GPS Daemon</string>
     <string name="gps_useasgpsd_summary">Send positions via gpsd logic</string>
 
-    <string name="gps_useasgpsd_port">GPS Daemon Port</string>
-    <string name="gps_useasgpsd_port_summary">Define a port for gpsd</string>
+    <string name="gps_useasgpsd_port">GPS Daemon Settings</string>
+    <string name="gps_useasgpsd_port_summary">Define for gpsd</string>
 
     <string name="gps_plugin_title">Paramètres du plugin</string>
     
@@ -723,7 +736,11 @@
 
     <string name="own_ais_title">Own MMSI</string>
     <string name="own_ais_summary">If filled this is not shown</string>
-    
+
+    <string name="clear_ais_db_title">Clear AIS names</string>
+    <string name="clear_ais_db_summary">Drop entries on AIS database</string>
+
+
     <!-- SMS Prefs -->    
     <string name="sms_prefs">Paramètres SMS</string>
 
@@ -1010,6 +1027,7 @@
 	<string name="dialog_show_pwd">Show password</string>
 	<string name="dialog_track_edit_desc">Description</string>
 	<string name="dialog_map_edit_credit">Credits</string>
+    <string name="dialog_use_as_overlay">Use as Overlay</string>
 	<string name="dialog_wpt_bearing_title">Wpt. Bearing</string>
 	<string name="dialog_wpt_bearing">Bearing (°)</string>
 	<string name="dialog_wpt_dist">Distance (m)</string>
@@ -1170,6 +1188,7 @@ Start from here?</string>
     <string name="understand">Comprendre</string>
     <string name="copy">Copie</string>
     <string name="move">Se déplacer</string>
+    <string name="appexit">Fermer</string>
 
     <string name="error">Erreur</string>
     <string name="unknown">Inconnue</string>
@@ -1300,7 +1319,7 @@ Start from here?</string>
 	<string name="entry_big_view_29">App. Wind Dir.</string>
 	<string name="entry_big_view_30">Course through Water</string>
 	<string name="entry_big_view_31">Speed through Water</string>
-    <string name="entry_big_view_32">Compass</string>
+    <string name="entry_big_view_32">Compass (interne)</string>
 
     <string name="entry_big_gauge_0">Panel View</string>
     <string name="entry_big_gauge_0a">Statistic View</string>
@@ -1435,6 +1454,7 @@ Start from here?</string>
     <string name="entries_list_mapinspector_1">Offline Poi Marks</string>
     <string name="entries_list_mapinspector_2">Landmarks</string>
     <string name="entries_list_mapinspector_3">Seamarks</string>
+    <string name="entries_list_mapinspector_4">Routing Data</string>
 
     <string name="preset_hiking_title">Hiking</string>
     <string name="preset_biking_title">Biking</string>

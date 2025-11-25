@@ -31,9 +31,13 @@
     <string name="menu_visibility">Sichtbarkeit</string>
     <string name="menu_trans">Overlay Transparenz</string>
     <string name="menu_overlay_plugin">Plugin Overlay</string>
+    <string name="menu_bshstream">BSH Gezeitenströmung Overlay</string>
     <string name="menu_layout">Layout</string>
     <string name="menu_help">Hilfe</string>
     <string name="menu_settings">Einstellungen</string>
+
+    <string name="menu_bsh_northsea">BSH Nordsee / Ostsee</string>
+    <string name="menu_bsh_coast">BSH Deutsche Küste</string>
 
     <string name="menu_big">Große Infos</string>
     <string name="menu_sat">GPS Info</string>
@@ -325,6 +329,10 @@
     <string name="aismooring_title">Keine ruhenden Schiffe</string>
     <string name="aismooring_summary">Keine Schiffe anzeigen vor Anker, festgemacht oder mit geringer Geschwindigkeit</string>
 
+    <string name="clear_ais_db_title">Lösche AIS Namen</string>
+    <string name="clear_ais_db_summary">Löscht Namen aus der AIS Datenbank</string>
+
+
     <!-- Map Prefs -->
     <string name="dir_title">Verzeichnisse</string>
     <string name="mapdir_title">Kartenverzeichnis</string>
@@ -350,6 +358,9 @@
 
     <string name="showviewdir_title">Zeige Blickrichtung</string>
     <string name="showviewdir_summary">Anzeige der Blickrichtung auf der Karte</string>
+
+    <string name="show_bearing_on_move_title">Zeige Peilung</string>
+    <string name="show_bearing_on_move_summary">Anzeige einer Peilung von der Position zur Kartenmitte</string>
 
     <string name="pointer_title">Zeiger</string>
     <string name="pointer_summary">Anzeige der GPS Richtung</string>
@@ -401,7 +412,10 @@
     
     <string name="neveronline_title">Niemals Online</string>
     <string name="neveronline_summary">Keine Internetverbindung nutzen</string>
-    
+
+    <string name="online_set_title">Online Map Set</string>
+    <string name="online_set_summary">Liste festlegen für den Karten Selektor</string>
+
     <string name="automap_title">Auto map</string>
     <string name="automap_summary">Automatische Kartenauswahl für Offline-Karten</string>
     
@@ -471,6 +485,9 @@
     
     <string name="keeplight_title">Licht</string>
     <string name="keeplight_summary">Display Licht anschalten</string>
+
+    <string name="runonlockscreen_title">Sperrbildschirm</string>
+    <string name="runonlockscreen_summary">App auf dem Sperrbildschirm anzeigen</string>
 
     <string name="dockautoview_title">Auto Dock</string>
     <string name="dockautoview_summary">Anzeigen Dock bei \'Anzeigen auf Karte\'-Auswahl</string>
@@ -553,8 +570,8 @@
     <string name="gps_useasgpsd">GPS Daemon</string>
     <string name="gps_useasgpsd_summary">Sende Positionen als GPSD</string>
 
-    <string name="gps_useasgpsd_port">GPS Daemon Port</string>
-    <string name="gps_useasgpsd_port_summary">Der Port für den Gpsd</string>
+    <string name="gps_useasgpsd_port">GPS Daemon Einstellungen</string>
+    <string name="gps_useasgpsd_port_summary">Den GpsD einstellen</string>
 
     <string name="gps_plugin_title">Plugin Einstellungen</string>
     
@@ -1006,6 +1023,7 @@
 	<string name="dialog_show_pwd">Zeige Passwort</string>
 	<string name="dialog_track_edit_desc">Beschreibung</string>
 	<string name="dialog_map_edit_credit">Quelle</string>
+    <string name="dialog_use_as_overlay">Als Overlay nutzen</string>
 	<string name="dialog_wpt_bearing_title">Wpt. Peilung</string>
 	<string name="dialog_wpt_bearing">Peilung (°)</string>
 	<string name="dialog_wpt_dist">Distanz (m)</string>
@@ -1168,6 +1186,7 @@ Von hier starten?</string>
     <string name="understand">Verstanden</string>
     <string name="copy">Kopieren</string>
     <string name="move">Verschieben</string>
+    <string name="appexit">Beenden</string>
 
     <string name="error">Fehler</string>
     <string name="unknown">Unbekannt</string>
@@ -1297,7 +1316,7 @@ Von hier starten?</string>
 	<string name="entry_big_view_29">Sch. Wind Winkel</string>
 	<string name="entry_big_view_30">Kurs durchs Wasser</string>
 	<string name="entry_big_view_31">Speed durchs Wasser</string>
-    <string name="entry_big_view_32">Kompass</string>
+    <string name="entry_big_view_32">Kompass (intern)</string>
 
     <string name="entry_big_gauge_0">Panel Ansicht</string>
     <string name="entry_big_gauge_0a">Mehr Ansichten</string>
@@ -1433,6 +1452,7 @@ Von hier starten?</string>
     <string name="entries_list_mapinspector_1">Offline: Poi Daten</string>
     <string name="entries_list_mapinspector_2">Landpunkte</string>
     <string name="entries_list_mapinspector_3">Seezeichen</string>
+    <string name="entries_list_mapinspector_4">Routing Daten</string>
 
     <string name="preset_hiking_title">Wandern</string>
     <string name="preset_biking_title">Fahrrad</string>

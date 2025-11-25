@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="route_tlu">u-turn left</string>
+    <string name="route_tu">u-turn</string>
+    <string name="route_tr">right</string>
+    <string name="route_tshr">sharp right</string>
+    <string name="route_tslr">slight right</string>
+    <string name="route_kr">keep right</string>
+    <string name="route_c">straight</string>
+    <string name="route_kl">keep left</string>
+    <string name="route_tl">left</string>
+    <string name="route_tshl">sharp left</string>
+    <string name="route_tsll">slight left</string>
+    <string name="route_tru">u-turn right</string>
+    <string name="route_rndb">take exit %s</string>
+    <string name="route_rnlb">take exit %s</string>
+    <string name="route_offr">off road</string>
+    <string name="route_bl">beeline</string>
+    <string name="route_el">exit left</string>
+    <string name="route_er">exit right</string>
+    <string name="route_end">end of route</string>
+    <string name="route_close">route closed</string>
+    <string name="route_renew">re-routing calculation</string>
+    <string name="route_away">routing path lost</string>
+    <string name="route_goon">go on for </string>
+    <string name="route_in">in </string>
+
+    <string name="half_nautical_mile">more than half a nautical mile</string>
+    <string name="half_mile">more than half a mile</string>
+
+</resources>

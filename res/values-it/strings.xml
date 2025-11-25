@@ -31,9 +31,13 @@
     <string name="menu_visibility">Visibilità</string>
     <string name="menu_trans">Overlay trasparenza</string>
     <string name="menu_overlay_plugin">Plugin Overlay</string>
+    <string name="menu_bshstream">BSH Tidal Current Overlay</string>
     <string name="menu_layout">Layout</string>
     <string name="menu_help">Aiuto</string>
     <string name="menu_settings">Impostazioni</string>
+
+    <string name="menu_bsh_northsea">BSH Northsea / Baltic Sea</string>
+    <string name="menu_bsh_coast">BSH German Coast</string>
 
     <string name="menu_big">Pannelli informativi</string>
     <string name="menu_sat">Informazioni GPS</string>
@@ -334,7 +338,10 @@
 
     <string name="own_ais_title">Proprio MMSI</string>
     <string name="own_ais_summary">Se compilato questo non appare</string>
-    
+
+    <string name="clear_ais_db_title">Clear AIS names</string>
+    <string name="clear_ais_db_summary">Drop entries on AIS database</string>
+
     <string name="aisicon_title">Mostra icone piccole AIS </string>
     <string name="aisicon_summary">Mostra un\'icona piccola/scalata</string>
 
@@ -361,7 +368,10 @@
     
     <string name="keeplight_title">Luminosità </string>
     <string name="keeplight_summary">Retroilluminazione sempre accesa</string>
-    
+
+    <string name="runonlockscreen_title">Esegui sulla schermata di blocco</string>
+    <string name="runonlockscreen_summary">Mostra l\'app nella schermata di blocco</string>
+
     <string name="dockautoview_title">Auto pannello</string>
     <string name="dockautoview_summary">Mostra un pannello di selez. in \'Mostra sulla mappa \'</string>
     	
@@ -454,6 +464,9 @@
     <string name="showviewdir_title">Mostra l\'angolo visuale</string>
     <string name="showviewdir_summary">Attiva un triangolo rosa sulla mappa per indicare la direzione</string>
 
+    <string name="show_bearing_on_move_title">Show Bearing on move</string>
+    <string name="show_bearing_on_move_summary">Display the bearing from position to map center</string>
+
     <string name="pointer_title">Puntatore</string>
     <string name="pointer_summary">Dimensioni e tipo di puntatore sullo schermo </string>
 
@@ -506,7 +519,10 @@
     
     <string name="neveronline_title">Lavora sempre offline</string>
     <string name="neveronline_summary">Non usare la connessione di rete</string>
-    
+
+    <string name="online_set_title">Online Map Set</string>
+    <string name="online_set_summary">Define a set for the map selector</string>
+
     <string name="automap_title">Scelta automatica</string>
     <string name="automap_summary">Sceglie la mappa disponibile adeguata allo zoom e all\'area</string>
     
@@ -608,8 +624,8 @@
     <string name="gps_useasgpsd_summary">Invia la posizione tramite logica GPSD</string>
 
     <!-- new -->
-    <string name="gps_useasgpsd_port">GPS Daemon Port</string>
-    <string name="gps_useasgpsd_port_summary">Define a port for gpsd</string>
+    <string name="gps_useasgpsd_port">GPS Daemon Settings</string>
+    <string name="gps_useasgpsd_port_summary">Define for gpsd</string>
 
     <string name="gps_plugin_title">Impostazioni dei componenti aggiuntivi</string>
     
@@ -1047,6 +1063,7 @@
 	<string name="dialog_show_pwd">Mostra password</string>
 	<string name="dialog_track_edit_desc">Descrizione</string>
 	<string name="dialog_map_edit_credit">Licenza</string>
+    <string name="dialog_use_as_overlay">Use as Overlay</string>
 	<string name="dialog_wpt_bearing_title">Direzione verso Wpt.</string>
 	<string name="dialog_wpt_bearing">Direzione (°)</string>
 	<string name="dialog_wpt_dist">Distanza (mt)</string>
@@ -1219,6 +1236,7 @@
     <string name="understand">Understand</string>
     <string name="copy">Copy</string>
     <string name="move">Move</string>
+    <string name="appexit">Close</string>
 
     <string name="error">Errore</string>
     <string name="unknown">Sconosciuto</string>
@@ -1351,7 +1369,7 @@
 	<string name="entry_big_view_29">Dir. app.te vento</string>
 	<string name="entry_big_view_30">Rotta in acqua</string>
 	<string name="entry_big_view_31">Velocità in acqua</string>
-    <string name="entry_big_view_32">Compass</string>
+    <string name="entry_big_view_32">Compass (interna)</string>
 
     <string name="entry_big_gauge_0">Panel View</string>
     <string name="entry_big_gauge_0a">Statistic View</string>
@@ -1488,6 +1506,7 @@
     <string name="entries_list_mapinspector_1">Offline Poi Marks</string>
     <string name="entries_list_mapinspector_2">Landmarks</string>
     <string name="entries_list_mapinspector_3">Seamarks</string>
+    <string name="entries_list_mapinspector_4">Routing Data</string>
 
     <string name="preset_hiking_title">Hiking</string>
     <string name="preset_biking_title">Biking</string>
