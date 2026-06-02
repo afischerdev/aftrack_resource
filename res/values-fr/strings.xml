@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources >
-
+<resources>
     <string name="app_lite">Bienvenue dans la version allégée d\'AFTrack</string>
-    <string name="app_lite_delete">La version complète est déjà disponible. Supprimer cette version maintenant&#160;?</string>
-    <string name="app_buy">Buy now</string>
-    <string name="app_later">Buy later</string>
+    <string name="app_lite_delete">La version complète est déjà disponible. Supprimer cette version maintenant ?</string>
+    <string name="app_buy">Acheter maintenant</string>
+    <string name="app_later">Acheter plus tard</string>
     <string name="app_delete">Supprimer</string>
     <string name="app_start">Commencer</string>
     <string name="share">Partager</string>
     <string name="share_txt">Ma recommandation</string>
-    
-	<!-- new -->
-    <string name="permission_write">Need write permissions</string>
-    <string name="permission_position">Need fine location permissions</string>
-    <string name="permission_sms">Need sms permission</string>
-    <string name="permission_contact">Need contact permissions</string>
-    <string name="permission_id">Need device id permission</string>
-    <string name="permission_get">GET</string>
-    
-    <!-- Menu -->
+    <string name="permission_write">Besoin d\'autorisations d\'écriture</string>
+    <string name="permission_position">Besoin d\'autorisations de localisation fines</string>
+    <string name="permission_sms">Besoin d\'une autorisation par SMS</string>
+    <string name="permission_contact">Besoin d\'autorisations de contact</string>
+    <string name="permission_id">Besoin d\'une autorisation d\'identification de l\'appareil</string>
+    <string name="permission_get">OBTENIR</string>
     <string name="menu_track">Piste</string>
     <string name="menu_route">Itinéraire</string>
     <string name="menu_wpt">Point de passage</string>
     <string name="menu_area">Zone</string>
-    <string name="menu_wpt_grp">Groupe de points de passage</string>
+    <string name="menu_wpt_grp">Groupe de points de cheminement</string>
     <string name="menu_map">Carte</string>
     <string name="menu_camera">Caméra</string>
     <string name="menu_map_online">Carte en ligne</string>
@@ -31,19 +26,16 @@
     <string name="menu_profile">Profil / AIS</string>
     <string name="menu_overlay">Superpositions</string>
     <string name="menu_visibility">Visibilité</string>
-    <string name="menu_trans">Transparence superposée</string>
-    <string name="menu_overlay_plugin">Superposition de plugins"</string>
-    <string name="menu_bshstream">BSH Tidal Current Overlay</string>
-    <string name="menu_layout">Plan d\'implantation</string>
-    <string name="menu_help">Help</string>
+    <string name="menu_trans">Transparence de superposition</string>
+    <string name="menu_overlay_plugin">Superposition de plugins</string>
+    <string name="menu_bshstream">Superposition de courant de marée BSH</string>
+    <string name="menu_layout">Mise en page</string>
+    <string name="menu_help">Aide</string>
     <string name="menu_settings">Paramètres</string>
-
-    <string name="menu_bsh_northsea">BSH Northsea / Baltic Sea</string>
-    <string name="menu_bsh_coast">BSH German Coast</string>
-
+    <string name="menu_bsh_northsea">BSH Mer du Nord Mer Baltique</string>
+    <string name="menu_bsh_coast">BSH Côte allemande</string>
     <string name="menu_big">Grandes vues</string>
     <string name="menu_sat">Informations GPS</string>
-
     <string name="menu_display_settings">Paramètres d\'affichage</string>
     <string name="menu_simple_settings">Paramètres prédéfinis</string>
     <string name="menu_gps_settings">Paramètres GPS</string>
@@ -51,1415 +43,1053 @@
     <string name="menu_http_settings">Paramètres en ligne</string>
     <string name="menu_map_settings">Paramètres de la carte</string>
     <string name="menu_igc_settings">Paramètres IGC</string>
-    <string name="menu_info">Info</string>
-    
-    <string name="menu_delete">Delete</string>
-    <string name="menu_edit">Edit</string>
-    <string name="menu_show">Show on Map</string>
-    <string name="menu_showdesc">Show Description</string>
-    <string name="menu_anchoralarm">Use for Anchor Alarm</string>
-    <string name="menu_history_to_track">Make History to Track</string>
-    <string name="menu_showmap">Show Map</string>
-    <string name="menu_getwptbearing">New Wpt from here</string>
-    <string name="menu_getwptmapbearing">New Wpt from here on map</string>
-    <string name="menu_showprofile">Show Profile</string>
-    <string name="menu_goto">Go To</string>
-    <string name="menu_setpos">Use as Position</string>
-    <string name="menu_export">Export as</string>
+    <string name="menu_info">Informations</string>
+    <string name="menu_delete">Supprimer</string>
+    <string name="menu_edit">Modifier</string>
+    <string name="menu_show">Afficher sur la carte</string>
+    <string name="menu_showdesc">Afficher la description</string>
+    <string name="menu_anchoralarm">Utiliser pour l\'alarme d\'ancre</string>
+    <string name="menu_history_to_track">Créer une histoire à suivre</string>
+    <string name="menu_showmap">Afficher la carte</string>
+    <string name="menu_getwptbearing">Nouveau Wpt à partir d\'ici</string>
+    <string name="menu_getwptmapbearing">Nouveau Wpt à partir d\'ici sur la carte</string>
+    <string name="menu_showprofile">Afficher le profil</string>
+    <string name="menu_goto">Aller à</string>
+    <string name="menu_setpos">Utiliser comme position</string>
+    <string name="menu_export">Exporter en tant que</string>
     <string name="menu_export_gpx">GPX</string>
     <string name="menu_export_kml">KML</string>
-    <string name="menu_export_igc">IGC</string>
-    <string name="menu_export_ovl">OVL</string>
-    <string name="with_waypoint_group">With Waypoint Group</string>
-    <string name="with_favorites">With Favorites</string>
-    <string name="with_rtehints">With Routing Hints</string>
-
-    <string name="menu_startrouting">Start Routing</string>
-    <string name="menu_stoprouting">Stop Routing</string>
-    <string name="menu_restartrouting">Restart Routing</string>
-    <string name="menu_makeroute">Copy to Route</string>
-    <string name="menu_makearea">Copy to Area</string>
-    <string name="menu_updategroup">Set for all members</string>
-    <string name="menu_updategroup_visibility">Visibility</string>
-    <string name="menu_updategroup_icon">Icon</string>
-    <string name="menu_updategroup_distance">Alarm Distance</string>
-    <string name="menu_revers">Route revers</string>
-    <string name="menu_resample">Resample the Route with BRouter</string>
+    <string name="menu_export_igc">CIG</string>
+    <string name="menu_export_ovl">LVL</string>
+    <string name="with_waypoint_group">Avec le groupe Waypoint</string>
+    <string name="with_favorites">Avec favoris</string>
+    <string name="with_rtehints">Avec des conseils de routage</string>
+    <string name="menu_startrouting">Démarrer le routage</string>
+    <string name="menu_stoprouting">Arrêter le routage</string>
+    <string name="menu_restartrouting">Redémarrer le routage</string>
+    <string name="menu_makeroute">Copier vers l\'itinéraire</string>
+    <string name="menu_makearea">Copier dans la zone</string>
+    <string name="menu_updategroup">Définir pour tous les membres</string>
+    <string name="menu_updategroup_visibility">Visibilité</string>
+    <string name="menu_updategroup_icon">Icône</string>
+    <string name="menu_updategroup_distance">Distance d\'alarme</string>
+    <string name="menu_revers">Inversions d\'itinéraire</string>
+    <string name="menu_resample">Rééchantillonner l\'itinéraire avec BRouter</string>
     <string name="menu_nightmode">Mode nuit</string>
-    <string name="menu_send">Send</string>
-    <string name="menu_layout_default">Default</string>
-    <string name="menu_layout_load">Load Theme xml …</string>
-    <string name="menu_calibrate">Edit Calibration</string>
-    <string name="menu_syncpicture">Track with Pictures</string>
-    <string name="menu_droppictures">Track without Pictures</string>
-    <string name="resample_new_route">Generate new route</string>
-    <string name="resample_route">Resample Route</string>
-    <string name="menu_clear_hints">Clear routing hints</string>
-
-    <!-- Lists -->
-        
-    <string name="list_new_route">Import</string>
-    <string name="list_show_route">Show</string>
-    <string name="list_clear_routes">Clear</string>
-    <string name="list_no_routes">No Routes</string>
-
-    <string name="list_start_track">Start</string>
-    <string name="list_stop_track">Stop</string>
-    <string name="list_new_track">New</string>
-    <string name="list_show_track">Show</string>
-    <string name="list_clear_tracks">Clear</string>
-    <string name="list_no_tracks">No Tracks</string>
-
-    <string name="list_new_group">New</string>
-    <string name="list_import_group">Import</string>
-    <string name="list_clear_groups">Clear</string>
-    <string name="list_no_data">No Data</string>
-
-    <string name="list_new_point">New</string>
-    <string name="list_clear_points">Clear</string>
-
-    <string name="list_export">Export</string>
-    <string name="list_import">Import</string>
-    
-    <string name="load">Load</string>
-    <string name="waiting_while_loading">Please wait, loading &#8230;</string>
-    <string name="waiting">Please wait &#8230;</string>
-    
-    <string name="gps_state">GPS State</string>
-    <string name="gps_enable">The GPS seems to be disabled. Activate now?</string>
-    <string name="power_disable">The Power Save Mode seems to be enabled. Deactivate now?</string>
-
+    <string name="menu_send">Envoyer</string>
+    <string name="menu_layout_default">Défaut</string>
+    <string name="menu_layout_load">Charger le thème XML…</string>
+    <string name="menu_calibrate">Modifier l\'étalonnage</string>
+    <string name="menu_syncpicture">Suivre avec des images</string>
+    <string name="menu_droppictures">Piste sans images</string>
+    <string name="resample_new_route">Générer un nouvel itinéraire</string>
+    <string name="resample_route">Rééchantillonner l\'itinéraire</string>
+    <string name="menu_clear_hints">Effacer les conseils d\'itinéraire</string>
+    <string name="list_new_route">Importer</string>
+    <string name="list_show_route">Montrer</string>
+    <string name="list_clear_routes">Clair</string>
+    <string name="list_no_routes">Aucun itinéraire</string>
+    <string name="list_start_track">Commencer</string>
+    <string name="list_stop_track">Arrêt</string>
+    <string name="list_new_track">Nouveau</string>
+    <string name="list_show_track">Montrer</string>
+    <string name="list_clear_tracks">Clair</string>
+    <string name="list_no_tracks">Aucune piste</string>
+    <string name="list_new_group">Nouveau</string>
+    <string name="list_import_group">Importer</string>
+    <string name="list_clear_groups">Clair</string>
+    <string name="list_no_data">Aucune donnée</string>
+    <string name="list_new_point">Nouveau</string>
+    <string name="list_clear_points">Clair</string>
+    <string name="list_export">Exporter</string>
+    <string name="list_import">Importer</string>
+    <string name="load">Charger</string>
+    <string name="waiting_while_loading">Veuillez patienter, chargement…</string>
+    <string name="waiting">S\'il vous plaît, attendez …</string>
+    <string name="gps_state">État GPS</string>
+    <string name="gps_enable">Le GPS semble être désactivé. Activer maintenant ?</string>
+    <string name="power_disable">Le mode d\'économie d\'énergie semble être activé. Désactiver maintenant ?</string>
     <string name="prefs">Paramètres</string>
-    
-    <!-- Display Prefs -->    
     <string name="visible_prefs">Paramètres de visibilité</string>
-    
-    <string name="wptvisible_title">Way point visible</string>
-    <string name="wptvisible_summary">Display Way points on the Map</string>
-
-    <string name="wptgrpvisible_title">Way point group only</string>
-
-    <string name="favexport_title">Export way point favorites</string>
-
-    <string name="trkvisible_title">Track visible</string>
-    <string name="trkvisible_summary">Display Tracks on the Map</string>
-
-    <string name="rtevisible_title">Route visible</string>
-    <string name="rtevisible_summary">Display Routes on the Map</string>
-
-    <string name="areavisible_title">Area visible</string>
-    <string name="areavisible_summary">Display Areas on the Map</string>
-
-    <string name="areasinglevisible_title">One Area only visible</string>
-    <string name="areasinglevisible_summary">Display only one area on the map</string>
-
-    <string name="mapvisible_title">Map visible</string>
-    <string name="mapvisible_summary">Display the Map</string>
-    
+    <string name="wptvisible_title">Point de passage visible</string>
+    <string name="wptvisible_summary">Afficher les points de cheminement sur la carte</string>
+    <string name="wptgrpvisible_title">Groupe de points de cheminement uniquement</string>
+    <string name="favexport_title">Exporter les favoris des points de cheminement</string>
+    <string name="trkvisible_title">Piste visible</string>
+    <string name="trkvisible_summary">Afficher les traces sur la carte</string>
+    <string name="rtevisible_title">Itinéraire visible</string>
+    <string name="rtevisible_summary">Afficher les itinéraires sur la carte</string>
+    <string name="areavisible_title">Zone visible</string>
+    <string name="areavisible_summary">Afficher les zones sur la carte</string>
+    <string name="areasinglevisible_title">Une seule zone visible</string>
+    <string name="areasinglevisible_summary">Afficher une seule zone sur la carte</string>
+    <string name="mapvisible_title">Carte visible</string>
+    <string name="mapvisible_summary">Afficher la carte</string>
     <string name="aisvisible_title">AIS visible</string>
-    <string name="aisvisible_summary">Display the AIS entries</string>
-    
-    <string name="extravisible_title">Extra Info visible</string>
-    <string name="extravisible_summary">Display an extra Way point on Map</string>
-
-    <string name="wpt_prefs">Paramètres du groupe de points</string>
-    <string name="wptview_list_title">Wpt. View</string>
-    <string name="wptview_list_summary">How to show the Way points on the Map</string>
-
-    <string name="wptviewpos_list_title">Wpt. Iconposition</string>
-    <string name="wptviewpos_list_summary">How to show the Icon on the Map</string>
-	
-    <string name="wptviewlabel_list_title">Labelsize</string>
-    <string name="wptviewlabel_list_summary">How to show the Label on the Map</string>
-	
-    <string name="zoomlevellimit_title">Wpt. Zoom Level</string>
-    <string name="zoomlevellimit_summary">Display with zoom level</string>
-
-    <string name="show_special_wptgrp_title">Show Special Interest Group</string>
-    <string name="show_special_wptgrp_summary">Show the nearest points of a group</string>
-
-    <string name="special_wptgrp_prefs">Paramètres du groupe de points</string>
-    <string name="special_wptgrp_radius_title">Group Radius</string>
-    <string name="special_wptgrp_radius_summary">Radius for Counter on near Way Points (in km)</string>
-    <string name="special_wptgrp_list_title">Way Point Group</string>
-    <string name="special_wptgrp_list_summary">Select a Group for watching</string>
-
-    <string name="mapgrid_title">Show Map Grid</string>
-    <string name="mapgrid_summary">Display a Grid on the Map</string>
-
-    <string name="showbearing_title">Show Bearing</string>
-    <string name="showbearing_summary">Display the Bearing to a Way Point</string>
-	
-    <string name="showstartbearing_title">Show Start Bearing</string>
-    <string name="showstartbearing_summary">Display the Bearing from Start Point</string>
-	
-    <string name="track_prefs">Paramètres de piste</string>
-    <string name="trackcolor_list_title">Track Color</string>
-    <string name="trackcolor_list_summary">How to display a Track</string>
-
-    <string name="tracklinesize_title">Track Line Size</string>
-    <string name="tracklinesize_summary">How to display a Track</string>
-
-    <string name="trackreset_title">Track Restart</string>
-    <string name="trackreset_summary">Start new Track after x minutes</string>
-
-    <string name="trackflat_title">Smooth Track</string>
-    <string name="trackflat_summary">Set a value for smooth altitudes of a track (0 = none)</string>
-
-    <string name="trackdescupdate_title">Track Description</string>
-    <string name="trackdescupdate_summary">Auto Update from OSM online</string>
-
-    <string name="trackupdownhill_title">Up/Down Colors</string>
-    <string name="trackupdownhill_summary">Display up/down hill colors for the Track</string>
-
-    <string name="showlineaspoints_title">Show Points</string>
-    <string name="showlineaspoints_summary">Display the track points only</string>
-
-    <string name="timeformat_title">Time Format short</string>
-    <string name="timeformat_summary">Cut seconds on times > 1h</string>
-
-    <string name="wptcollection_title">Use Wpt Collection</string>
-    <string name="wptcollection_summary">Allow to add a waypoint collection</string>
-
-    <string name="importinclude_title">Include at import</string>
-    <string name="importinclude_summary">Include wpt at route import</string>
-
-
+    <string name="aisvisible_summary">Afficher les entrées AIS</string>
+    <string name="extravisible_title">Informations supplémentaires visibles</string>
+    <string name="extravisible_summary">Afficher un waypoint supplémentaire sur la carte</string>
+    <string name="wpt_prefs">Paramètres des points de cheminement</string>
+    <string name="wptview_list_title">Wpt. Voir</string>
+    <string name="wptview_list_summary">Comment afficher les points de cheminement sur la carte</string>
+    <string name="wptviewpos_list_title">Wpt. Position de l\'icône</string>
+    <string name="wptviewpos_list_summary">Comment afficher l\'icône sur la carte</string>
+    <string name="wptviewlabel_list_title">Taille de l\'étiquette</string>
+    <string name="wptviewlabel_list_summary">Comment afficher l\'étiquette sur la carte</string>
+    <string name="zoomlevellimit_title">Wpt. Niveau de zoom</string>
+    <string name="zoomlevellimit_summary">Affichage avec niveau de zoom</string>
+    <string name="show_special_wptgrp_title">Afficher le groupe d\'intérêt spécial</string>
+    <string name="show_special_wptgrp_summary">Afficher les points les plus proches d\'un groupe</string>
+    <string name="special_wptgrp_prefs">Paramètres du groupe de points de cheminement</string>
+    <string name="special_wptgrp_radius_title">Rayon de groupe</string>
+    <string name="special_wptgrp_radius_summary">Rayon du compteur à proximité des way points (en km)</string>
+    <string name="special_wptgrp_list_title">Groupe de points de cheminement</string>
+    <string name="special_wptgrp_list_summary">Sélectionnez un groupe à regarder</string>
+    <string name="mapgrid_title">Afficher la grille de la carte</string>
+    <string name="mapgrid_summary">Afficher une grille sur la carte</string>
+    <string name="showbearing_title">Afficher le relèvement</string>
+    <string name="showbearing_summary">Afficher le relèvement vers un point de cheminement</string>
+    <string name="showstartbearing_title">Afficher le relèvement de départ</string>
+    <string name="showstartbearing_summary">Afficher le relèvement à partir du point de départ</string>
+    <string name="track_prefs">Paramètres de suivi</string>
+    <string name="trackcolor_list_title">Couleur de la piste</string>
+    <string name="trackcolor_list_summary">Comment afficher une piste</string>
+    <string name="tracklinesize_title">Taille de la ligne de piste</string>
+    <string name="tracklinesize_summary">Comment afficher une piste</string>
+    <string name="trackreset_title">Redémarrage de la piste</string>
+    <string name="trackreset_summary">Démarrer une nouvelle piste après x minutes</string>
+    <string name="trackflat_title">Piste fluide</string>
+    <string name="trackflat_summary">Définir une valeur pour les altitudes douces d\'une piste (0 = aucune)</string>
+    <string name="trackdescupdate_title">Description de la piste</string>
+    <string name="trackdescupdate_summary">Mise à jour automatique depuis OSM en ligne</string>
+    <string name="trackupdownhill_title">Couleurs haut/bas</string>
+    <string name="trackupdownhill_summary">Afficher les couleurs de montée/descente pour la piste</string>
+    <string name="showlineaspoints_title">Afficher les points</string>
+    <string name="showlineaspoints_summary">Afficher uniquement les points de trace</string>
+    <string name="timeformat_title">Format horaire court</string>
+    <string name="timeformat_summary">Couper les secondes sur des temps &gt; 1h</string>
+    <string name="wptcollection_title">Utiliser la collection Wpt</string>
+    <string name="wptcollection_summary">Autoriser l\'ajout d\'une collection de waypoints</string>
+    <string name="importinclude_title">Inclure à l\'importation</string>
+    <string name="importinclude_summary">Inclure wpt lors de l\'importation de l\'itinéraire</string>
     <string name="picture_prefs">Paramètres de piste/image</string>
-    <string name="picture_prefs_summary">Define Picture scan options</string>
-
-    <string name="trackpicture_title">Picture Path</string>
-    <string name="trackpicture_summary">Include pictures from path to track</string>
-
-    <string name="trackpic_offset_title">Time Offset</string>
-    <string name="trackpic_offset_summary">Usable when track and photo time zone is not equal</string>
-
-    <string name="pic_add_gps_title">Add GPS data</string>
-    <string name="pic_add_gps_summary">Add GPS values if not predefined</string>
-
-
+    <string name="picture_prefs_summary">Définir les options de numérisation d\'images</string>
+    <string name="trackpicture_title">Chemin de l\'image</string>
+    <string name="trackpicture_summary">Inclure des images du chemin à la piste</string>
+    <string name="trackpic_offset_title">Décalage horaire</string>
+    <string name="trackpic_offset_summary">Utilisable lorsque le fuseau horaire de la piste et de la photo n\'est pas égal</string>
+    <string name="pic_add_gps_title">Ajouter des données GPS</string>
+    <string name="pic_add_gps_summary">Ajouter des valeurs GPS si elles ne sont pas prédéfinies</string>
     <string name="rte_prefs">Paramètres d\'itinéraire</string>
-    <string name="routecolor_list_title">Route Color</string>
-    <string name="routecolor_list_summary">How to display a Route</string>
-    <string name="runroutecolor_list_summary">How to display a running Route</string>
-
-    <string name="routelinesize_title">Route Line Size</string>
-    <string name="routelinesize_summary">How to display a Route</string>
-    <string name="runroutelinesize_summary">How to display a running Route</string>
-    <string name="rerouting_title">Allow Rerouting</string>
-    <string name="rerouting_summary">Start rerouting when current route is left</string>
-    <string name="voicehint_title">Allow Voice Hints</string>
-    <string name="voicehint_summary">Start routing with voice markers</string>
-    <string name="voicehintprefs_title">Paramètres des indications vocales</string>
-    <string name="voicehintprefs_summary">Settings for voice hint generation</string>
-
-    <string name="routeproximity_title">Route Alarm Distance</string>
-    <string name="routeproximity_summary">Distance to next route point</string>
-
-    <string name="calculatespeed_label">Speed</string>
-    <string name="calculatespeed_title">Assumed Speed</string>
-    <string name="calculatespeed_foot_title">Assumed Speed Pedestrian</string>
-    <string name="calculatespeed_car_title">Assumed Speed Car</string>
-    <string name="calculatespeed_bike_title">Assumed Speed Bike</string>
-    <string name="calculatespeed_boat_title">Assummed Speed Boat</string>
-    <string name="calculatespeed_canoe_title">Assumed Speed Canoe</string>
-    <string name="calculatespeed_summary">Speed for arrival time calculation</string>
-
-    <string name="routeupdownhill_title">Up/Down Colors</string>
-    <string name="routeupdownhill_summary">Display up/down hill colors for the Route</string>
-
-    <string name="showlineasarrows_title">Show Direction</string>
-    <string name="showlineasarrows_summary">Display the Direction of the Route</string>
-
-    <string name="useroutecorridor_title">Corridor Routing</string>
-    <string name="useroutecorridor_summary">Use the Route as a corridor</string>
-
-    <string name="usecorridoralarm_title">Single Corridor Alarm</string>
-    <string name="usecorridoralarm_summary">Get a single alarm on corridor routing</string>
-
-    <string name="routeignoredate_title">Ignore Date</string>
-    <string name="routeignoredate_summary">Ignore the date on route import</string>
-
-    <string name="profile_prefs">Dock Settings</string>
+    <string name="routecolor_list_title">Couleur de l\'itinéraire</string>
+    <string name="routecolor_list_summary">Comment afficher un itinéraire</string>
+    <string name="runroutecolor_list_summary">Comment afficher un itinéraire en cours d\'exécution</string>
+    <string name="routelinesize_title">Taille de la ligne d\'itinéraire</string>
+    <string name="routelinesize_summary">Comment afficher un itinéraire</string>
+    <string name="runroutelinesize_summary">Comment afficher un itinéraire en cours d\'exécution</string>
+    <string name="rerouting_title">Autoriser le réacheminement</string>
+    <string name="rerouting_summary">Commencer le réacheminement lorsque l\'itinéraire actuel est quitté</string>
+    <string name="voicehint_title">Autoriser les conseils vocaux</string>
+    <string name="voicehint_summary">Démarrer le routage avec des marqueurs vocaux</string>
+    <string name="voicehintprefs_title">Paramètres des conseils vocaux</string>
+    <string name="voicehintprefs_summary">Paramètres de génération d\'indices vocaux</string>
+    <string name="routeproximity_title">Distance d\'alarme d\'itinéraire</string>
+    <string name="routeproximity_summary">Distance jusqu\'au prochain point d\'itinéraire</string>
+    <string name="calculatespeed_label">Vitesse</string>
+    <string name="calculatespeed_title">Vitesse supposée</string>
+    <string name="calculatespeed_foot_title">Vitesse présumée du piéton</string>
+    <string name="calculatespeed_car_title">Voiture de vitesse supposée</string>
+    <string name="calculatespeed_bike_title">Vélo de vitesse supposé</string>
+    <string name="calculatespeed_boat_title">Bateau rapide supposé</string>
+    <string name="calculatespeed_canoe_title">Canoë à vitesse présumée</string>
+    <string name="calculatespeed_summary">Vitesse pour le calcul de l\'heure d\'arrivée</string>
+    <string name="routeupdownhill_title">Couleurs haut/bas</string>
+    <string name="routeupdownhill_summary">Afficher les couleurs de montée/descente pour l\'itinéraire</string>
+    <string name="showlineasarrows_title">Afficher la direction</string>
+    <string name="showlineasarrows_summary">Afficher la direction de l\'itinéraire</string>
+    <string name="useroutecorridor_title">Acheminement des couloirs</string>
+    <string name="useroutecorridor_summary">Utiliser l\'itinéraire comme couloir</string>
+    <string name="usecorridoralarm_title">Alarme de couloir unique</string>
+    <string name="usecorridoralarm_summary">Obtenez une seule alarme sur le routage des couloirs</string>
+    <string name="routeignoredate_title">Ignorer la date</string>
+    <string name="routeignoredate_summary">Ignorer la date lors de l\'importation de l\'itinéraire</string>
+    <string name="profile_prefs">Paramètres du quai</string>
     <string name="profileview_list_title">Profil</string>
-    <string name="profileview_list_summary">Select a profile view for the dock</string>
-
-    <string name="noneview_list_title">View Content</string>
-
-    <string name="display_prefs">Paramètres d\'affichages</string>
-    <string name="display_rte_center">Center Tracks/Routes</string>
-    <string name="display_rte_center_summary">Display Tracks/Routes centered</string>
-
-    <string name="display_map_center">Center Map</string>
-    <string name="display_map_center_summary">Display last Map position on Start or GPS centered</string>
-    
-    <string name="asymmetricposition">Asymmetric Position</string>
-    <string name="asymmetricposition_summary">Show the position asymmetric to direction</string>
-
-    <string name="keeplight_title">Allumer la lumière</string>
-    <string name="keeplight_summary">L\'écran est toujours allumé</string>
-
-    <string name="runonlockscreen_title">Écran de verrouillage</string>
+    <string name="profileview_list_summary">Sélectionnez une vue de profil pour le dock</string>
+    <string name="noneview_list_title">Afficher le contenu</string>
+    <string name="display_prefs">Paramètres d\'affichage</string>
+    <string name="display_rte_center">Centrer les pistes/itinéraires</string>
+    <string name="display_rte_center_summary">Afficher les traces/itinéraires centrés</string>
+    <string name="display_map_center">Carte du centre</string>
+    <string name="display_map_center_summary">Afficher la dernière position de la carte au démarrage ou centré sur le GPS</string>
+    <string name="asymmetricposition">Position asymétrique</string>
+    <string name="asymmetricposition_summary">Afficher la position asymétrique par rapport à la direction</string>
+    <string name="keeplight_title">Définir la lumière</string>
+    <string name="keeplight_summary">Lumière d\'affichage toujours allumée</string>
+    <string name="runonlockscreen_title">Exécuter sur l\'écran de verrouillage</string>
     <string name="runonlockscreen_summary">Afficher l\'application sur l\'écran de verrouillage</string>
-
-    <string name="dockautoview_title">Auto Dock</string>
-    <string name="dockautoview_summary">Display dock on \'view on map\' selection</string>
-	
-    <string name="keeplock_title">Complete Lock</string>
-    <string name="keeplock_summary">Lock all functions</string>
-	
-    <string name="rotation_list_title">Display Orientation</string>
-    <string name="rotation_list_summary">Select Display Orientation</string>
-
-    
-    <string name="misc_prefs">Autres réglages</string>
-    <string name="clear_prefs">Clear Preferences</string>
-    <string name="clear_prefs_summary">Clear all preferences</string>
-
-    <string name="clear_templates">Clear Templates</string>
-    <string name="clear_templates_summary">Clear all templates</string>
-
-    <string name="save_prefs">Save Preferences</string>
-    <string name="save_prefs_summary">Write preferences to Expport folder</string>
-
-    <string name="load_prefs">Load Preferences</string>
-    <string name="load_prefs_summary">Read preferences from folder</string>
-
-    <string name="save_db">Save Database</string>
-    <string name="save_db_summary">Write database to Export folder</string>
-
-    <string name="load_db">Load Database</string>
-    <string name="load_db_summary">Read database from folder</string>
-
-    <string name="full_screen">Full Screen</string>
-    <string name="full_screen_summary">Show a bigger display</string>
-
+    <string name="dockautoview_title">Station d\'accueil automatique</string>
+    <string name="dockautoview_summary">Afficher le dock sur la sélection « Afficher sur la carte »</string>
+    <string name="keeplock_title">Verrouillage complet</string>
+    <string name="keeplock_summary">Verrouiller toutes les fonctions</string>
+    <string name="rotation_list_title">Orientation de l\'affichage</string>
+    <string name="rotation_list_summary">Sélectionnez l\'orientation de l\'affichage</string>
+    <string name="misc_prefs">Autres paramètres</string>
+    <string name="clear_prefs">Effacer les préférences</string>
+    <string name="clear_prefs_summary">Effacer toutes les préférences</string>
+    <string name="clear_templates">Effacer les modèles</string>
+    <string name="clear_templates_summary">Effacer tous les modèles</string>
+    <string name="save_prefs">Enregistrer les préférences</string>
+    <string name="save_prefs_summary">Écrire les préférences dans le dossier Exporter</string>
+    <string name="load_prefs">Préférences de chargement</string>
+    <string name="load_prefs_summary">Lire les préférences du dossier</string>
+    <string name="save_db">Enregistrer la base de données</string>
+    <string name="save_db_summary">Écrire la base de données dans le dossier Exporter</string>
+    <string name="load_db">Charger la base de données</string>
+    <string name="load_db_summary">Lire la base de données à partir du dossier</string>
+    <string name="full_screen">Plein écran</string>
+    <string name="full_screen_summary">Afficher un affichage plus grand</string>
     <string name="routing_settings">Paramètres de routage</string>
-
-    <string name="when_routing_settings">Set when routing</string>
-
-    <string name="targettop_title">Map Target Top</string>
-    <string name="targettop_summary">Show map rotated for target</string>
-
-    <string name="routesim_title">Show on simulation</string>
-    <string name="routesim_summary">Use this settings on simulation</string>
-
-    <!-- Map Prefs -->
-
-    <string name="dir_title">Folders</string>
-    <string name="mapdir_title">Map Folder</string>
-    <string name="themedir_title">Map Theme Folder</string>
-    <string name="exportdir_title">Export Folder</string>
-
+    <string name="when_routing_settings">Définir lors du routage</string>
+    <string name="targettop_title">Cible de la carte en haut</string>
+    <string name="targettop_summary">Afficher la carte pivotée pour la cible</string>
+    <string name="routesim_title">Afficher sur simulation</string>
+    <string name="routesim_summary">Utiliser ces paramètres sur la simulation</string>
+    <string name="dir_title">Dossiers</string>
+    <string name="mapdir_title">Dossier de carte</string>
+    <string name="themedir_title">Dossier de thème de carte</string>
+    <string name="exportdir_title">Dossier d\'exportation</string>
     <string name="map_prefs">Paramètres de la carte</string>
-    
-    <string name="scandir_title">Scan Folder</string>
-    <string name="scandir_summary">Define scan folder</string>
-    <string name="scandirnow_title">Scan now</string>
-    <string name="scandirnow_summary">Scan the folder now</string>
-    <string name="scanatstart_title">Scan at Start</string>
-    <string name="scanatstart_summary">Scan the folder when app starts</string>
-
-    <string name="mapset_title">Load Maps</string>
-    <string name="mapset_summary">Load maps from folder as one set or as single maps</string>
-    <string name="mapset_folder">Single Maps</string>
-    <string name="mapset_mapset">Map Set</string>
-
-    <string name="list_new_map">Import</string>
-    <string name="list_loaddir">Dir.</string>
-    <string name="list_download_maps">Downl.</string>
-    <string name="list_clear_maps">Clear</string>
-    <string name="list_no_maps">No Maps</string>
-        
-    <string name="mapset_clear">Clear Cache</string>
-    <string name="mapset_clear_summary">Clear all cache files</string>
-    <string name="cacheagetype_list_title">Clear Cache after</string>
-    <string name="cacheagetype_list_summary">Clear Cache after x time</string>
-    <string name="mapset_set">Set Cache</string>
-    <string name="mapset_set_summary">Set Cache directory</string>
-    <string name="mapset_dir">Cache Directory (card)</string>
-    <string name="fallbackmap_list_title">Fallback Map</string>
-    <string name="fallbackmap_list_summary">Use this as a fallback map</string>
-    <string name="mapset_no_online">Never online</string>
-    <string name="mapset_automap">Auto Map</string>
-    <string name="mapset_zoom_buttons">Show Zoom Buttons on left</string>
-
-    <string name="scaledouble_title">Scale Map</string>
-    <string name="scaledouble_summary">Scale map to x size</string>
-
-    <string name="showviewdir_title">Show View Direction</string>
-    <string name="showviewdir_summary">Display the View Direction on the map</string>
-
-    <string name="show_bearing_on_move_title">Show Bearing on move</string>
-    <string name="show_bearing_on_move_summary">Display the bearing from position to map center</string>
-
-    <string name="pointer_title">Pointer</string>
-    <string name="pointer_summary">How to display the GPS Direction</string>
-
-    <string name="display_windindicator">Wind Indicator</string>
-    <string name="display_windindicator_summary">Show a wind indicator</string>
-
-    <string name="distancering_title">Distance Ring</string>
-    <string name="distancering_summary">Display a distance ring at the position</string>
-   
-    <string name="display_10MinDistance">Show 10 Min.</string>
-    <string name="display_10MinDistance_summary">Display a distance line to the position in 10 Minutes</string>
-
-    <string name="mindistance_title">Show Min. Pointer</string>
-    <string name="mindistance_summary">Display a distance line to the position in x Minutes</string>
-
-    <string name="virtualpositionradius_title">Radius VP</string>
-    <string name="virtualpositionradius_summary">Radius for the virtual position check (km)</string>
-    
-    <string name="display_windinfo">Show Wind Info</string>
-    <string name="display_windinfo_summary">Display the wind info on the map</string>
-    
-    <string name="windspeed_title">Wind Speed</string>
-    <string name="windspeed_summary">Wind speed unit</string>
-    
-    <string name="wind_routing">Wind Routing</string>
-    <string name="wind_routing_summary">Use Wind for Route calculation</string>
-    
+    <string name="scandir_title">Numériser le dossier</string>
+    <string name="scandir_summary">Définir le dossier de numérisation</string>
+    <string name="scandirnow_title">Scannez maintenant</string>
+    <string name="scandirnow_summary">Scannez le dossier maintenant</string>
+    <string name="scanatstart_title">Numériser au démarrage</string>
+    <string name="scanatstart_summary">Scanner le dossier au démarrage de l\'application</string>
+    <string name="mapset_title">Charger des cartes</string>
+    <string name="mapset_summary">Charger des cartes à partir d\'un dossier sous forme d\'un ensemble ou sous forme de cartes uniques</string>
+    <string name="mapset_folder">Cartes uniques</string>
+    <string name="mapset_mapset">Ensemble de cartes</string>
+    <string name="list_new_map">Importer</string>
+    <string name="list_loaddir">Réal.</string>
+    <string name="list_download_maps">Télécharger</string>
+    <string name="list_clear_maps">Clair</string>
+    <string name="list_no_maps">Aucune carte</string>
+    <string name="mapset_clear">Vider le cache</string>
+    <string name="mapset_clear_summary">Effacer tous les fichiers cache</string>
+    <string name="cacheagetype_list_title">Vider le cache après</string>
+    <string name="cacheagetype_list_summary">Vider le cache après x temps</string>
+    <string name="mapset_set">Définir le cache</string>
+    <string name="mapset_set_summary">Définir le répertoire de cache</string>
+    <string name="mapset_dir">Répertoire de cache (carte)</string>
+    <string name="fallbackmap_list_title">Carte de secours</string>
+    <string name="fallbackmap_list_summary">Utilisez-le comme carte de secours</string>
+    <string name="mapset_no_online">Jamais en ligne</string>
+    <string name="mapset_automap">Carte automatique</string>
+    <string name="mapset_zoom_buttons">Afficher les boutons de zoom à gauche</string>
+    <string name="scaledouble_title">Carte à l\'échelle</string>
+    <string name="scaledouble_summary">Mettre la carte à l\'échelle à la taille X</string>
+    <string name="showviewdir_title">Afficher la direction de la vue</string>
+    <string name="showviewdir_summary">Afficher la direction de la vue sur la carte</string>
+    <string name="show_bearing_on_move_title">Afficher le relèvement en mouvement</string>
+    <string name="show_bearing_on_move_summary">Afficher le relèvement de la position au centre de la carte</string>
+    <string name="pointer_title">Aiguille</string>
+    <string name="pointer_summary">Comment afficher la direction GPS</string>
+    <string name="display_windindicator">Indicateur de vent</string>
+    <string name="display_windindicator_summary">Afficher un indicateur de vent</string>
+    <string name="distancering_title">Anneau de distance</string>
+    <string name="distancering_summary">Afficher un anneau de distance à la position</string>
+    <string name="display_10MinDistance">Afficher 10 min.</string>
+    <string name="display_10MinDistance_summary">Afficher une ligne de distance jusqu\'à la position en 10 minutes</string>
+    <string name="mindistance_title">Afficher Min. Aiguille</string>
+    <string name="mindistance_summary">Afficher une ligne de distance jusqu\'à la position en x minutes</string>
+    <string name="virtualpositionradius_title">Vice-président du rayon</string>
+    <string name="virtualpositionradius_summary">Rayon pour le contrôle de position virtuel (km)</string>
+    <string name="display_windinfo">Afficher les informations sur le vent</string>
+    <string name="display_windinfo_summary">Afficher les informations de vent sur la carte</string>
+    <string name="windspeed_title">Vitesse du vent</string>
+    <string name="windspeed_summary">Unité de vitesse du vent</string>
+    <string name="wind_routing">Routage du vent</string>
+    <string name="wind_routing_summary">Utiliser le vent pour le calcul d\'itinéraire</string>
     <string name="wind_laylineonwpt">Layline Wpt</string>
-    <string name="wind_laylineonwpt_summary">Show laylines on the way point</string>
-
-    <string name="boatsetting">Paramètres du navire</string>
-    <string name="boatsetting_summary">Sail Parameter</string>
-
-    <string name="boatmessure">Boat Dimensions</string>
-    <string name="boatmessure_summary">Boat Parameter</string>
-
-    <string name="btnselect_title">Dock Button</string>
-    <string name="btnselect_summary">Select a dock button</string>
-
-    <string name="mapposition_title">Show Map Position</string>
-    <string name="mapposition_summary">Show map position in dock view</string>
-
-    <string name="bigviewlogic_title">Instrument View</string>
-    <string name="bigviewlogic_summary">Show some instruments in big view</string>
-
-    <string name="cachedir_title">Cache Directory</string>
-    <string name="cachedir_summary">Place the Space for the Cache</string>
-    
-    <string name="neveronline_title">Never Online</string>
-    <string name="neveronline_summary">Do not use the net connection</string>
-
-    <string name="online_set_title">Online Map Set</string>
-    <string name="online_set_summary">Define a set for the map selector</string>
-
-    <string name="automap_title">Auto map</string>
-    <string name="automap_summary">Automatic selection of an available map</string>
-    
-    <string name="useexactzoom_title">Exact zoom</string>
-    <string name="useexactzoom_summary">Use exact zoom level</string>
-    
-    <string name="zoombuttons_title">Zoom Buttons left</string>
-    <string name="zoombuttons_summary">Show Zoom Buttons on left side</string>
-    
-    <string name="mapselectorvisible_title">Map Selector</string>
-    <string name="mapselectorvisible_summary">Show Map Selector</string>
-    
-    <string name="mapdoubletap_title">Use double tap</string>
-    <string name="mapdoubletap_summary">Use tap to go to position</string>
-    
+    <string name="wind_laylineonwpt_summary">Afficher les laylines sur le waypoint</string>
+    <string name="boatsetting">Paramètres du bateau</string>
+    <string name="boatsetting_summary">Paramètre de voile</string>
+    <string name="boatmessure">Dimensions du bateau</string>
+    <string name="boatmessure_summary">Paramètre du bateau</string>
+    <string name="btnselect_title">Bouton Dock</string>
+    <string name="btnselect_summary">Sélectionnez un bouton du dock</string>
+    <string name="mapposition_title">Afficher la position sur la carte</string>
+    <string name="mapposition_summary">Afficher la position de la carte dans la vue Dock</string>
+    <string name="bigviewlogic_title">Vue des instruments</string>
+    <string name="bigviewlogic_summary">Afficher certains instruments en grand</string>
+    <string name="cachedir_title">Répertoire de cache</string>
+    <string name="cachedir_summary">Placer l\'espace pour le cache</string>
+    <string name="neveronline_title">Jamais en ligne</string>
+    <string name="neveronline_summary">N\'utilisez pas la connexion Internet</string>
+    <string name="online_set_title">Ensemble de cartes en ligne</string>
+    <string name="online_set_summary">Définir un ensemble pour le sélecteur de carte</string>
+    <string name="automap_title">Carte automatique</string>
+    <string name="automap_summary">Sélection automatique d\'une carte disponible</string>
+    <string name="useexactzoom_title">Zoom précis</string>
+    <string name="useexactzoom_summary">Utiliser le niveau de zoom exact</string>
+    <string name="zoombuttons_title">Boutons de zoom à gauche</string>
+    <string name="zoombuttons_summary">Afficher les boutons de zoom sur le côté gauche</string>
+    <string name="mapselectorvisible_title">Sélecteur de carte</string>
+    <string name="mapselectorvisible_summary">Afficher le sélecteur de carte</string>
+    <string name="mapdoubletap_title">Appuyez deux fois sur</string>
+    <string name="mapdoubletap_summary">Appuyez sur pour accéder à la position</string>
     <string name="mapsforge_prefs">Paramètres de MapsForge</string>
-    <string name="mapstheme_title">Map Layout</string>
-    <string name="mapstheme_summary">Select a layout for MapsForge maps</string>
-
-    <string name="text_scale_title">Text Size</string>
-    <string name="text_scale_summary">Select a text size for MapsForge maps</string>
-
-    <string name="icon_scale_title">Icon Scale</string>
-    <string name="icon_scale_summary">Select an icon size for MapsForge maps</string>
-
-    <string name="mapsforgetilesize_title">Tile Size</string>
-    <string name="mapsforgetilesize_summary">Size for one tile</string>
-    <string name="need_restart">Needs a restart</string>
-
-    <string name="drawmaplabelextra_title">Draw Label extra</string>
-    <string name="drawmaplabelextra_summary">Draw the labels with tile or extra</string>
-
-    <string name="drawhillshade_title">Draw Hill Shading</string>
-    <string name="drawhillshade_summary">Draw hill shading from srtm files</string>
-
-    <string name="useworldmap_title">Use World Map</string>
-    <string name="useworldmap_summary">Switch to world map</string>
-
-    <string name="worldzoom_title">Zoom Level</string>
-    <string name="worldzoom_summary">Zoom to switch to world map</string>
-
-    <string name="worldmap_title">World Map</string>
-    <string name="worldmap_summary">Map: </string>
-
-    <string name="layout_title">Layout </string>
-    <string name="layout_summary">Select an inbuild layout and elements</string>
-    <string name="layout_elements">Layout Elements</string>
-    <string name="layout_languages">Layout Languages</string>
-    <string name="layout_depths">Layout Depths</string>
-
-    <string name="nvchart_prefs">Paramètres de NV-digital</string>
-    <string name="nvchart_title">Maps verify</string>
-    <string name="nvchart_summary">Get your key for NV-digital maps</string>
-    
-    
-	<!-- GPS Prefs -->    
-
+    <string name="mapstheme_title">Disposition de la carte</string>
+    <string name="mapstheme_summary">Sélectionnez une mise en page pour les cartes MapsForge</string>
+    <string name="text_scale_title">Taille du texte</string>
+    <string name="text_scale_summary">Sélectionnez une taille de texte pour les cartes MapsForge</string>
+    <string name="icon_scale_title">Échelle des icônes</string>
+    <string name="icon_scale_summary">Sélectionnez une taille d\'icône pour les cartes MapsForge</string>
+    <string name="mapsforgetilesize_title">Taille des carreaux</string>
+    <string name="mapsforgetilesize_summary">Taille pour un carreau</string>
+    <string name="need_restart">A besoin d\'un redémarrage</string>
+    <string name="drawmaplabelextra_title">Dessiner une étiquette supplémentaire</string>
+    <string name="drawmaplabelextra_summary">Dessinez les étiquettes avec du carrelage ou supplémentaire</string>
+    <string name="drawhillshade_title">Dessiner l\'ombrage des collines</string>
+    <string name="drawhillshade_summary">Dessiner un ombrage à partir de fichiers srtm</string>
+    <string name="useworldmap_title">Utiliser la carte du monde</string>
+    <string name="useworldmap_summary">Passer à la carte du monde</string>
+    <string name="worldzoom_title">Niveau de zoom</string>
+    <string name="worldzoom_summary">Zoomez pour passer à la carte du monde</string>
+    <string name="worldmap_title">Carte du monde</string>
+    <string name="worldmap_summary">Carte:</string>
+    <string name="layout_title">Mise en page</string>
+    <string name="layout_summary">Sélectionnez une mise en page et des éléments intégrés</string>
+    <string name="layout_elements">Éléments de mise en page</string>
+    <string name="layout_languages">Langages de mise en page</string>
+    <string name="layout_depths">Profondeurs de mise en page</string>
+    <string name="nvchart_prefs">Paramètres NV-numériques</string>
+    <string name="nvchart_title">Vérification des cartes</string>
+    <string name="nvchart_summary">Obtenez votre clé pour les cartes numériques NV</string>
     <string name="gps_title">Paramètres GPS</string>
-    <string name="gps_use_traccar">Use Traccar</string>
-    <string name="gps_use_traccar_summary">Use a Traccar connection to get way point updates</string>
-
-    <string name="gps_use_gpsgate">Use GpsGate</string>
-    <string name="gps_use_gpsgate_summary">Use a GpsGate connection to get way point updates</string>
-
+    <string name="gps_use_traccar">Utiliser Traccar</string>
+    <string name="gps_use_traccar_summary">Utilisez une connexion Traccar pour obtenir des mises à jour des points de cheminement</string>
+    <string name="gps_use_gpsgate">Utiliser GPSGate</string>
+    <string name="gps_use_gpsgate_summary">Utilisez une connexion GpsGate pour obtenir des mises à jour des points de cheminement</string>
     <string name="gps_gpsgate">Paramètres du GPSGate</string>
-    <string name="gps_gpsgate_summary">GpsGate login settings</string>
-    
+    <string name="gps_gpsgate_summary">Paramètres de connexion à GpsGate</string>
     <string name="gps_mode_title">Paramètres du mode GPS</string>
-    <string name="gps_mode">Gps Mode</string>
-    <string name="gps_mode_summary">Gps device </string>
-    
-    <string name="gps_mixedmode">Gps Mixed Mode</string>
-    <string name="gps_mixedmode_summary">Use internal device and external data</string>
-    
-    <string name="gps_bt">Bluetooth Gps</string>
-    <string name="gps_bt_summary">BT Gps device </string>
-    <string name="gps_bt_nopermission">No BT Permission granted</string>
-    <string name="dialog_need_bt_permission">"The app needs BT permission when you like to use a BT gps device.</string>
-
-    <string name="gps_bt_close">Close Bluetooth</string>
-    <string name="gps_bt_close_summary">Close BT after use</string>
-    
-    <string name="gps_gpsd">Online Gps</string>
-    <string name="gps_gpsd_summary">Online Gps address </string>
-    
-    <string name="gps_gpsd_port">Online Gps Port</string>
-    <string name="gps_gpsd_port_summary">Online Gps port </string>
- 
+    <string name="gps_mode">Mode GPS</string>
+    <string name="gps_mode_summary">Appareil GPS</string>
+    <string name="gps_mixedmode">Mode mixte GPS</string>
+    <string name="gps_mixedmode_summary">Utiliser un appareil interne et des données externes</string>
+    <string name="gps_bt">GPS Bluetooth</string>
+    <string name="gps_bt_summary">Appareil GPS BT</string>
+    <string name="gps_bt_nopermission">Aucune autorisation BT accordée</string>
+    <string name="dialog_need_bt_permission">\"L\'application a besoin de l\'autorisation BT lorsque vous souhaitez utiliser un appareil GPS BT.</string>
+    <string name="gps_bt_close">Fermer Bluetooth</string>
+    <string name="gps_bt_close_summary">Fermer BT après utilisation</string>
+    <string name="gps_gpsd">GPS en ligne</string>
+    <string name="gps_gpsd_summary">Adresse GPS en ligne</string>
+    <string name="gps_gpsd_port">Port GPS en ligne</string>
+    <string name="gps_gpsd_port_summary">Port GPS en ligne</string>
     <string name="gps_share">Partager la position</string>
-    <string name="gps_share_summary">Replace internal gps with incoming positions</string>
-
-    <string name="gps_useasgpsd">GPS Daemon</string>
-    <string name="gps_useasgpsd_summary">Send positions via gpsd logic</string>
-
-    <string name="gps_useasgpsd_port">GPS Daemon Settings</string>
-    <string name="gps_useasgpsd_port_summary">Define for gpsd</string>
-
+    <string name="gps_share_summary">Remplacer le GPS interne par des positions entrantes</string>
+    <string name="gps_useasgpsd">Démon GPS</string>
+    <string name="gps_useasgpsd_summary">Envoyer les positions via la logique GPSD</string>
+    <string name="gps_useasgpsd_port">Paramètres du démon GPS</string>
+    <string name="gps_useasgpsd_port_summary">Définir pour gpsd</string>
     <string name="gps_plugin_title">Paramètres du plugin</string>
-    
-    
     <string name="gps_log_title">Paramètres du mode journal</string>
-    <string name="gps_log_mode">Log Mode</string>
-    <string name="gps_log_mode_summary">How to collect a track</string>
-
-    <string name="gps_sms_log_mode">Log Mode SMS</string>
-    <string name="gps_sms_log_mode_summary">Additional track info from short message</string>
-    
-    <string name="gps_log_second">Log Second</string>
-    <string name="gps_log_second_summary">Set Seconds to log (2&#8211;9999)</string>
-
+    <string name="gps_log_mode">Mode journal</string>
+    <string name="gps_log_mode_summary">Comment collecter une piste</string>
+    <string name="gps_sms_log_mode">SMS en mode journal</string>
+    <string name="gps_sms_log_mode_summary">Informations supplémentaires sur la piste à partir d\'un message court</string>
+    <string name="gps_log_second">Journal des secondes</string>
+    <string name="gps_log_second_summary">Définir les secondes à enregistrer (2–9999)</string>
     <string name="gps_alt_title">Paramètres d\'altitude</string>
-    <string name="gps_alt_view">Altitude Format</string>
-    <string name="gps_alt_view_summary">How to view the altitude values</string>
-
+    <string name="gps_alt_view">Format d\'altitude</string>
+    <string name="gps_alt_view_summary">Comment afficher les valeurs d\'altitude</string>
     <string name="gps_alt_correct">Alt. Correction</string>
-    <string name="gps_alt_correct_summary">See corrected altitude</string>
-
+    <string name="gps_alt_correct_summary">Voir altitude corrigée</string>
     <string name="gps_alt_correct_value">Alt. Correction</string>
-    <string name="gps_alt_correct_value_summary">Set altitude correction</string>
-
-    
+    <string name="gps_alt_correct_value_summary">Régler la correction d\'altitude</string>
     <string name="gps_depth_title">Paramètres de profondeur</string>
-    <string name="gps_depth_view">Depth in</string>
-    <string name="gps_depth_view_summary">How to view the depth values</string>
-
-    <string name="gps_depth_correct">Depth Correction</string>
-    <string name="gps_depth_correct_summary">See corrected depth</string>
-
-    <string name="gps_depth_correct_value">Depth Correction</string>
-    <string name="gps_depth_correct_value_summary">Set depth correction</string>
-
-    
+    <string name="gps_depth_view">Profondeur</string>
+    <string name="gps_depth_view_summary">Comment afficher les valeurs de profondeur</string>
+    <string name="gps_depth_correct">Correction de profondeur</string>
+    <string name="gps_depth_correct_summary">Voir profondeur corrigée</string>
+    <string name="gps_depth_correct_value">Correction de profondeur</string>
+    <string name="gps_depth_correct_value_summary">Définir la correction de la profondeur</string>
     <string name="gps_loc_title">Paramètres de localisation</string>
-    <string name="gps_loc_view">Position Format</string>
-    <string name="gps_loc_view_summary">How to show the position values</string>
-
-    <string name="gps_loc_speed_view">Speed Format</string>
-    <string name="gps_loc_speed_view_summary">How to show the speed value</string>
-
-    <string name="gps_loc_dist_view">Distance Format</string>
-    <string name="gps_loc_dist_view_summary">How to show the distance value</string>
-
-    <string name="gps_loc_area_view">Area Format</string>
-    <string name="gps_loc_area_view_summary">How to show the area value</string>
-
+    <string name="gps_loc_view">Format du poste</string>
+    <string name="gps_loc_view_summary">Comment afficher les valeurs de position</string>
+    <string name="gps_loc_speed_view">Format de vitesse</string>
+    <string name="gps_loc_speed_view_summary">Comment afficher la valeur de la vitesse</string>
+    <string name="gps_loc_dist_view">Format des distances</string>
+    <string name="gps_loc_dist_view_summary">Comment afficher la valeur de la distance</string>
+    <string name="gps_loc_area_view">Format de zone</string>
+    <string name="gps_loc_area_view_summary">Comment afficher la valeur de la zone</string>
     <string name="gps_filter_title">Paramètres de filtre</string>
-    <string name="gps_filter_angle">Smart Angle</string>
-    <string name="gps_filter_angle_summary">Filter for smart logging</string>
-
-    <string name="gps_filter_use">Use Filter</string>
-    <string name="gps_filter_use_summary">Location Filter</string>
-    
-    <string name="gps_pressure">Use Pressure</string>
-    <string name="gps_pressure_summary">Use Pressure for Altitude</string>
-
-    <string name="gps_pressure_start">Pressure Start</string>
-    <string name="gps_pressure_start_summary">Set altitude to a known reference</string>
-    <string name="gps_alt_start">Get GPS Altitude</string>
-    
-    <string name="gps_pressure_station">Pressure Station</string>
-    <string name="gps_pressure_station_summary">Use Station for Pressure Correction</string>
-
-    <string name="gps_pressure_get">Get Pressure</string>
-    <string name="gps_pressure_get_summary">Get Pressure at Station</string>
-
-    <string name="gps_varioaudio">Vario Audio</string>
-    <string name="gps_varioaudio_summary">Set values for vario audio</string>
-    
-    <string name="gps_varioaudio_on">Use Vario Audio</string>
-    <string name="gps_varioaudio_lift">Lift limit</string>
-    <string name="gps_varioaudio_sink">Sink limit</string>
-
-    <string name="gps_usewind">Wind</string>
-    <string name="gps_usewind_on">Use Wind</string>
-    <string name="gps_usewind_dir">True Wind Direction</string>
-    <string name="gps_usewind_speed">Wind Speed</string>
-
-    <string name="usecloud_summary">Use SailTimer™ Cloud</string>
-    <string name="usecloudais_summary">Show with AIS</string>
-    <string name="usecloudcolor_summary">Use Colors</string>
-    <string name="usecloudsave_summary">Save external wind data</string>
-    
-    <string name="gps_distancering_on">Use Distance Ring</string>
-    <string name="gps_distancering_count">Ring Count</string>
-    <string name="gps_distancering_size">Ring Size</string>
-    
-    <string name="gps_filter_pause">Speed Pause</string>
-    <string name="gps_filter_pause_summary">Set the Value for reduced Speed</string>
-    
-    <string name="gps_compass_use">Use Compass</string>
-    <string name="gps_compass_use_summary">Bearing view from compass</string>
-
-    <string name="gps_bearing_use">Use GPS Bearing</string>
-    <string name="gps_bearing_use_summary">Get Bearing from GPS (or compute it)</string>
-
-    <string name="gps_history_use">Use GPS History</string>
-    <string name="gps_history_use_summary">Show last positions</string>
-
-    
+    <string name="gps_filter_angle">Angle intelligent</string>
+    <string name="gps_filter_angle_summary">Filtre pour la journalisation intelligente</string>
+    <string name="gps_filter_use">Utiliser le filtre</string>
+    <string name="gps_filter_use_summary">Filtre d\'emplacement</string>
+    <string name="gps_pressure">Utiliser la pression</string>
+    <string name="gps_pressure_summary">Utiliser la pression pour l\'altitude</string>
+    <string name="gps_pressure_start">Démarrage par pression</string>
+    <string name="gps_pressure_start_summary">Régler l\'altitude sur une référence connue</string>
+    <string name="gps_alt_start">Obtenir l\'altitude GPS</string>
+    <string name="gps_pressure_station">Station de pression</string>
+    <string name="gps_pressure_station_summary">Utiliser la station pour la correction de la pression</string>
+    <string name="gps_pressure_get">Obtenez de la pression</string>
+    <string name="gps_pressure_get_summary">Obtenez la pression à la station</string>
+    <string name="gps_varioaudio">Vario-Audio</string>
+    <string name="gps_varioaudio_summary">Définir les valeurs pour l\'audio Vario</string>
+    <string name="gps_varioaudio_on">Utiliser Vario Audio</string>
+    <string name="gps_varioaudio_lift">Limite de levage</string>
+    <string name="gps_varioaudio_sink">Limite de puits</string>
+    <string name="gps_usewind">Vent</string>
+    <string name="gps_usewind_on">Utiliser le vent</string>
+    <string name="gps_usewind_dir">Direction réelle du vent</string>
+    <string name="gps_usewind_speed">Vitesse du vent</string>
+    <string name="usecloud_summary">Utiliser SailTimer™ Cloud</string>
+    <string name="usecloudais_summary">Afficher avec AIS</string>
+    <string name="usecloudcolor_summary">Utiliser des couleurs</string>
+    <string name="usecloudsave_summary">Enregistrer les données de vent externes</string>
+    <string name="gps_distancering_on">Utiliser l\'anneau de distance</string>
+    <string name="gps_distancering_count">Nombre de sonneries</string>
+    <string name="gps_distancering_size">Taille de la bague</string>
+    <string name="gps_filter_pause">Pause rapide</string>
+    <string name="gps_filter_pause_summary">Définir la valeur pour la vitesse réduite</string>
+    <string name="gps_compass_use">Utiliser la boussole</string>
+    <string name="gps_compass_use_summary">Vue de relèvement depuis la boussole</string>
+    <string name="gps_bearing_use">Utiliser le relèvement GPS</string>
+    <string name="gps_bearing_use_summary">Obtenez le relèvement du GPS (ou calculez-le)</string>
+    <string name="gps_history_use">Utiliser l\'historique GPS</string>
+    <string name="gps_history_use_summary">Afficher les dernières positions</string>
     <string name="gps_nmea">Paramètres NMEA</string>
-    <string name="gps_nmea_use">Use NMEA only</string>
-    <string name="gps_nmea_use_summary">Position comes only from NMEA data</string>
-
-    <string name="gps_nmealog_use">NMEA Log</string>
-    <string name="gps_nmealog_use_summary">Write NMEA log data</string>
-
-    <string name="gps_nmealog_filter">NMEA Filter</string>
-    <string name="gps_nmealog_filter_summary">Write only filtered log data</string>
-
+    <string name="gps_nmea_use">Utiliser uniquement NMEA</string>
+    <string name="gps_nmea_use_summary">La position provient uniquement des données NMEA</string>
+    <string name="gps_nmealog_use">Journal NMEA</string>
+    <string name="gps_nmealog_use_summary">Écrire les données du journal NMEA</string>
+    <string name="gps_nmealog_filter">Filtre NMEA</string>
+    <string name="gps_nmealog_filter_summary">Écrire uniquement les données de journal filtrées</string>
     <string name="gps_alarm_title">Paramètres d\'alarme</string>
-    <string name="gps_alarm_dist">Anchor Distance</string>
-    <string name="gps_alarm_dist_summary">Set Anchor Distance in Meter</string>
-
+    <string name="gps_alarm_dist">Distance d\'ancrage</string>
+    <string name="gps_alarm_dist_summary">Définir la distance d\'ancrage en mètres</string>
     <string name="wind_alarm_title">Paramètres d\'alarme de vent</string>
-    <string name="wind_alarm_speed">Wind Speed Alarm</string>
-    <string name="wind_alarm_speed_summary">Set Wind Speed in knots</string>
-
-    <!-- GPS Time  -->
+    <string name="wind_alarm_speed">Alarme de vitesse du vent</string>
+    <string name="wind_alarm_speed_summary">Régler la vitesse du vent en nœuds</string>
     <string name="gps_time_prefs">Paramètres d\'actualisation du GPS</string>
-    <string name="gps_time_prefs_summary">Refresh frequency for the gps</string>
-    <string name="gps_time_seconds_title">Seconds</string>
-    <string name="gps_time_seconds_summary">Update gps in seconds</string>
-
-    <string name="gps_time_bgseconds_title">Background Seconds</string>
-    <string name="gps_time_bgseconds_summary">Update gps in seconds in background</string>
-   
+    <string name="gps_time_prefs_summary">Fréquence de rafraîchissement du GPS</string>
+    <string name="gps_time_seconds_title">Secondes</string>
+    <string name="gps_time_seconds_summary">Mettre à jour le GPS en quelques secondes</string>
+    <string name="gps_time_bgseconds_title">Secondes en arrière-plan</string>
+    <string name="gps_time_bgseconds_summary">Mettre à jour le GPS en quelques secondes en arrière-plan</string>
     <string name="gps_time_distance_title">Distance (m)</string>
-    <string name="gps_time_distance_summary">Update gps in distance (m)</string>
-
-    <string name="gps_time_bgdistance_title">Background Distance (m)</string>
-    <string name="gps_time_bgdistance_summary">Update gps in distance (m) in background</string>
-    
-    <string name="gps_time_setdefaults_title">Set Defaults</string>
-    <string name="gps_time_setdefaults_summary">Use the default values</string>
-    
+    <string name="gps_time_distance_summary">Mettre à jour le GPS en distance (m)</string>
+    <string name="gps_time_bgdistance_title">Distance de fond (m)</string>
+    <string name="gps_time_bgdistance_summary">Mettre à jour le GPS en distance (m) en arrière-plan</string>
+    <string name="gps_time_setdefaults_title">Définir les valeurs par défaut</string>
+    <string name="gps_time_setdefaults_summary">Utiliser les valeurs par défaut</string>
     <string name="gps_acc_prefs">Paramètres de précision du GPS</string>
-    <string name="log_acc">Accuracy</string>
-    <string name="log_acc_summary">Accuracy for a valid position</string>
-
-    <string name="gps_logging_check">GPS Check</string>
-    <string name="gps_logging_check_title">Check on Logging</string>
-    <string name="gps_logging_check_summary">Check for valid speed when logging</string>
-
-    <string name="gps_check_speed_title">Check Speed Value</string>
-    <string name="gps_check_speed_summary">Used for none smart tracking (0=no test)</string>
-
-    <string name="log_at_start">Log at start</string>
-    <string name="log_at_start_summary">Start logging at app start</string>
-    
-    <string name="save_log">Auto Save Log</string>
-    <string name="save_log_summary">Save log on stop trackinig</string>
-
-    <!-- Depths on chart  -->
+    <string name="log_acc">Précision</string>
+    <string name="log_acc_summary">Précision pour une position valide</string>
+    <string name="gps_logging_check">Vérification GPS</string>
+    <string name="gps_logging_check_title">Vérifier la journalisation</string>
+    <string name="gps_logging_check_summary">Vérifiez la vitesse valide lors de la connexion</string>
+    <string name="gps_check_speed_title">Vérifier la valeur de la vitesse</string>
+    <string name="gps_check_speed_summary">Utilisé pour aucun suivi intelligent (0 = aucun test)</string>
+    <string name="log_at_start">Connectez-vous au début</string>
+    <string name="log_at_start_summary">Commencez à vous connecter au démarrage de l\'application</string>
+    <string name="save_log">Journal de sauvegarde automatique</string>
+    <string name="save_log_summary">Enregistrer le journal lors de l\'arrêt du suivi</string>
     <string name="map_depth_prefs">Paramètres de profondeur</string>
-    <string name="map_depth_shallow_title">Depth Shallow</string>
-    <string name="map_depth_shallow_summary">Depth below</string>
-
-    <string name="map_depth_safety_title">Depth Safety</string>
-    <string name="map_depth_safety_summary">Depth safety</string>
-
-    <string name="map_depth_deep_title">Depth Deep</string>
-    <string name="map_depth_deep_summary">Depth deep water</string>
-
-    <!-- AIS  -->
+    <string name="map_depth_shallow_title">Profondeur peu profonde</string>
+    <string name="map_depth_shallow_summary">Profondeur ci-dessous</string>
+    <string name="map_depth_safety_title">Sécurité en profondeur</string>
+    <string name="map_depth_safety_summary">Sécurité en profondeur</string>
+    <string name="map_depth_deep_title">Profondeur Profond</string>
+    <string name="map_depth_deep_summary">Profondeur eau profonde</string>
     <string name="ais_prefs">Paramètres AIS</string>
-    <string name="ais_prefs_summary">Open AIS Settings</string>
-
+    <string name="ais_prefs_summary">Ouvrir les paramètres AIS</string>
     <string name="easy_prefs">Paramètres courts</string>
-    
-    <string name="aisdock_title">Use AIS Dock</string>
-    <string name="aisdock_summary">Replace Profile Dock with AIS data</string>
-
-    <string name="aispath_title">Show AIS Path</string>
-    <string name="aispath_summary">Show a track on all ships</string>
-
-    <string name="aisicon_title">Show AIS small Icons</string>
-    <string name="aisicon_summary">Show a small/scaled icon</string>
-
-    <string name="aismooring_title">No none moving boats</string>
-    <string name="aismooring_summary">Don\'t display boats at anchor, mooring or very slow going</string>
-
-    <string name="ais_alarmdistance_title">AIS Alarm Distance</string>
-    <string name="ais_alarmdistance_summary">Set alarm distance in nm (Zero for no alarm)</string>
-
-    <string name="aisalarmmooring_title">No Alarm on none moving boats</string>
-    <string name="aisalarmmooring_summary">Don\'t alarm boats at anchor, mooring or very slow going</string>
-
-    <string name="own_ais_title">Own MMSI</string>
-    <string name="own_ais_summary">If filled this is not shown</string>
-
-    <string name="clear_ais_db_title">Clear AIS names</string>
-    <string name="clear_ais_db_summary">Drop entries on AIS database</string>
-
-
-    <!-- SMS Prefs -->    
+    <string name="aisdock_title">Utiliser le quai AIS</string>
+    <string name="aisdock_summary">Remplacer Profile Dock par des données AIS</string>
+    <string name="aispath_title">Afficher le chemin AIS</string>
+    <string name="aispath_summary">Afficher une trace sur tous les navires</string>
+    <string name="aisicon_title">Afficher les petites icônes AIS</string>
+    <string name="aisicon_summary">Afficher une icône petite/à l\'échelle</string>
+    <string name="aismooring_title">Non, aucun bateau ne bouge</string>
+    <string name="aismooring_summary">Ne pas afficher de bateaux au mouillage, au mouillage ou très lents</string>
+    <string name="ais_alarmdistance_title">Distance d\'alarme AIS</string>
+    <string name="ais_alarmdistance_summary">Définir la distance d\'alarme en nm (zéro pour aucune alarme)</string>
+    <string name="aisalarmmooring_title">Pas d\'alarme sur les bateaux qui ne bougent pas</string>
+    <string name="aisalarmmooring_summary">Ne pas alerter les bateaux au mouillage, au mouillage ou très lents</string>
+    <string name="own_ais_title">Posséder un MMSI</string>
+    <string name="own_ais_summary">S\'il est rempli, cela n\'est pas affiché</string>
+    <string name="clear_ais_db_title">Effacer les noms AIS</string>
+    <string name="clear_ais_db_summary">Supprimer les entrées sur la base de données AIS</string>
     <string name="sms_prefs">Paramètres SMS</string>
-
-    <string name="sms_install_title">SMS Permission</string>
-    <string name="sms_install_summary">Get SMS Permission information</string>
-
-    <string name="sms_start_title">Call SMS Plugin</string>
-    <string name="sms_start_summary">Start the plugin for settings</string>
-
-    <string name="sms_prefs_log">SMS Logging</string>
-    <string name="sms_prefs_provider">SMS App</string>
- 
-    <string name="sms_provider_title">SMS App</string>
-    <string name="sms_provider_summary">Use as temp. SMS app</string>
-    
-    <string name="smstype_list_title">Send String</string>
-    <string name="smstype_list_summary">What to send via short message</string>
-    
-    <string name="sms_storage_title">SMS Storage</string>
-    <string name="sms_storage_summary">Predefined SMS text strings</string>
-    
-    <string name="sms_inbox_title">Read SMS</string>
-    <string name="sms_inbox_summary">Read SMS from inbox</string>
-    
-    <string name="sms_show_commands_title">Show SMS commands</string>
-    <string name="sms_show_commands_summary">Show SMS commands in menu list</string>
-    
-    <string name="sms_with_log_title">Send with Log</string>
-    <string name="sms_with_log_summary">Automatic sending</string>
-    
-    <string name="sms_resend_title">Resend Message</string>
-    <string name="sms_resend_summary">Resend on automatic sending</string>
-    
-    <string name="sms_number_title">Number</string>
-    <string name="sms_number_summary">Number to send to</string>
-    
-    <string name="center_sms_wpt_title">Center on SMS</string>
-    <string name="center_sms_wpt_summary">Center map on the receive position</string>
-    
-    <string name="sound_sms_wpt_title">Play sound on SMS</string>
-    <string name="sound_sms_wpt_summary">Play the notification sound on receive</string>
-    
-    <string name="label_sms_wpt_title">Show label on SMS</string>
-    <string name="label_sms_wpt_summary">Show the notification label on receive</string>
-    
-    <string name="sms_to_track_title">Build Track on SMS</string>
-    <string name="sms_to_track_summary">Collects the received positions to a track</string>
-    
-    
-	<!-- HTTP Prefs -->    
-	<string name="online_prefs">Paramètres en ligne</string>
-
-		<string name="http_profiles">Profiles</string>
-	<string name="http_profile">Profile</string>
-	<string name="http_profile_summary">Organize different HTTP settings</string>
-			
-	<string name="http_profile_add">Add Profile</string>
-	<string name="http_profile_add_summary">Add a new Profile to HTTP settings</string>
-	
-	<string name="http_profile_delete">Remove all Profiles</string>
-	<string name="http_profile_delete_summary">Clear the Profiles to HTTP settings</string>
-	
-	<string name="http_profile_import">Import a Profile</string>
-	<string name="http_profile_import_summary">Load a Profile from settings file</string>
-	
-	<string name="used_imei">IMEI</string>
-	
-	<string name="http_prefs">Paramètres HTTP</string>
-    <string name="http_host_title">Host</string>
-    <string name="http_host_summary">Send to Host</string>
-
+    <string name="sms_install_title">Autorisation SMS</string>
+    <string name="sms_install_summary">Obtenir des informations sur les autorisations SMS</string>
+    <string name="sms_start_title">Plugin SMS d\'appel</string>
+    <string name="sms_start_summary">Démarrez le plugin pour les paramètres</string>
+    <string name="sms_prefs_log">Journalisation des SMS</string>
+    <string name="sms_prefs_provider">Application SMS</string>
+    <string name="sms_provider_title">Application SMS</string>
+    <string name="sms_provider_summary">Utiliser comme temp. Application SMS</string>
+    <string name="smstype_list_title">Envoyer la chaîne</string>
+    <string name="smstype_list_summary">Quoi envoyer par message court</string>
+    <string name="sms_storage_title">Stockage SMS</string>
+    <string name="sms_storage_summary">Chaînes de texte SMS prédéfinies</string>
+    <string name="sms_inbox_title">Lire des SMS</string>
+    <string name="sms_inbox_summary">Lire les SMS de la boîte de réception</string>
+    <string name="sms_show_commands_title">Afficher les commandes SMS</string>
+    <string name="sms_show_commands_summary">Afficher les commandes SMS dans la liste des menus</string>
+    <string name="sms_with_log_title">Envoyer avec journal</string>
+    <string name="sms_with_log_summary">Envoi automatique</string>
+    <string name="sms_resend_title">Renvoyer le message</string>
+    <string name="sms_resend_summary">Renvoyer sur envoi automatique</string>
+    <string name="sms_number_title">Nombre</string>
+    <string name="sms_number_summary">Numéro à envoyer</string>
+    <string name="center_sms_wpt_title">Centrez-vous sur les SMS</string>
+    <string name="center_sms_wpt_summary">Centrer la carte sur la position de réception</string>
+    <string name="sound_sms_wpt_title">Jouer du son sur SMS</string>
+    <string name="sound_sms_wpt_summary">Jouer le son de notification lors de la réception</string>
+    <string name="label_sms_wpt_title">Afficher l\'étiquette sur SMS</string>
+    <string name="label_sms_wpt_summary">Afficher l\'étiquette de notification lors de la réception</string>
+    <string name="sms_to_track_title">Créer une piste sur SMS</string>
+    <string name="sms_to_track_summary">Collecte les positions reçues sur une piste</string>
+    <string name="online_prefs">Paramètres en ligne</string>
+    <string name="http_profiles">Profils</string>
+    <string name="http_profile">Profil</string>
+    <string name="http_profile_summary">Organiser différents paramètres HTTP</string>
+    <string name="http_profile_add">Ajouter un profil</string>
+    <string name="http_profile_add_summary">Ajouter un nouveau profil aux paramètres HTTP</string>
+    <string name="http_profile_delete">Supprimer tous les profils</string>
+    <string name="http_profile_delete_summary">Effacez les paramètres des profils vers HTTP</string>
+    <string name="http_profile_import">Importer un profil</string>
+    <string name="http_profile_import_summary">Charger un profil à partir du fichier de paramètres</string>
+    <string name="used_imei">IMEI</string>
+    <string name="http_prefs">Paramètres HTTP</string>
+    <string name="http_host_title">Hôte</string>
+    <string name="http_host_summary">Envoyer à l\'hôte</string>
     <string name="http_port_title">Port</string>
-    <string name="http_port_summary">Port for this Host</string>
-
-    <string name="http_file_title">File</string>
-    <string name="http_file_summary">File part of Url</string>
-
-    <string name="http_keyid_title">User Attribute</string>
-    <string name="http_keyid_summary">Attribute for User</string>
-
-    <string name="http_keyidvalue_title">User</string>
-    <string name="http_keyidvalue_summary">User value</string>
-
-    <string name="http_keyidvalue_toggle_title">Use IMEI</string>
-    <string name="http_keyidvalue_toggle_summary">Use IMEI as User id value</string>
-
-    <string name="http_keypwd_title">Password Attribute</string>
-    <string name="http_keypwd_summary">Attribute for Password</string>
-
-    <string name="http_keypwdvalue_title">Password</string>
-    <string name="http_keypwdvalue_summary">Password value</string>
-
-    <string name="http_keypwdencryption_list_title">Encryption</string>
-    <string name="http_keypwdencryption_list_summary">Encryption of the password</string>
-
-    <string name="http_usegprmc_title">Use GPRMC</string>
-    <string name="http_usegprmc_summary">Send gps sentence GPRMC for position</string>
-   
-    <string name="http_keylat_title">Latitude Attribute</string>
-    <string name="http_keylat_summary">Attribute for Latitude</string>
-
-    <string name="http_keylon_title">Longitude Attribute</string>
-    <string name="http_keylon_summary">Attribute for Longitude</string>
-
-    <string name="http_keyalt_title">Altitude Attribute</string>
-    <string name="http_keyalt_summary">Attribute for Altitude</string>
-
-    <string name="http_keyspeed_title">Speed Attribute</string>
-    <string name="http_keyspeed_summary">Attribute for Speed</string>
-
-    <string name="http_keydir_title">Direction Attribute</string>
-    <string name="http_keydir_summary">Attribute for Direction</string>
-
-    <string name="http_keytime_title">Time Attribute</string>
-    <string name="http_keytime_summary">Attribute for Time</string>
-
-    <string name="http_keytimeformat_title">Time Format</string>
-    <string name="http_keytimeformat_summary">Format for Time (Java logic)</string>
-
-    <string name="http_keytext_title">Text Attribute</string>
-    <string name="http_keytext_summary">Attribute for supplementary text</string>
-
-    <string name="http_sendtext_title">Send Text</string>
-
-    <string name="http_with_log_title">Send with Log</string>
-    <string name="http_with_log_summary">Automatic sending</string>
-
-    <!-- HTTP upload -->    
-	<string name="http_upload">Upload</string>
-    
-	<!-- IGC Prefs -->    
+    <string name="http_port_summary">Port pour cet hôte</string>
+    <string name="http_file_title">Déposer</string>
+    <string name="http_file_summary">Fichier faisant partie de l\'URL</string>
+    <string name="http_keyid_title">Attribut utilisateur</string>
+    <string name="http_keyid_summary">Attribut pour l\'utilisateur</string>
+    <string name="http_keyidvalue_title">Utilisateur</string>
+    <string name="http_keyidvalue_summary">Valeur utilisateur</string>
+    <string name="http_keyidvalue_toggle_title">Utiliser IMEI</string>
+    <string name="http_keyidvalue_toggle_summary">Utiliser IMEI comme valeur d\'identifiant utilisateur</string>
+    <string name="http_keypwd_title">Attribut de mot de passe</string>
+    <string name="http_keypwd_summary">Attribut du mot de passe</string>
+    <string name="http_keypwdvalue_title">Mot de passe</string>
+    <string name="http_keypwdvalue_summary">Valeur du mot de passe</string>
+    <string name="http_keypwdencryption_list_title">Cryptage</string>
+    <string name="http_keypwdencryption_list_summary">Cryptage du mot de passe</string>
+    <string name="http_usegprmc_title">Utiliser GPRMC</string>
+    <string name="http_usegprmc_summary">Envoyer la phrase GPS GPRMC pour la position</string>
+    <string name="http_keylat_title">Attribut de latitude</string>
+    <string name="http_keylat_summary">Attribut pour la latitude</string>
+    <string name="http_keylon_title">Attribut de longitude</string>
+    <string name="http_keylon_summary">Attribut de longitude</string>
+    <string name="http_keyalt_title">Attribut d\'altitude</string>
+    <string name="http_keyalt_summary">Attribut pour l\'altitude</string>
+    <string name="http_keyspeed_title">Attribut de vitesse</string>
+    <string name="http_keyspeed_summary">Attribut de vitesse</string>
+    <string name="http_keydir_title">Attribut de direction</string>
+    <string name="http_keydir_summary">Attribut de direction</string>
+    <string name="http_keytime_title">Attribut de temps</string>
+    <string name="http_keytime_summary">Attribut pour le temps</string>
+    <string name="http_keytimeformat_title">Format de l\'heure</string>
+    <string name="http_keytimeformat_summary">Format de l\'heure (logique Java)</string>
+    <string name="http_keytext_title">Attribut de texte</string>
+    <string name="http_keytext_summary">Attribut pour le texte supplémentaire</string>
+    <string name="http_sendtext_title">Envoyer un texte</string>
+    <string name="http_with_log_title">Envoyer avec journal</string>
+    <string name="http_with_log_summary">Envoi automatique</string>
+    <string name="http_upload">Télécharger</string>
     <string name="igc_prefs">Paramètres IGC</string>
-    <string name="igcname_title">Name</string>
-    <string name="igcname_summary">Give it a Name</string>
-    
-    <string name="igcglidertype_title">Glider type</string>
-    <string name="igcglidertype_summary">Input Glider type</string>
-    
-    <string name="igcgliderid_title">Glider id</string>
-    <string name="igcgliderid_summary">Input Glider id</string>
-    
-    <string name="igccompetitionid_title">Competition</string>
-    <string name="igccompetitionid_summary">Input Competition</string>
-    
-    <string name="igccompetitionclass_title">Competition class</string>
-    <string name="igccompetitionclass_summary">Input Competition class</string>
-    
-    
-    <!-- Menu -->
- 
-    <string name="menu_title_todo">Select Action</string>
-    <string name="menu_title_dock">Select Dock</string>
-    <string name="menu_title_getwpt">Get Way Point from</string>
-    <string name="menu_title_route">Routing</string>
-    <string name="menu_no_dock">No Dock</string>
-	
-	<string name="menu_trackstart">Start Track</string>
-	<string name="menu_trackstartmulti">Start Multi Track</string>
-	<string name="menu_newtrackstart">Start new Track</string>
-	<string name="menu_trackstop">Stop Track</string>
-	<string name="menu_sendposition">Envoyer la position</string>
-	<string name="menu_sendsms">Send SMS</string>
-	<string name="menu_sendsmscommand">Send SMS command</string>
-	<string name="menu_startplugin">Plugin</string>
-	<string name="menu_osmcolor">Use Track Markup</string>
-	<string name="menu_sendhttp">Send Online</string>
-	<string name="menu_sendshare">Share</string>
-	<string name="menu_selectdock">Select Dock</string>
-	<string name="menu_selectplugin">Select Plugin</string>
-	<string name="menu_hidebuttons">Hide Button</string>
-    <string name="menu_plugin">Available Plugins</string>
-
-	<string name="menu_getwpt">Save Way Point</string>
-	<string name="menu_getaddress">Get Address</string>
-	<string name="menu_cancel">Cancel</string>
-	    	
-	<string name="menu_goto_cancel">Cancel GoTo</string>
-	    
-	<string name="menu_getwptfrommap">Map</string>
-	<string name="menu_getwptfrompos">Position</string>
-	<string name="menu_getwptfrombearing">Bearing</string>
-	<string name="menu_getwptfromwptbearing">Wpt. Bearing</string>
-
-	<string name="menu_search">Search</string>
-	<string name="menu_sort">Sort</string>
-	<string name="menu_sort_date">Date</string>
-	<string name="menu_sort_name">Name</string>
-	<string name="menu_sort_dist">Distance</string>
-
+    <string name="igcname_title">Nom</string>
+    <string name="igcname_summary">Donnez-lui un nom</string>
+    <string name="igcglidertype_title">Type de planeur</string>
+    <string name="igcglidertype_summary">Type de planeur d\'entrée</string>
+    <string name="igcgliderid_title">Identifiant du planeur</string>
+    <string name="igcgliderid_summary">Saisir l\'identifiant du planeur</string>
+    <string name="igccompetitionid_title">Concours</string>
+    <string name="igccompetitionid_summary">Concurrence d’intrants</string>
+    <string name="igccompetitionclass_title">Classe de compétition</string>
+    <string name="igccompetitionclass_summary">Classe de compétition d\'entrée</string>
+    <string name="menu_title_todo">Sélectionnez une action</string>
+    <string name="menu_title_dock">Sélectionnez le Dock</string>
+    <string name="menu_title_getwpt">Obtenir un waypoint à partir de</string>
+    <string name="menu_title_route">Routage</string>
+    <string name="menu_no_dock">Pas de quai</string>
+    <string name="menu_trackstart">Commencer la piste</string>
+    <string name="menu_trackstartmulti">Démarrer plusieurs pistes</string>
+    <string name="menu_newtrackstart">Commencer une nouvelle piste</string>
+    <string name="menu_trackstop">Arrêter la piste</string>
+    <string name="menu_sendposition">Envoyer la position</string>
+    <string name="menu_sendsms">Envoyer des SMS</string>
+    <string name="menu_sendsmscommand">Envoyer une commande SMS</string>
+    <string name="menu_startplugin">Plugin</string>
+    <string name="menu_osmcolor">Utiliser le balisage de piste</string>
+    <string name="menu_sendhttp">Envoyer en ligne</string>
+    <string name="menu_sendshare">Partager</string>
+    <string name="menu_selectdock">Sélectionnez le Dock</string>
+    <string name="menu_selectplugin">Sélectionnez le plugin</string>
+    <string name="menu_hidebuttons">Masquer le bouton</string>
+    <string name="menu_plugin">Plugins disponibles</string>
+    <string name="menu_getwpt">Enregistrer le point de cheminement</string>
+    <string name="menu_getaddress">Obtenir l\'adresse</string>
+    <string name="menu_cancel">Annuler</string>
+    <string name="menu_goto_cancel">Annuler GoTo</string>
+    <string name="menu_getwptfrommap">Carte</string>
+    <string name="menu_getwptfrompos">Position</string>
+    <string name="menu_getwptfrombearing">Palier</string>
+    <string name="menu_getwptfromwptbearing">Wpt. Palier</string>
+    <string name="menu_search">Recherche</string>
+    <string name="menu_sort">Trier</string>
+    <string name="menu_sort_date">Date</string>
+    <string name="menu_sort_name">Nom</string>
+    <string name="menu_sort_dist">Distance</string>
     <string name="routing_title">Paramètres de routage</string>
-    <string name="routing_summary">Collect routing parameters</string>
-    <string name="onrouting_title">On Routing Settings</string>
-    <string name="onrouting_summary">Define on routing parameters</string>
-    <string name="route_mode">Routing Mode</string>
-    <string name="routing_only">Only this</string>
-    <string name="use_for_tracking">Use for Tracking</string>
-    <string name="draw_route_direct">Draw route direct</string>
-    <string name="draw_route_direct_summary">Draw route after move</string>
-    <string name="offline_direct_routing">Offline: Direct Routing</string>
-    <string name="generate_hints">Generate pseudo hints</string>
-    <string name="routing_send_nogo">Send NoGos</string>
-    <string name="routing_send_nogo_summary">Send NoGo lines/areas to router</string>
-    <string name="draw_routing_hint_marker">Show hint marker</string>
-    <string name="draw_routing_hint_marker_summary">Show info marker along route</string>
-
-    <string name="language_list_title">Language</string>
-    <string name="language_list_summary">Select a language for the app</string>
-    <string name="install_language_title">Install Language</string>
-    <string name="install_language_summary">Install language and voice</string>
-
-    <string name="select_language_title">Language</string>
-    <string name="select_language_summary">Select language and voice</string>
-
-    <string name="default_language">Default App Language</string>
-
-	<string name="selectfile">Select File</string>
-	<string name="deletefile">Delete File</string>
-
+    <string name="routing_summary">Collecter les paramètres de routage</string>
+    <string name="onrouting_title">Sur les paramètres de routage</string>
+    <string name="onrouting_summary">Définir les paramètres de routage</string>
+    <string name="route_mode">Mode de routage</string>
+    <string name="routing_only">Seulement ça</string>
+    <string name="use_for_tracking">Utiliser pour le suivi</string>
+    <string name="draw_route_direct">Tracer un itinéraire direct</string>
+    <string name="draw_route_direct_summary">Dessiner un itinéraire après le déplacement</string>
+    <string name="offline_direct_routing">Hors ligne : routage direct</string>
+    <string name="generate_hints">Générer des pseudo-indices</string>
+    <string name="routing_send_nogo">Envoyer des NoGo</string>
+    <string name="routing_send_nogo_summary">Envoyer les lignes/zones NoGo au routeur</string>
+    <string name="draw_routing_hint_marker">Afficher le marqueur d\'indice</string>
+    <string name="draw_routing_hint_marker_summary">Afficher le marqueur d\'information le long de l\'itinéraire</string>
+    <string name="language_list_title">Langue</string>
+    <string name="language_list_summary">Sélectionnez une langue pour l\'application</string>
+    <string name="install_language_title">Langue d\'installation</string>
+    <string name="install_language_summary">Installer la langue et la voix</string>
+    <string name="select_language_title">Langue</string>
+    <string name="select_language_summary">Sélectionnez la langue et la voix</string>
+    <string name="default_language">Langue de l\'application par défaut</string>
+    <string name="selectfile">Sélectionnez un fichier</string>
+    <string name="deletefile">Supprimer le fichier</string>
     <string name="anchoralarm">Alarme d\'ancre</string>
     <string name="windalarm">Alarme de vent</string>
-	<string name="wptalarm">Alarme de waypoint</string>
-	<string name="corridoralarm">XTE Alarm</string>
-    <string name="aisalarm">AIS Alarm</string>
-
-	<string name="depth_unit">- depth in</string>
-	    	
-	<!--  Labels -->
-	<string name="wpt_distance_label">Distance</string>
-	<string name="wpt_heading_label">Heading</string>
-	<string name="wpt_bearing_label">Bearing</string>
-	<string name="wpt_altitude_label">Altitude</string>
-	<string name="wpt_alt_diff_label">Altitude Distance</string>
-
-	<string name="dock_wpt_distance_label">Dist.</string>
-	<string name="dock_wpt_bearing_label">Bear.</string>
-	<string name="dock_wpt_xte_label">XTE</string>
-	<string name="dock_wpt_vmc_label">VMC</string>
-
-	<string name="wpt_lay1_label">Layline 1 Dist.</string>
-	<string name="wpt_lay1_ttg_label">Layline 1 TTG</string>
-	<string name="wpt_lay2_label">Layline 2 Dist.</string>
-	<string name="wpt_lay2_ttg_label">Layline 2 TTG</string>
-			
-	<string name="dock_gps_alt_label">Alt.</string>
-	<string name="dock_gps_speed_label">Speed</string>
-	<string name="dock_gps_bearing_label">Head.</string>
-	<string name="dock_gps_date_label">Date</string>
-	<string name="dock_gps_time_label">Time</string>
-	<string name="dock_gps_sat_label">Sat.</string>
-	<string name="dock_gps_depth_label">Depth</string>
-	<string name="dock_gps_accuracy_label">Acc.</string>
-	<string name="dock_gps_status_label">Status</string>
-
-	<string name="dock_rte_dist_label">Dist.</string>
-	<string name="dock_rte_points_label">Points</string>
-	<string name="dock_rte_total_label">Total</string>
-	<string name="dock_rte_ttg_label">TTG</string>
-	<string name="dock_rte_nextpoint_label"></string>
-	<string name="dock_rte_nextdist_label">*</string>
-
-	<string name="dock_trk_dist_label">Distance</string>
+    <string name="wptalarm">Alarme de point de cheminement</string>
+    <string name="corridoralarm">Alarme XTE</string>
+    <string name="aisalarm">Alarme AIS</string>
+    <string name="depth_unit">- profondeur dans</string>
+    <string name="wpt_distance_label">Distance</string>
+    <string name="wpt_heading_label">Titre</string>
+    <string name="wpt_bearing_label">Palier</string>
+    <string name="wpt_altitude_label">Altitude</string>
+    <string name="wpt_alt_diff_label">Altitude Distance</string>
+    <string name="dock_wpt_distance_label">Dist.</string>
+    <string name="dock_wpt_bearing_label">Ours.</string>
+    <string name="dock_wpt_xte_label">XTE</string>
+    <string name="dock_wpt_vmc_label">VMC</string>
+    <string name="wpt_lay1_label">Layline 1 Dist.</string>
+    <string name="wpt_lay1_ttg_label">Layline 1 TTG</string>
+    <string name="wpt_lay2_label">Layline 2 Dist.</string>
+    <string name="wpt_lay2_ttg_label">Layline 2 TTG</string>
+    <string name="dock_gps_alt_label">Alt.</string>
+    <string name="dock_gps_speed_label">Vitesse</string>
+    <string name="dock_gps_bearing_label">Tête.</string>
+    <string name="dock_gps_date_label">Date</string>
+    <string name="dock_gps_time_label">Temps</string>
+    <string name="dock_gps_sat_label">Assis.</string>
+    <string name="dock_gps_depth_label">Profondeur</string>
+    <string name="dock_gps_accuracy_label">Acc.</string>
+    <string name="dock_gps_status_label">Statut</string>
+    <string name="dock_rte_dist_label">Dist.</string>
+    <string name="dock_rte_points_label">Points</string>
+    <string name="dock_rte_total_label">Total</string>
+    <string name="dock_rte_ttg_label">TTG</string>
+    <string name="dock_rte_nextpoint_label">-</string>
+    <string name="dock_rte_nextdist_label">*</string>
+    <string name="dock_trk_dist_label">Distance</string>
     <string name="dock_trk_points_label">Points</string>
-    <string name="dock_trk_height_label">Height</string>
-	<string name="dock_trk_max_label">Max</string>
-	<string name="dock_trk_avg_label">Avg.</string>
-	<string name="dock_trk_date_label">Date</string>
-	<string name="dock_trk_starttime_label">Start</string>
-	<string name="dock_trk_stoptime_label">Stop</string>
-	<string name="dock_trk_move_label">Move</string>
-	<string name="dock_trk_total_label">Total</string>	    	    
-	    	    	    
-	<string name="sat_sats_label">Satellites</string>
-	<string name="sat_last_fix_label">Last Fix</string>
-	<string name="sat_accu_label">Accuracy</string>
-	<string name="sat_declination_label">Declination</string>
-	<string name="sat_correction_label">Correction</string>
-	<string name="sat_press_label">Pressure</string>
-	    
-	<string name="list_dir">Folder</string>
-	
-	<!-- Dialogs -->
-	<string name="dialog_track_edit_name">Name</string>
-	<string name="dialog_edit_pwd">Password</string>
-	<string name="dialog_show_pwd">Show password</string>
-	<string name="dialog_track_edit_desc">Description</string>
-	<string name="dialog_map_edit_credit">Credits</string>
-    <string name="dialog_use_as_overlay">Use as Overlay</string>
-	<string name="dialog_wpt_bearing_title">Wpt. Bearing</string>
-	<string name="dialog_wpt_bearing">Bearing (°)</string>
-	<string name="dialog_wpt_dist">Distance (m)</string>
-	<string name="delete_dialog">Delete?</string>
-	<string name="delete_all_dialog">Delete all?</string>
-	<string name="merge_dialog">Merge all segments?</string>
-	<string name="about_dialog">Info</string>
-    <string name="wpt_dialog_grp">Way point Group</string>
-    <string name="wpt_dialog_grp_icon">Icon</string>
-    <string name="wpt_dialog_grp_visibility">Visibility</string>
-    <string name="wpt_dialog_grp_id">Group</string>
-    <string name="wpt_dialog_grp_alarmdist">Alarm Distance (m)</string>
-    <string name="wpt_dialog_pt">Way point</string>
-    <string name="wpt_dialog_location">Location</string>
+    <string name="dock_trk_height_label">Hauteur</string>
+    <string name="dock_trk_max_label">Max.</string>
+    <string name="dock_trk_avg_label">Moy.</string>
+    <string name="dock_trk_date_label">Date</string>
+    <string name="dock_trk_starttime_label">Commencer</string>
+    <string name="dock_trk_stoptime_label">Arrêt</string>
+    <string name="dock_trk_move_label">Se déplacer</string>
+    <string name="dock_trk_total_label">Total</string>
+    <string name="sat_sats_label">Satellites</string>
+    <string name="sat_last_fix_label">Dernière correction</string>
+    <string name="sat_accu_label">Précision</string>
+    <string name="sat_declination_label">Déclinaison</string>
+    <string name="sat_correction_label">Correction</string>
+    <string name="sat_press_label">Pression</string>
+    <string name="list_dir">Dossier</string>
+    <string name="dialog_track_edit_name">Nom</string>
+    <string name="dialog_edit_pwd">Mot de passe</string>
+    <string name="dialog_show_pwd">Afficher le mot de passe</string>
+    <string name="dialog_track_edit_desc">Description</string>
+    <string name="dialog_map_edit_credit">Crédits</string>
+    <string name="dialog_use_as_overlay">Utiliser comme superposition</string>
+    <string name="dialog_wpt_bearing_title">Wpt. Palier</string>
+    <string name="dialog_wpt_bearing">Relèvement (°)</string>
+    <string name="dialog_wpt_dist">Distance (m)</string>
+    <string name="delete_dialog">Supprimer?</string>
+    <string name="delete_all_dialog">Tout supprimer ?</string>
+    <string name="merge_dialog">Fusionner tous les segments ?</string>
+    <string name="about_dialog">Informations</string>
+    <string name="wpt_dialog_grp">Groupe de points de passage</string>
+    <string name="wpt_dialog_grp_icon">Icône</string>
+    <string name="wpt_dialog_grp_visibility">Visibilité</string>
+    <string name="wpt_dialog_grp_id">Groupe</string>
+    <string name="wpt_dialog_grp_alarmdist">Distance d\'alarme (m)</string>
+    <string name="wpt_dialog_pt">Point de passage</string>
+    <string name="wpt_dialog_location">Emplacement</string>
     <string name="wpt_dialog_lat">Latitude</string>
     <string name="wpt_dialog_lon">Longitude</string>
     <string name="wpt_dialog_alt">Altitude</string>
     <string name="wpt_dialog_dist">Distance</string>
-    <string name="wpt_dialog_bearing">Bearing</string>
-    <string name="wpt_dialog_move">Move</string>
-	<string name="dialog_storage_edit_name">Name</string>
-	<string name="dialog_storage_edit_number">Number</string>
-	<string name="dialog_storage_edit_text">Text</string>
-	<string name="dialog_nvc_name1">First Name</string>
-	<string name="dialog_nvc_name2">Name</string>
-	<string name="dialog_nvc_mail">Mail</string>
-	<string name="dialog_nvc_cd">CD-Key</string>
-	<string name="dialog_nvc_send">Send</string>
-	<string name="dialog_nvc_state">State</string>
-	<string name="dialog_sailtimer_text">API not found. Like to install it for wind instrument and/or wind clould?</string>
-	<string name="dialog_sailtimerplugin_text">API found. Like to install the plugin for wind instrument and/or wind clould?</string>
-								
-	<string name="gpsgate_prefs">Paramètres du GPSGate</string>
-	<string name="dialog_edit_getuser">Get User</string>
-	<string name="dialog_show_allmembers">Show all members</string>
-	<string name="dialog_interval">Interval (seconds)</string>
-
-	<string name="aisserver_prefs">Paramètres du serveur AIS/ADS-B</string>
-    <string name="gps_use_aisserver">Use AIS/ADS-B Server</string>
-    <string name="gps_use_aisserver_summary">Use a connction to an AIS/ADS-B Server</string>
+    <string name="wpt_dialog_bearing">Palier</string>
+    <string name="wpt_dialog_move">Se déplacer</string>
+    <string name="dialog_storage_edit_name">Nom</string>
+    <string name="dialog_storage_edit_number">Nombre</string>
+    <string name="dialog_storage_edit_text">Texte</string>
+    <string name="dialog_nvc_name1">Prénom</string>
+    <string name="dialog_nvc_name2">Nom</string>
+    <string name="dialog_nvc_mail">Mail</string>
+    <string name="dialog_nvc_cd">Clé CD</string>
+    <string name="dialog_nvc_send">Envoyer</string>
+    <string name="dialog_nvc_state">État</string>
+    <string name="dialog_sailtimer_text">API introuvable. Vous souhaitez l\'installer pour un instrument à vent et/ou un instrument à vent ?</string>
+    <string name="dialog_sailtimerplugin_text">API trouvée. Vous souhaitez installer le plugin pour instrument à vent et/ou groupe de vent ?</string>
+    <string name="gpsgate_prefs">Paramètres du GPSGate</string>
+    <string name="dialog_edit_getuser">Obtenir un utilisateur</string>
+    <string name="dialog_show_allmembers">Afficher tous les membres</string>
+    <string name="dialog_interval">Intervalle (secondes)</string>
+    <string name="aisserver_prefs">Paramètres du serveur AIS/ADS-B</string>
+    <string name="gps_use_aisserver">Utiliser le serveur AIS/ADS-B</string>
+    <string name="gps_use_aisserver_summary">Utiliser une connexion à un serveur AIS/ADS-B</string>
     <string name="gps_aisserver">Paramètres AIS/ADS-B</string>
     <string name="gps_aisserver_summary">Paramètres du serveur AIS/ADS-B</string>
-
-    <string name="big_view_top">View Value</string>
-    <string name="big_view_bottom">View Below</string>
-
-    <string name="whatsnew_dialog_title">New Features</string>
-    <string name="weather_dialog_title">Weather</string>
-
-    <string name="permission_dialog_title">Permission</string>
-    <string name="location_disclosure">AFTrack collects position data into a local database to enable tracking (recording of positions) even in the background. These can then be exported, shared or otherwise processed by the user.</string>
-
-    <string name="import_dialog_title">Import</string>
-    <string name="import_dialog_route">Route</string>
-    <string name="import_dialog_waypoint">Way point</string>
-    <string name="import_dialog_text">Import file into</string>
-    
-    <string name="dialog_wpt_get_address">Get Address</string>
-    <string name="dialog_wpt_get_position">Get Position</string>
-    <string name="wpt_pos_format">Position Format</string>
-
-    <string name="set_wind">Set Wind</string>
-	<string name="boat_best_angle">Up Wind Best Angle</string>
-	<string name="boat_max_speed">Max. Speed (kts)</string>
-	<string name="boat_use_polar">Use Polar Data</string>
-	<string name="boat_gen_polar">Generate Polar Data</string>
-	<string name="boat_polar_name">Polar File</string>
-    <string name="boat_length">Boat Length</string>
-    <string name="boat_width">Boat Width</string>
-    <string name="boat_height">Boat Height</string>
-    <string name="boat_draft">Boat Draft</string>
-    <string name="boat_liter">Litres per hour</string>
-
-    <string name="selectmap">OSM Map Inspector</string>
-
-    <string name="route_revers_dialog_title">Route revers</string>
-    <string name="route_revers_dialog_text">This route contains routing hints. Revers will drop this info. Continue?</string>
-
-    <string name="debug_data_disclosure">This function sends the last error log entries of AFTrack to the developer. The data is used exclusively to detect errors and improve the app.</string>
-
-    <string name="dialog_download">Waterway Tiles Download</string>
-
-    <!--  Messages  -->
-	<string name="save_file">Save File</string>
-    <string name="lines_imported"> Lines imported</string>
-    <string name="seg_imported"> Segments imported</string>
-	<string name="map_imported"> Map imported</string>
-	<string name="noFilemanagerInstalled">No FileManager found</string>
-	<string name="exit_dialog_title">Quit</string>
-	<string name="exit_dialog">Êtes-vous sûr de vouloir quitter?</string>
-    <string name="exit_anchoralarm_title">Anchor Alarm</string>
-    <string name="exit_anchoralarm">Close the Anchor Alarm now?</string>
-    <string name="exit_windalarm_title">Wind Alarm</string>
-    <string name="exit_windalarm">Close the Wind Alarm now?</string>
-    <string name="wind_running">Wind Alarm is running</string>
-	<string name="no_gps_enabled">GPS is not enabled</string>
-	<string name="receive_sms">: Position received</string>
-    <string name="sms_not_available">No SMS feature found</string>
-    <string name="send_http_ok">Position send</string>
-	<string name="send_http_fail">Position send failed</string>
-	<string name="wpt_reached">Way point reached</string>
-	<string name="track_running">Track is running</string>
-    <string name="anchor_running">Anchor Alarm is running</string>
-    <string name="goto_running">GoTo Mode is running</string>
-    <string name="mock_running">Mock Location Mode is running</string>
-    <string name="nmealog_running">NMEA log is running</string>
-    <string name="route_running">Routing is running</string>
-	<string name="rte_atstart">Found nearer point.
-Start from here?</string>
-	<string name="rte_reached">Route finished</string>
-	<string name="no_position">No Position found</string>
-    <string name="list_cant_read_folder">Can\'t read folder</string>
-    <string name="list_cant_connect">Can\'t connect</string>
-    <string name="send_mail">Send File</string>
+    <string name="big_view_top">Afficher la valeur</string>
+    <string name="big_view_bottom">Voir ci-dessous</string>
+    <string name="whatsnew_dialog_title">Nouvelles fonctionnalités</string>
+    <string name="weather_dialog_title">Météo</string>
+    <string name="permission_dialog_title">Autorisation</string>
+    <string name="location_disclosure">AFTrack collecte les données de position dans une base de données locale pour permettre le suivi (enregistrement des positions) même en arrière-plan. Ceux-ci peuvent ensuite être exportés, partagés ou traités d’une autre manière par l’utilisateur.</string>
+    <string name="import_dialog_title">Importer</string>
+    <string name="import_dialog_route">Itinéraire</string>
+    <string name="import_dialog_waypoint">Point de passage</string>
+    <string name="import_dialog_text">Importer le fichier dans</string>
+    <string name="dialog_wpt_get_address">Obtenir l\'adresse</string>
+    <string name="dialog_wpt_get_position">Obtenir un poste</string>
+    <string name="wpt_pos_format">Format du poste</string>
+    <string name="set_wind">Régler le vent</string>
+    <string name="boat_best_angle">Meilleur angle vers le haut</string>
+    <string name="boat_max_speed">Max. Vitesse (kts)</string>
+    <string name="boat_use_polar">Utiliser les données polaires</string>
+    <string name="boat_gen_polar">Générer des données polaires</string>
+    <string name="boat_polar_name">Fichier polaire</string>
+    <string name="boat_length">Longueur du bateau</string>
+    <string name="boat_width">Largeur du bateau</string>
+    <string name="boat_height">Hauteur du bateau</string>
+    <string name="boat_draft">Tirant d\'eau du bateau</string>
+    <string name="boat_liter">Litres par heure</string>
+    <string name="selectmap">Inspecteur de carte OSM</string>
+    <string name="route_revers_dialog_title">Inversions d\'itinéraire</string>
+    <string name="route_revers_dialog_text">Cet itinéraire contient des conseils d\'itinéraire. Revers supprimera cette information. Continuer?</string>
+    <string name="debug_data_disclosure">Cette fonction envoie les dernières entrées du journal d\'erreurs d\'AFTrack au développeur. Les données sont utilisées exclusivement pour détecter les erreurs et améliorer l\'application.</string>
+    <string name="dialog_download">Tuiles de voie navigable Télécharger</string>
+    <string name="save_file">Enregistrer le fichier</string>
+    <string name="lines_imported">Lignes importées</string>
+    <string name="seg_imported">Segments importés</string>
+    <string name="map_imported">Carte importée</string>
+    <string name="noFilemanagerInstalled">Aucun gestionnaire de fichiers trouvé</string>
+    <string name="exit_dialog_title">Quitter</string>
+    <string name="exit_dialog">Êtes-vous sûr de vouloir quitter ?</string>
+    <string name="exit_anchoralarm_title">Alarme d\'ancre</string>
+    <string name="exit_anchoralarm">Fermer l\'alarme d\'ancrage maintenant ?</string>
+    <string name="exit_windalarm_title">Alarme de vent</string>
+    <string name="exit_windalarm">Fermer l\'alarme de vent maintenant ?</string>
+    <string name="wind_running">L\'alarme de vent est en cours</string>
+    <string name="no_gps_enabled">Le GPS n\'est pas activé</string>
+    <string name="receive_sms">: Poste reçu</string>
+    <string name="sms_not_available">Aucune fonctionnalité SMS trouvée</string>
+    <string name="send_http_ok">Envoi de position</string>
+    <string name="send_http_fail">L\'envoi de la position a échoué</string>
+    <string name="wpt_reached">Point de passage atteint</string>
+    <string name="track_running">La piste est en cours d\'exécution</string>
+    <string name="anchor_running">L\'alarme d\'ancrage est en cours d\'exécution</string>
+    <string name="goto_running">Le mode GoTo est en cours d\'exécution</string>
+    <string name="mock_running">Le mode de localisation simulée est en cours d\'exécution</string>
+    <string name="nmealog_running">Le journal NMEA est en cours d\'exécution</string>
+    <string name="route_running">Le routage est en cours</string>
+    <string name="rte_atstart">Point trouvé plus près.\nCommencer à partir d\'ici ?</string>
+    <string name="rte_reached">Itinéraire terminé</string>
+    <string name="no_position">Aucun poste trouvé</string>
+    <string name="list_cant_read_folder">Impossible de lire le dossier</string>
+    <string name="list_cant_connect">Impossible de se connecter</string>
+    <string name="send_mail">Envoyer le fichier</string>
     <string name="export_format">Format</string>
-    <string name="usb_connection_lost">USB connection lost</string>
-    <string name="usb_connected">USB connected</string>
-	<string name="not_valid">Not a valid value</string>
-	<string name="no_space">Not enough disk space</string>
-	<string name="msg_download">This download will take a while and require some resources. Make sure there is enough memory and a data connection over Wifi.</string>
-    <string name="overwrite_map_question">The map \"%s\" already exists! Delete and start download?</string>
-    <string name="no_map_directory">No Map Folder defined</string>
-    <string name="no_export_directory">No Export Folder defined</string>
-    <string name="move_to_internal">This map type is not readable in external storage. Move or Copy to app internal storage?</string>
-    <string name="dir_move_to_internal">The map type for this folder is not readable in external storage. Move or Copy to app internal storage?</string>
-    <string name="round">round</string>
-    <string name="rte_noresult">No results</string>
-
-
-    <!-- nearby -->
-    <string name="LookingForPeers">Searching …</string>
-    <string name="SendNearby">Send file</string>
-    <string name="DisconnectedFromNearby">Lost connection to %s</string>
-    <string name="ConnectedToNearby">Connected to %s</string>
-    <string name="FailedToConnectToNearby">No connection to %s</string>
-    <string name="FoundNearby">Connect to %s</string>
-    <string name="ConnectingTo">Connecting to %s</string>
-    <string name="EnableLocationServices">Location must be on</string>
-
+    <string name="usb_connection_lost">Connexion USB perdue</string>
+    <string name="usb_connected">USB connecté</string>
+    <string name="not_valid">Ce n\'est pas une valeur valide</string>
+    <string name="no_space">Pas assez d\'espace disque</string>
+    <string name="msg_download">Ce téléchargement prendra un certain temps et nécessitera quelques ressources. Assurez-vous qu\'il y a suffisamment de mémoire et une connexion de données via Wifi.</string>
+    <string name="overwrite_map_question">La carte \"%s\" existe déjà ! Supprimer et lancer le téléchargement ?</string>
+    <string name="no_map_directory">Aucun dossier de cartes défini</string>
+    <string name="no_export_directory">Aucun dossier d\'exportation défini</string>
+    <string name="move_to_internal">Ce type de carte n\'est pas lisible dans le stockage externe. Déplacer ou copier vers le stockage interne de l\'application ?</string>
+    <string name="dir_move_to_internal">Le type de carte de ce dossier n\'est pas lisible dans le stockage externe. Déplacer ou copier vers le stockage interne de l\'application ?</string>
+    <string name="round">rond</string>
+    <string name="rte_noresult">Aucun résultat</string>
+    <string name="LookingForPeers">Recherche…</string>
+    <string name="SendNearby">Envoyer le fichier</string>
+    <string name="DisconnectedFromNearby">Connexion perdue à %s</string>
+    <string name="ConnectedToNearby">Connecté à %s</string>
+    <string name="FailedToConnectToNearby">Aucune connexion à %s</string>
+    <string name="FoundNearby">Connectez-vous à %s</string>
+    <string name="ConnectingTo">Connexion à %s</string>
+    <string name="EnableLocationServices">L\'emplacement doit être activé</string>
     <string name="yes">Oui</string>
-	<string name="no">Non</string>
-    <string name="ok">D\'accord</string>
-    <string name="connect">Connect</string>
+    <string name="no">Non</string>
+    <string name="ok">D\'ACCORD</string>
+    <string name="connect">Connecter</string>
     <string name="start">Commencer</string>
     <string name="stop">Arrêt</string>
     <string name="reset">Réinitialiser</string>
-	<string name="cancel">Annuler</string>
-	<string name="delete">Supprimer</string>
-	<string name="edit">Modifier</string>
-	<string name="get">Get</string>
-	<string name="save">Sauvegarder</string>
-	<string name="go_to">Aller à</string>
-	<string name="stop_go_to">Arrêter Aller à</string>
-	<string name="deleted">Supprimé</string>
-	<string name="undo">Annuler</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+    <string name="edit">Modifier</string>
+    <string name="get">Obtenir</string>
+    <string name="save">Sauvegarder</string>
+    <string name="go_to">Aller à</string>
+    <string name="stop_go_to">Arrêter Aller à</string>
+    <string name="deleted">Supprimé</string>
+    <string name="undo">Défaire</string>
     <string name="ignore">Ignorer</string>
     <string name="later">Plus tard</string>
     <string name="understand">Comprendre</string>
     <string name="copy">Copie</string>
     <string name="move">Se déplacer</string>
     <string name="appexit">Fermer</string>
-
     <string name="error">Erreur</string>
-    <string name="unknown">Inconnue</string>
-    <string name="none">Aucune</string>
-
-    <string name="newwpt_shortcut_short_label1">Add Position</string>
-    <string name="newwpt_shortcut_long_label1">Add a way point for position</string>
-    <string name="newwpt_disabled_message1">None</string>
-
-    <string name="genlogs_shortcut_short_label1">Gen Error Logs</string>
-    <string name="genlogs_shortcut_long_label1">Generate error log and send</string>
-
-    <string name="clearprefs_shortcut_short_label1">Start w/o settings</string>
-    <string name="clearprefs_shortcut_long_label1">Start without settings</string>
-
-    <string name="newtrack_shortcut_short_label1">Start with Track</string>
-    <string name="newtrack_shortcut_long_label1">Start with new Track</string>
-
-    <string name="prefs_default">Current selected Preset</string>
-    <string name="note_speed_view">Speed Format</string>
-    <string name="note_speed_view_summary">To display speed format the preset defaults are used</string>
-    <string name="speedprefs_title">Speed Preferences</string>
-
-    <!-- arrays -->
-    <!-- way point -->
-    <string name="entries_list_wptview_0">Aucune</string>
-    <string name="entries_list_wptview_1">Picture</string>
-    <string name="entries_list_wptview_2">Picture + Name</string>
-    <string name="entries_list_wptview_3">Sign + Name</string>
-    <string name="entries_list_wptview_4">Picture + Name + Description</string>
-    <string name="entries_list_wptview_5">Picture + Name + Time</string>
-
-    <!-- way point icon -->
-    <string name="entries_list_wptviewpos_0">Center</string>
-    <string name="entries_list_wptviewpos_1">On Top</string>
-    
-    <!-- way point label -->
-    <string name="entries_list_wptviewlabel_0">tiny</string>
-    <string name="entries_list_wptviewlabel_1">small</string>
-    <string name="entries_list_wptviewlabel_2">medium</string>
-    <string name="entries_list_wptviewlabel_3">large</string>
-    <string name="entries_list_wptviewlabel_4">big</string>
-
-    <!-- way point visibility -->
-    <string name="entry_visibility_0">Not Visible</string>
+    <string name="unknown">Inconnu</string>
+    <string name="none">Aucun</string>
+    <string name="newwpt_shortcut_short_label1">Ajouter un poste</string>
+    <string name="newwpt_shortcut_long_label1">Ajouter un way point pour la position</string>
+    <string name="newwpt_disabled_message1">Aucun</string>
+    <string name="genlogs_shortcut_short_label1">Journaux d\'erreurs de génération</string>
+    <string name="genlogs_shortcut_long_label1">Générer un journal des erreurs et envoyer</string>
+    <string name="clearprefs_shortcut_short_label1">Démarrer sans paramètres</string>
+    <string name="clearprefs_shortcut_long_label1">Démarrer sans paramètres</string>
+    <string name="newtrack_shortcut_short_label1">Commencez par suivre</string>
+    <string name="newtrack_shortcut_long_label1">Commencer avec une nouvelle piste</string>
+    <string name="prefs_default">Préréglage actuellement sélectionné</string>
+    <string name="note_speed_view">Format de vitesse</string>
+    <string name="note_speed_view_summary">Pour afficher le format de vitesse, les valeurs par défaut prédéfinies sont utilisées</string>
+    <string name="speedprefs_title">Préférences de vitesse</string>
+    <string name="entries_list_wptview_0">Aucun</string>
+    <string name="entries_list_wptview_1">Image</string>
+    <string name="entries_list_wptview_2">Image + Nom</string>
+    <string name="entries_list_wptview_3">Signe + Nom</string>
+    <string name="entries_list_wptview_4">Image + Nom + Description</string>
+    <string name="entries_list_wptview_5">Image + Nom + Heure</string>
+    <string name="entries_list_wptviewpos_0">Centre</string>
+    <string name="entries_list_wptviewpos_1">En haut</string>
+    <string name="entries_list_wptviewlabel_0">minuscule</string>
+    <string name="entries_list_wptviewlabel_1">petit</string>
+    <string name="entries_list_wptviewlabel_2">moyen</string>
+    <string name="entries_list_wptviewlabel_3">grand</string>
+    <string name="entries_list_wptviewlabel_4">grand</string>
+    <string name="entry_visibility_0">Non visible</string>
     <string name="entry_visibility_1">Visible</string>
-    <string name="entry_visibility_2">With Alarm</string>
-    <string name="entry_visibility_3">As Collection</string>
-
-    <!-- way point type -->
-    <string name="entry_wpttype_0">Normal</string>
-    <string name="entry_wpttype_1">NoGo Point</string>
-    <string name="entry_wpttype_2">NoGo weighted Point</string>
-
-    <!-- log mode -->
-    <string name="entries_list_logmode_0">None</string>
-    <string name="entries_list_logmode_1">Smart Car</string>
-    <string name="entries_list_logmode_2">Smart Boat/Bike</string>  
-    <string name="entries_list_logmode_3">Smart Hike</string>  
-    <string name="entries_list_logmode_4">Seconds</string>  
-    <string name="entries_list_logmode_5">Only SMS Positions</string>
-    <string name="entries_list_logmode_6">SMS and GPS Positions</string>
-    
-    <!-- altitude / depth -->
-    <string name="entries_list_altmeasure_0">Meter</string>
-    <string name="entries_list_altmeasure_1">Feet</string>
-    <string name="entries_list_altmeasure_2">Fathom</string>
-    
-    <!-- speed -->
-    <string name="entries_list_speedformat_0">Knots</string>
-    <string name="entries_list_speedformat_1">Miles per Hour</string>
-    <string name="entries_list_speedformat_2">Kilometer per Hour</string>
-    <string name="entries_list_speedformat_3">Meter per Second</string>
-    <string name="entries_list_speedformat_4">Minutes per Kilometer</string>
-    <string name="entries_list_speedformat_5">Minutes per Mile</string>
+    <string name="entry_visibility_2">Avec alarme</string>
+    <string name="entry_visibility_3">Comme collection</string>
+    <string name="entry_wpttype_0">Normale</string>
+    <string name="entry_wpttype_1">Point NoGo</string>
+    <string name="entry_wpttype_2">Point pondéré NoGo</string>
+    <string name="entries_list_logmode_0">Aucun</string>
+    <string name="entries_list_logmode_1">Voiture intelligente</string>
+    <string name="entries_list_logmode_2">Bateau/vélo intelligent</string>
+    <string name="entries_list_logmode_3">Randonnée intelligente</string>
+    <string name="entries_list_logmode_4">Secondes</string>
+    <string name="entries_list_logmode_5">Uniquement les positions SMS</string>
+    <string name="entries_list_logmode_6">Positions SMS et GPS</string>
+    <string name="entries_list_altmeasure_0">Mètre</string>
+    <string name="entries_list_altmeasure_1">Pieds</string>
+    <string name="entries_list_altmeasure_2">Brasse</string>
+    <string name="entries_list_speedformat_0">Noeuds</string>
+    <string name="entries_list_speedformat_1">Miles par heure</string>
+    <string name="entries_list_speedformat_2">Kilomètre par heure</string>
+    <string name="entries_list_speedformat_3">Mètre par seconde</string>
+    <string name="entries_list_speedformat_4">Minutes par kilomètre</string>
+    <string name="entries_list_speedformat_5">Minutes par mile</string>
     <string name="entries_list_speedformat_6">Beaufort</string>
-    
-    <!-- distance -->
-    <string name="entries_list_distformat_0">Nautical Mile</string>
+    <string name="entries_list_distformat_0">Mille marin</string>
     <string name="entries_list_distformat_1">Mile</string>
-    <string name="entries_list_distformat_2">Kilometer</string>
-    
-    <!-- area -->
-    <string name="entries_list_areaformat_0">Nautical Mile</string>
+    <string name="entries_list_distformat_2">Kilomètre</string>
+    <string name="entries_list_areaformat_0">Mille marin</string>
     <string name="entries_list_areaformat_1">Mile</string>
-    <string name="entries_list_areaformat_2">Kilometer</string>
-    <string name="entries_list_areaformat_3">Meter</string>
-    
-			
-    <!-- map pointer -->
-    <string name="entry_list_mappointer_0">Small</string>
-    <string name="entry_list_mappointer_1">Small filled</string>
-    <string name="entry_list_mappointer_2">Big</string>
-	<string name="entry_list_mappointer_3">Lines</string>
-	<string name="entry_list_mappointer_4">Bitmap</string>
-	<string name="entry_list_mappointer_5">Compass Ring</string>
-
-    <string name="entry_big_view_0">Instrument View</string>
-    <string name="entry_big_view_0a">More Views</string>
-    <string name="entry_big_view_1">Speed</string>
-	<string name="entry_big_view_2">Course</string>
-	<string name="entry_big_view_3">Altitude</string>
-	<string name="entry_big_view_4">Position</string>
-	<string name="entry_big_view_5">Time</string>
-	<string name="entry_big_view_6">Time UTC</string>
-	<string name="entry_big_view_7">Track Distance</string>
-	<string name="entry_big_view_8">Track Time</string>
-	<string name="entry_big_view_9">Track Moving Time</string>
-	<string name="entry_big_view_10">Track Rise</string>
-	<string name="entry_big_view_11">Track Fall</string>
-	<string name="entry_big_view_12">Track Max. Speed</string>
-	<string name="entry_big_view_13">Average Speed</string>
-	<string name="entry_big_view_14">Route Distance</string>
-	<string name="entry_big_view_15">Wpt. Distance</string>
-	<string name="entry_big_view_16">Wpt. Bearing</string>
-	<string name="entry_big_view_17">Wpt. XTE</string>
-	<string name="entry_big_view_18">Wpt. VMC</string>
-	<string name="entry_big_view_19">Wpt. TTG</string>
-	<string name="entry_big_view_20">Wpt. Altitude</string>
-	<string name="entry_big_view_21">Wpt. Speed</string>
-	<string name="entry_big_view_22">Wpt. Max. Speed</string>
-	<string name="entry_big_view_23">Wpt. Battery</string>
-	<string name="entry_big_view_24">Depth</string>
-	<string name="entry_big_view_25">Vario</string>
-	<string name="entry_big_view_26">Wind Speed</string>
-	<string name="entry_big_view_27">Wind Dir.</string>
-	<string name="entry_big_view_28">App. Wind Speed</string>
-	<string name="entry_big_view_29">App. Wind Dir.</string>
-	<string name="entry_big_view_30">Course through Water</string>
-	<string name="entry_big_view_31">Speed through Water</string>
-    <string name="entry_big_view_32">Compass (interne)</string>
-
-    <string name="entry_big_gauge_0">Panel View</string>
-    <string name="entry_big_gauge_0a">Statistic View</string>
-    <string name="entry_big_gauge_1">True Wind</string>
-    <string name="entry_big_gauge_2">App Wind</string>
-    <string name="entry_big_gauge_3">AIS Radar North Top</string>
-    <string name="entry_big_gauge_4">AIS Radar Direction Top</string>
-
-    <string name="entry_stat_view_1">10min Speed</string>
+    <string name="entries_list_areaformat_2">Kilomètre</string>
+    <string name="entries_list_areaformat_3">Mètre</string>
+    <string name="entry_list_mappointer_0">Petit</string>
+    <string name="entry_list_mappointer_1">Petit rempli</string>
+    <string name="entry_list_mappointer_2">Grand</string>
+    <string name="entry_list_mappointer_3">Lignes</string>
+    <string name="entry_list_mappointer_4">Bitmap</string>
+    <string name="entry_list_mappointer_5">Bague Boussole</string>
+    <string name="entry_big_view_0">Vue des instruments</string>
+    <string name="entry_big_view_0a">Plus de vues</string>
+    <string name="entry_big_view_1">Vitesse</string>
+    <string name="entry_big_view_2">Cours</string>
+    <string name="entry_big_view_3">Altitude</string>
+    <string name="entry_big_view_4">Position</string>
+    <string name="entry_big_view_5">Temps</string>
+    <string name="entry_big_view_6">Heure UTC</string>
+    <string name="entry_big_view_7">Distance de suivi</string>
+    <string name="entry_big_view_8">Temps de suivi</string>
+    <string name="entry_big_view_9">Suivre le temps de déplacement</string>
+    <string name="entry_big_view_10">Suivre la montée</string>
+    <string name="entry_big_view_11">Suivre la chute</string>
+    <string name="entry_big_view_12">Suivre Max. Vitesse</string>
+    <string name="entry_big_view_13">Vitesse moyenne</string>
+    <string name="entry_big_view_14">Distance de l\'itinéraire</string>
+    <string name="entry_big_view_15">Wpt. Distance</string>
+    <string name="entry_big_view_16">Wpt. Palier</string>
+    <string name="entry_big_view_17">Wpt. XTE</string>
+    <string name="entry_big_view_18">Wpt. VMC</string>
+    <string name="entry_big_view_19">Wpt. TTG</string>
+    <string name="entry_big_view_20">Wpt. Altitude</string>
+    <string name="entry_big_view_21">Wpt. Vitesse</string>
+    <string name="entry_big_view_22">Wpt. Max. Vitesse</string>
+    <string name="entry_big_view_23">Wpt. Batterie</string>
+    <string name="entry_big_view_24">Profondeur</string>
+    <string name="entry_big_view_25">Vario</string>
+    <string name="entry_big_view_26">Vitesse du vent</string>
+    <string name="entry_big_view_27">Direction du vent.</string>
+    <string name="entry_big_view_28">Application. Vitesse du vent</string>
+    <string name="entry_big_view_29">Application. Direction du vent.</string>
+    <string name="entry_big_view_30">Parcours à travers l\'eau</string>
+    <string name="entry_big_view_31">Vitesse dans l\'eau</string>
+    <string name="entry_big_view_32">Boussole (interne)</string>
+    <string name="entry_big_view_33">Pression</string>
+    <string name="entry_big_view_34">Pilote automatique</string>
+    <string name="entry_big_gauge_0">Vue du panneau</string>
+    <string name="entry_big_gauge_0a">Vue statistique</string>
+    <string name="entry_big_gauge_1">Vent vrai</string>
+    <string name="entry_big_gauge_2">Application Vent</string>
+    <string name="entry_big_gauge_3">Radar AIS Nord Haut</string>
+    <string name="entry_big_gauge_4">Direction du radar AIS en haut</string>
+    <string name="entry_stat_view_1">Vitesse de 10 minutes</string>
     <string name="entry_stat_view_2">10min Direction</string>
-    <string name="entry_stat_view_3">10min Altitude</string>
-    <string name="entry_stat_view_4">10min Depth</string>
+    <string name="entry_stat_view_3">10 minutes d\'altitude</string>
+    <string name="entry_stat_view_4">10 minutes de profondeur</string>
     <string name="entry_stat_view_5">10min CTW</string>
     <string name="entry_stat_view_6">10min STW</string>
-
-    <string name="entry_sail_stat_view_1">10min  SOG</string>
-    <string name="entry_sail_stat_view_2">10min  COG</string>
-    <string name="entry_sail_stat_view_3">10min  Altitude</string>
-    <string name="entry_sail_stat_view_4">10min  Depth</string>
-    <string name="entry_sail_stat_view_5">10min  CTW</string>
-    <string name="entry_sail_stat_view_6">10min  STW</string>
-
-    <!-- sms type -->
-	<string name="entries_list_smstype_0">GPRMC</string>
+    <string name="entry_stat_view_7">10min TWS</string>
+    <string name="entry_stat_view_8">10 minutes TWD</string>
+    <string name="entry_stat_view_9">1h Pression</string>
+    <string name="entry_sail_stat_view_1">10 minutes SOG</string>
+    <string name="entry_sail_stat_view_2">10 minutes de COG</string>
+    <string name="entry_sail_stat_view_3">10 minutes d\'altitude</string>
+    <string name="entry_sail_stat_view_4">10 minutes de profondeur</string>
+    <string name="entry_sail_stat_view_5">10min CTW</string>
+    <string name="entry_sail_stat_view_6">10min STW</string>
+    <string name="entry_sail_stat_view_7">10min TWS</string>
+    <string name="entry_sail_stat_view_8">10 minutes TWD</string>
+    <string name="entry_sail_stat_view_9">1h Pression</string>
+    <string name="entries_list_smstype_0">GPRMC</string>
     <string name="entries_list_smstype_1">GPGLL</string>
-    <string name="entries_list_smstype_2">Template</string>
-	
-	<!-- orientation -->
-	<string name="entries_list_rotation_0">Portrait</string>
-    <string name="entries_list_rotation_1">Landscape</string>
-    <string name="entries_list_rotation_2">Orientation at Start</string>
-    <string name="entries_list_rotation_3">Automatic</string>
-
-    <!-- Password encryption -->
-	<string name="entries_list_encryption_0">None</string>
+    <string name="entries_list_smstype_2">Modèle</string>
+    <string name="entries_list_rotation_0">Portrait</string>
+    <string name="entries_list_rotation_1">Paysage</string>
+    <string name="entries_list_rotation_2">Orientation au départ</string>
+    <string name="entries_list_rotation_3">Automatique</string>
+    <string name="entries_list_encryption_0">Aucun</string>
     <string name="entries_list_encryption_1">MD5</string>
     <string name="entries_list_encryption_2">SHA-1</string>
-    <string name="entries_list_encryption_3">GpsGate</string>
-    	
-    <!-- colors -->
-    <string name="entries_list_color_0">Black</string>
-    <string name="entries_list_color_1">Red</string>
+    <string name="entries_list_encryption_3">Portail GPS</string>
+    <string name="entries_list_color_0">Noir</string>
+    <string name="entries_list_color_1">Rouge</string>
     <string name="entries_list_color_2">Orange</string>
-    <string name="entries_list_color_3">Yellow</string>
-    <string name="entries_list_color_4">Green</string>
-    <string name="entries_list_color_5">Blue</string>
+    <string name="entries_list_color_3">Jaune</string>
+    <string name="entries_list_color_4">Vert</string>
+    <string name="entries_list_color_5">Bleu</string>
     <string name="entries_list_color_6">Violet</string>
-    
-    <!-- settings -->
     <string name="settings_0">Paramètres prédéfinis</string>
     <string name="settings_1">Paramètres GPS</string>
-	<string name="settings_2">Paramètres d\'affichage</string>
-	<string name="settings_3">Paramètres de la carte</string>
-	<string name="settings_4">Paramètres en ligne</string>
-	<string name="settings_5">Paramètres IGC</string>
+    <string name="settings_2">Paramètres d\'affichage</string>
+    <string name="settings_3">Paramètres de la carte</string>
+    <string name="settings_4">Paramètres en ligne</string>
+    <string name="settings_5">Paramètres IGC</string>
     <string name="settings_6">Paramètres SMS</string>
-
-	<!-- lists -->
-	<string name="lists_0">Piste</string>
-	<string name="lists_1">Itinéraire</string>
-	<string name="lists_2">Point de passage</string>
-	<string name="lists_3">Zone</string>
-	<string name="lists_4">Carte</string>
-		
-	<!-- Text size -->
-	<string name="tiny">tiny</string>
-	<string name="small">small</string>
-	<string name="normal">normal</string>
-	<string name="large">large</string>
-	<string name="huge">huge</string>
-
-    <!-- Cache Age Type -->
-    <string name="never">never</string>
-    <string name="oneday">One Day</string>
-    <string name="oneweek">One Week</string>
-    <string name="onemonth">One Month</string>
-
-    <!-- Send to -->
-    <string name="osmupload">OSM Upload</string>
-    <string name="sigmaupload">Sigma/VDO Upload</string>
-	<string name="others">Others &#8230;</string>
-	
-	<!-- areas -->
-	<string name="list_area_0">Area</string>
-	<string name="list_area_1">NoGo Area</string>
-	<string name="list_area_2">Fence Area</string>
-		
-	<!-- gpsmode -->
-	<string name="list_gpsmode_0">None</string>
-	<string name="list_gpsmode_1">Internal</string>
-	<string name="list_gpsmode_2">Internal NMEA</string>
-	<string name="list_gpsmode_3">Bluetooth</string>
-	<string name="list_gpsmode_4">USB</string>
-	<string name="list_gpsmode_5">Online</string>
-	<string name="list_gpsmode_6">File</string>
-	<string name="list_gpsmode_7">SMS</string>
-					
-	<!-- wind type -->
-	<string name="list_windtype_0">Map centered</string>
-	<string name="list_windtype_1">Position centered</string>
-	<string name="list_windtype_2">Fixed station</string>
-	<string name="list_windtype_3">Internal</string>
-    <string name="list_windtype_4">Wind Grib</string>
-
-	<!-- profile view -->
-	<string name="entries_list_profileview_0">Track Profile</string>
-	<string name="entries_list_profileview_1">Route Profile</string>
-	<string name="entries_list_profileview_2">AIS/ADS-B List</string>
-	<string name="entries_list_profileview_3">Direction Graph</string>
-	<string name="entries_list_profileview_4">Speed Graph</string>
-	<string name="entries_list_profileview_5">TWD Graph</string>
-	<string name="entries_list_profileview_6">TWS Graph</string>
-
-    <!-- none view -->
-    <string name="entries_list_noneview_00">Map Center</string>
-    <string name="entries_list_noneview_0">None</string>
-    <string name="entries_list_noneview_1">Map Center</string>
+    <string name="lists_0">Piste</string>
+    <string name="lists_1">Itinéraire</string>
+    <string name="lists_2">Point de passage</string>
+    <string name="lists_3">Zone</string>
+    <string name="lists_4">Carte</string>
+    <string name="tiny">minuscule</string>
+    <string name="small">petit</string>
+    <string name="normal">normale</string>
+    <string name="large">grand</string>
+    <string name="huge">énorme</string>
+    <string name="never">jamais</string>
+    <string name="oneday">Un jour</string>
+    <string name="oneweek">Une semaine</string>
+    <string name="onemonth">Un mois</string>
+    <string name="osmupload">Téléchargement OSM</string>
+    <string name="sigmaupload">Téléchargement Sigma/VDO</string>
+    <string name="others">Autres …</string>
+    <string name="list_area_0">Zone</string>
+    <string name="list_area_1">Zone interdite</string>
+    <string name="list_area_2">Zone de clôture</string>
+    <string name="list_gpsmode_0">Aucun</string>
+    <string name="list_gpsmode_1">Interne</string>
+    <string name="list_gpsmode_2">NMEA interne</string>
+    <string name="list_gpsmode_3">Bluetooth</string>
+    <string name="list_gpsmode_4">USB</string>
+    <string name="list_gpsmode_5">En ligne</string>
+    <string name="list_gpsmode_6">Déposer</string>
+    <string name="list_gpsmode_7">SMS</string>
+    <string name="list_windtype_0">Carte centrée</string>
+    <string name="list_windtype_1">Position centrée</string>
+    <string name="list_windtype_2">Poste fixe</string>
+    <string name="list_windtype_3">Interne</string>
+    <string name="list_windtype_4">Coup de vent</string>
+    <string name="entries_list_profileview_0">Suivre le profil</string>
+    <string name="entries_list_profileview_1">Profil d\'itinéraire</string>
+    <string name="entries_list_profileview_2">Liste AIS/ADS-B</string>
+    <string name="entries_list_profileview_3">Graphique de direction</string>
+    <string name="entries_list_profileview_4">Graphique de vitesse</string>
+    <string name="entries_list_profileview_5">Graphique TWD</string>
+    <string name="entries_list_profileview_6">Graphique TWS</string>
+    <string name="entries_list_noneview_00">Centre de la carte</string>
+    <string name="entries_list_noneview_0">Aucun</string>
+    <string name="entries_list_noneview_1">Centre de la carte</string>
     <string name="entries_list_noneview_2">Position</string>
-    <string name="entries_list_noneview_3">Mixed</string>
-    <string name="entries_list_noneview_4">Geo Info</string>
-
-    <string name="entries_listaddwpt_00">Add Way Point from</string>
-    <string name="entries_list_addwpt_0">Touch</string>
+    <string name="entries_list_noneview_3">Mixte</string>
+    <string name="entries_list_noneview_4">Informations géographiques</string>
+    <string name="entries_listaddwpt_00">Ajouter un waypoint à partir de</string>
+    <string name="entries_list_addwpt_0">Touche</string>
     <string name="entries_list_addwpt_1">Position</string>
-    <string name="entries_list_addwpt_2">Map Center</string>
-    <string name="entries_list_addwpt_3">Bearing</string>
-    <string name="entries_list_addwpt_4">Route here</string>
-    <string name="entries_list_addwpt_5">Route to last way point</string>
-    <string name="entries_list_addwpt_6">New Collection</string>
-
-    <string name="entries_list_mapinspector_0">Offline Map Marks</string>
-    <string name="entries_list_mapinspector_1">Offline Poi Marks</string>
-    <string name="entries_list_mapinspector_2">Landmarks</string>
-    <string name="entries_list_mapinspector_3">Seamarks</string>
-    <string name="entries_list_mapinspector_4">Routing Data</string>
-
-    <string name="preset_hiking_title">Hiking</string>
-    <string name="preset_biking_title">Biking</string>
-    <string name="preset_car_title">Car</string>
-    <string name="preset_sailing_title">Sailing</string>
-    <string name="preset_canoe_title">Canoe</string>
-
+    <string name="entries_list_addwpt_2">Centre de la carte</string>
+    <string name="entries_list_addwpt_3">Palier</string>
+    <string name="entries_list_addwpt_4">Itinéraire ici</string>
+    <string name="entries_list_addwpt_5">Itinéraire jusqu\'au dernier point de passage</string>
+    <string name="entries_list_addwpt_6">Nouvelle collection</string>
+    <string name="entries_list_mapinspector_0">Marques de carte hors ligne</string>
+    <string name="entries_list_mapinspector_1">Marques Poi hors ligne</string>
+    <string name="entries_list_mapinspector_2">Points de repère</string>
+    <string name="entries_list_mapinspector_3">Marquages</string>
+    <string name="entries_list_mapinspector_4">Données de routage</string>
+    <string name="preset_hiking_title">Randonnée</string>
+    <string name="preset_biking_title">Vélo</string>
+    <string name="preset_car_title">Voiture</string>
+    <string name="preset_sailing_title">Voile</string>
+    <string name="preset_canoe_title">Canoë</string>
 </resources>

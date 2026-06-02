@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AFTrack</string>
+    <string name="app_name" translatable="false">AFTrack</string>
 
-    <string name="app_lite_name">AFTrack Lite</string>
+    <string name="app_lite_name" translatable="false">AFTrack Lite</string>
 
-    <string name="dialog_sailtimer_title">SailTimer™ API</string>
-    <string name="dialog_sailtimerplugin_title">SailTimer™ API</string>
+    <string name="dialog_sailtimer_title" translatable="false">SailTimer™ API</string>
+    <string name="dialog_sailtimerplugin_title" translatable="false">SailTimer™ API</string>
 
-    <string name="wpt_format_D">D.D</string>
-    <string name="wpt_format_DM">D M.M</string>
-    <string name="wpt_format_DMS">D M S.S</string>
-    <string name="wpt_format_UTM">UTM</string>
-    <string name="wpt_format_UKGRID">OS</string>
+    <string name="jawg_access_token" translatable="false">Wv2hggwg0XWYKqTAhtpMT8P8dY46o8vKWfM0FdU53un3Y1w5i8DvwnYdyOnyZtXe</string>
+
+    <string name="wpt_format_D" translatable="false">D.D</string>
+    <string name="wpt_format_DM" translatable="false">D M.M</string>
+    <string name="wpt_format_DMS" translatable="false">D M S.S</string>
+    <string name="wpt_format_UTM" translatable="false">UTM</string>
+    <string name="wpt_format_UKGRID" translatable="false">OS</string>
 
     <!-- location -->
-    <string name="entries_list_locformat_0">D.D</string>
-    <string name="entries_list_locformat_1">D M.M</string>
-    <string name="entries_list_locformat_2">D M S.S</string>
-    <string name="entries_list_locformat_3">UTM Format</string>
-    <string name="entries_list_locformat_4">MGRS / USNG</string>
-    <string name="entries_list_locformat_5">UK Ordnance Survey Grid</string>
+    <string name="entries_list_locformat_0" translatable="false">D.D</string>
+    <string name="entries_list_locformat_1" translatable="false">D M.M</string>
+    <string name="entries_list_locformat_2" translatable="false">D M S.S</string>
+    <string name="entries_list_locformat_3" translatable="false">UTM Format</string>
+    <string name="entries_list_locformat_4" translatable="false">MGRS / USNG</string>
+    <string name="entries_list_locformat_5" translatable="false">UK Ordnance Survey Grid</string>
 
 </resources>
